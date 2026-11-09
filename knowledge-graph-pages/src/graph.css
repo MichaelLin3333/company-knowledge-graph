@@ -1,0 +1,21 @@
+.graph-stage.graph-stage-v2{height:clamp(490px,65vh,820px);background-color:#f8fafc;background-image:radial-gradient(#d9e3eb .8px,transparent .8px);background-size:20px 20px}
+.graph-stage-v2 .graph-canvas{bottom:66px}
+.graph-stage-v2 .graph-controls{left:16px;top:16px;bottom:auto;border:1px solid #cedbe5;border-radius:8px;box-shadow:0 3px 12px #18384c10;background:#fffffff5;z-index:4}
+.graph-stage-v2 .graph-controls button{width:34px;height:35px;color:#526d82;border-color:#e5ebf0}
+.graph-stage-v2 .graph-controls button:hover,.graph-stage-v2 .graph-controls .physics-active{background:#e7f0f7;color:#204f73}
+.graph-stage-v2 .layout-status{position:absolute;top:16px;right:16px;display:flex;gap:7px;align-items:center;font-size:10px;color:#60798d;background:#fffffff0;border:1px solid #d9e3eb;border-radius:18px;padding:7px 10px;pointer-events:none;z-index:3}
+.graph-stage-v2 .layout-status>span{height:6px;width:6px;background:#468b7b;border-radius:50%}
+.graph-stage-v2 .layout-status.is-settling>span{background:#4f8bbb;box-shadow:0 0 0 3px #dfebf6}
+.graph-stage-v2 .graph-legend{box-sizing:border-box;left:0;right:0;bottom:0;min-height:66px;border-top:1px solid #dfe8ee;background:#ffffffec;padding:12px 16px;gap:8px 15px;z-index:3}
+.graph-stage-v2 .graph-legend>span,.has-details .graph-stage-v2 .graph-legend>span{font-size:10px;color:#516c80;gap:6px;line-height:1.4}
+.graph-stage-v2 .legend-swatch{width:14px;height:4px;border-radius:2px;flex-shrink:0}
+.graph-stage-v2 .legend-note{flex-basis:100%;font-size:9px!important;color:#6b8293!important;gap:7px!important}
+.graph-stage-v2 .legend-note b{font-size:14px;line-height:10px;font-weight:650;color:#405d73;margin-left:5px}
+.graph-stage-v2 .legend-note b:first-child{margin-left:0}
+.graph-stage-v2 .dash-line{border-top:2px dashed #6d8395;width:16px}
+.graph-stage-v2 .path-control{left:65px;top:16px;max-width:245px;z-index:3}
+.graph-stage-v2 .path-control .button{font-size:9px;background:#ffffffed;border-color:#d2dfe9;color:#3f617a}
+.graph-stage-v2 .path-control small{font-size:9px;color:#516d82;background:#ffffffec;line-height:1.5}
+.graph-stage-v2 .node-tooltip{border-color:#c8d9e7;color:#264e6a;background:#fffffff5;max-width:260px;font-size:12px;box-shadow:0 4px 18px #193b521a}
+.connection-heading h2{line-height:1.25;font-size:23px}.connection-heading-separator{color:#7790a2}.connection-record{border:1px solid #dce5ec;border-left:4px solid;border-radius:8px;padding:14px;margin:12px 0;background:#fff}.connection-record h4{margin:12px 0 6px;font-size:16px;color:#1a3f59}.connection-record>p{font-size:12px;line-height:1.65}.connection-record .connection-role-direction{font-size:11px;font-weight:650;color:#46657b}.connection-evidence{margin:12px 0}.connection-evidence summary{font-size:11px;cursor:pointer;color:#2d607c;padding:7px 0}.connection-evidence .claim-card{margin:8px 0;border-radius:6px}.connection-record .small-button{font-size:10px}.connection-record .badge{font-size:9px}
+@media(max-width:760px){.graph-stage.graph-stage-v2{height:61vh;min-height:490px}.graph-stage-v2 .graph-canvas{bottom:92px}.graph-stage-v2 .graph-controls{left:12px;top:12px;flex-direction:row}.graph-stage-v2 .graph-controls button{width:32px;height:32px;border-bottom:0;border-right:1px solid #e5ebf0}.graph-stage-v2 .layout-status{top:54px;right:12px;font-size:9px;padding:6px 9px}.graph-stage-v2 .graph-legend{min-height:92px;padding:10px 12px;gap:6px 13px}.graph-stage-v2 .graph-legend>span,.has-details .graph-stage-v2 .graph-legend>span{font-size:9px}.graph-stage-v2 .legend-note{font-size:8px!important}.graph-stage-v2 .path-control{left:12px;right:auto;top:54px;max-width:55%}.graph-stage-v2 .path-control .button{font-size:8px;padding:5px 7px}.graph-stage-v2 .path-control small{font-size:8px}}
