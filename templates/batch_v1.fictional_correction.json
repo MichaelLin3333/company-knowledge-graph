@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "FICTIONAL_fixture_correction_v1",
+  "name": "FICTIONAL TEST CORRECTION - isolated fixture only",
+  "base_revision": 1,
+  "cutoff": "2026-10-24",
+  "mode": "company",
+  "root_company_ids": [
+    "FICTIONAL_A"
+  ],
+  "root_project_ids": [],
+  "max_additional_hops": 2,
+  "investigated_company_ids": [],
+  "investigated_project_ids": [],
+  "companies": [],
+  "instruments": [],
+  "sources": [
+    {
+      "id": "FICTIONAL_SRC4",
+      "title": "FICTIONAL cancellation disclosure",
+      "publisher": "Fictional test publisher - not evidence",
+      "url": "https://example.invalid/fixtures/cancellation.html",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "retrieved_at": "2026-10-24T12:30:00Z",
+      "locator": "Paragraph 1",
+      "access_status": "synthetic_fixture"
+    }
+  ],
+  "relationships": [],
+  "claims": [
+    {
+      "id": "FICTIONAL_CLAIM4",
+      "entity_kind": "relationship",
+      "relationship_id": "FICTIONAL_REL1",
+      "subject_id": "FICTIONAL_B",
+      "object_id": "FICTIONAL_A",
+      "predicate": "supply_contract_cancelled",
+      "text": "FICTIONAL: the named camera-module supply contract was cancelled.",
+      "evidence_grade": "primary_explicit",
+      "source_ids": [
+        "FICTIONAL_SRC4"
+      ],
+      "locator": "Paragraph 1",
+      "supporting_text": "FICTIONAL passage: Lumen Modules and Aurora Devices cancelled their camera-module supply agreement on October 20, 2026.",
+      "known_from": "2026-10-20",
+      "date_precision": "day",
+      "product": "Fictional camera module",
+      "terms": [],
+      "supersedes_id": "FICTIONAL_CLAIM1",
+      "conflict_with_ids": [],
+      "review_status": "reviewed"
+    }
+  ],
+  "projects": [],
+  "participations": [],
+  "frontier": [],
+  "coverage": [
+    {
+      "id": "FICTIONAL_COVERAGE3",
+      "kind": "document_review",
+      "company_id": "FICTIONAL_A",
+      "facet": "supply_manufacturing",
+      "state": "reviewed_with_findings",
+      "source_id": "FICTIONAL_SRC4",
+      "locator": "Paragraph 1",
+      "notes": "Fictional amendment/cancellation check only."
+    }
+  ],
+  "supersedes_claim_ids": [
+    "FICTIONAL_CLAIM1"
+  ],
+  "research_log": [
+    {
+      "id": "FICTIONAL_LOG2",
+      "action": "fixture_correction",
+      "performed_at": "2026-10-24T12:30:00Z",
+      "source_ids": [
+        "FICTIONAL_SRC4"
+      ],
+      "outcome": "Fictional claim supersession and explicit status update; no actual company research."
+    }
+  ],
+  "record_updates": [
+    {
+      "kind": "relationships",
+      "id": "FICTIONAL_REL1",
+      "changes": {
+        "status": "cancelled"
+      },
+      "claim_ids": [
+        "FICTIONAL_CLAIM4"
+      ],
+      "reason": "Fictional sourced cancellation updates current relationship status; old revision remains unchanged."
+    },
+    {
+      "kind": "frontier",
+      "id": "FICTIONAL_FRONTIER1",
+      "changes": {
+        "status": "blocked",
+        "next_action": "Synthetic administrative fixture: obtain unavailable subsidiary exhibit."
+      },
+      "claim_ids": [],
+      "reason": "Administrative fixture demonstrating persistent queue status; not a factual company update."
+    }
+  ]
+}

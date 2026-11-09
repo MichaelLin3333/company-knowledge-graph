@@ -1,0 +1,1573 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.company-knowledge-graph.invalid/schemas/batch_v1.schema.json",
+  "title": "Company Knowledge Graph Research Batch v1",
+  "description": "Structural validation. Server also checks IDs, endpoint support, source/date consistency, immutable corrections, exact hop distance, source admission and atomic revision semantics. Empty template is a structurally valid no-op; research needs explicit frontier roots.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "batch_id",
+    "name",
+    "base_revision",
+    "cutoff",
+    "mode",
+    "root_company_ids",
+    "root_project_ids",
+    "max_additional_hops",
+    "investigated_company_ids",
+    "investigated_project_ids",
+    "companies",
+    "instruments",
+    "sources",
+    "relationships",
+    "claims",
+    "projects",
+    "participations",
+    "frontier",
+    "coverage",
+    "supersedes_claim_ids",
+    "research_log"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "batch_id": {
+      "$ref": "#/$defs/id"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "base_revision": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "cutoff": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "mode": {
+      "enum": [
+        "company",
+        "project"
+      ]
+    },
+    "root_company_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "root_project_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "max_additional_hops": {
+      "const": 2,
+      "description": "The v1 batch expansion budget is two additional company hops."
+    },
+    "investigated_company_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "investigated_project_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "companies": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/company"
+      },
+      "default": []
+    },
+    "instruments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/instrument"
+      },
+      "default": []
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      },
+      "default": []
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/relationship"
+      },
+      "default": []
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claim"
+      },
+      "default": []
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/project"
+      },
+      "default": []
+    },
+    "participations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/participation"
+      },
+      "default": []
+    },
+    "frontier": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/frontier"
+      },
+      "default": []
+    },
+    "coverage": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/coverage"
+      },
+      "default": []
+    },
+    "supersedes_claim_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "research_log": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/researchLog"
+      },
+      "default": []
+    },
+    "record_updates": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/recordUpdate"
+      },
+      "default": []
+    }
+  },
+  "additionalProperties": true,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "mode": {
+            "const": "company"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "investigated_company_ids": {
+            "maxItems": 25
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "mode": {
+            "const": "project"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "investigated_project_ids": {
+            "maxItems": 5
+          },
+          "investigated_company_ids": {
+            "maxItems": 0
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+    },
+    "dateOrNull": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}(-\\d{2}(-\\d{2}(T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2}))?)?)?$",
+      "description": "Unknown is null. Precision is recorded separately. Calendar validity, cutoff and precision consistency require semantic validation."
+    },
+    "precision": {
+      "enum": [
+        "time",
+        "day",
+        "month",
+        "year",
+        "unknown"
+      ]
+    },
+    "evidenceGrade": {
+      "enum": [
+        "primary_explicit",
+        "attributed_explicit",
+        "lead_unresolved"
+      ]
+    },
+    "term": {
+      "type": "object",
+      "required": [
+        "value",
+        "unit",
+        "period",
+        "scope",
+        "known_from",
+        "source_ids"
+      ],
+      "properties": {
+        "value": {
+          "type": [
+            "number",
+            "string",
+            "null"
+          ]
+        },
+        "unit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "period": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scope": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "known_from": {
+          "$ref": "#/$defs/dateOrNull"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": true,
+      "description": "A quantity has its own period, scope, evidence date and sources. Unknown remains null; never inherit the relationship date."
+    },
+    "company": {
+      "type": "object",
+      "required": [
+        "id",
+        "name"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "public",
+            "private",
+            "subsidiary",
+            "private_subsidiary",
+            "unknown"
+          ]
+        },
+        "parent_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "economic_confirmation_group_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "affiliated_inference_cluster": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewed_at": {
+          "$ref": "#/$defs/dateOrNull"
+        }
+      },
+      "additionalProperties": true
+    },
+    "instrument": {
+      "type": "object",
+      "required": [
+        "id",
+        "company_id",
+        "ticker"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "company_id": {
+          "$ref": "#/$defs/id"
+        },
+        "ticker": {
+          "type": "string",
+          "minLength": 1
+        },
+        "exchange": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "currency": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "is_primary": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "publisher",
+        "url",
+        "published_date",
+        "date_precision",
+        "retrieved_at"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "published_date": {
+          "$ref": "#/$defs/dateOrNull"
+        },
+        "date_precision": {
+          "$ref": "#/$defs/precision"
+        },
+        "retrieved_at": {
+          "$ref": "#/$defs/dateOrNull"
+        },
+        "locator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "language": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "original_document_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "access_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true,
+      "description": "Source dates are not fiscal-period dates. A syndicated copy can identify its original_document_id to avoid false corroboration.",
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "date_precision": {
+                "const": "unknown"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "published_date": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "date_precision": {
+                "const": "time"
+              }
+            },
+            "required": [
+              "date_precision"
+            ]
+          },
+          "then": {
+            "properties": {
+              "published_date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "date_precision": {
+                "const": "day"
+              }
+            },
+            "required": [
+              "date_precision"
+            ]
+          },
+          "then": {
+            "properties": {
+              "published_date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "date_precision": {
+                "const": "month"
+              }
+            },
+            "required": [
+              "date_precision"
+            ]
+          },
+          "then": {
+            "properties": {
+              "published_date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "date_precision": {
+                "const": "year"
+              }
+            },
+            "required": [
+              "date_precision"
+            ]
+          },
+          "then": {
+            "properties": {
+              "published_date": {
+                "type": "string",
+                "pattern": "^\\d{4}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "relationship": {
+      "type": "object",
+      "required": [
+        "id",
+        "source_id",
+        "target_id",
+        "type",
+        "description",
+        "status",
+        "evidence_grade",
+        "direction",
+        "direction_review_status",
+        "claim_ids"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "source_id": {
+          "$ref": "#/$defs/id"
+        },
+        "target_id": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string"
+        },
+        "evidence_grade": {
+          "enum": [
+            "primary_explicit",
+            "attributed_explicit"
+          ]
+        },
+        "direction": {
+          "enum": [
+            "undirected",
+            "directed"
+          ]
+        },
+        "direction_review_status": {
+          "type": "string"
+        },
+        "scope": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "product": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "project_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "known_from": {
+          "$ref": "#/$defs/dateOrNull"
+        },
+        "valid_from": {
+          "$ref": "#/$defs/dateOrNull"
+        },
+        "valid_to": {
+          "$ref": "#/$defs/dateOrNull"
+        },
+        "batch_id": {
+          "$ref": "#/$defs/id"
+        },
+        "claim_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "legacy_retention": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "legacy": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": true,
+      "description": "source_id and target_id are COMPANY IDs here, not citation IDs. Directed edges require direction_review_status reviewed and explicit claim support."
+    },
+    "claim": {
+      "type": "object",
+      "required": [
+        "id",
+        "predicate",
+        "text",
+        "evidence_grade",
+        "source_ids",
+        "locator",
+        "supporting_text",
+        "known_from",
+        "date_precision"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "relationship_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "subject_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "object_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "predicate": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_grade": {
+          "enum": [
+            "primary_explicit",
+            "attributed_explicit"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "supporting_text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "known_from": {
+          "$ref": "#/$defs/dateOrNull"
+        },
+        "date_precision": {
+          "$ref": "#/$defs/precision"
+        },
+        "valid_from": {
+          "$ref": "#/$defs/dateOrNull"
+        },
+        "valid_to": {
+          "$ref": "#/$defs/dateOrNull"
+        },
+        "product": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "product_scope": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "terms": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/term"
+          },
+          "default": []
+        },
+        "supersedes_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "conflict_with_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "uniqueItems": true,
+          "default": []
+        },
+        "review_status": {
+          "type": "string"
+        },
+        "passage_type": {
+          "enum": [
+            "paraphrase",
+            "short_quote",
+            "original_language_with_translation"
+          ]
+        },
+        "original_language_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "translation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "language": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "entity_kind": {
+          "enum": [
+            "relationship",
+            "company",
+            "project"
+          ],
+          "default": "relationship"
+        },
+        "company_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "project_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": true,
+      "description": "One explicitly supported assertion. Product-specific relationships need a matching claim product or product_scope; capabilities plus generic supplier membership cannot establish the assignment.",
+      "allOf": [
+        {
+          "if": {
+            "anyOf": [
+              {
+                "not": {
+                  "required": [
+                    "entity_kind"
+                  ]
+                }
+              },
+              {
+                "properties": {
+                  "entity_kind": {
+                    "const": "relationship"
+                  }
+                },
+                "required": [
+                  "entity_kind"
+                ]
+              }
+            ]
+          },
+          "then": {
+            "required": [
+              "relationship_id",
+              "subject_id",
+              "object_id"
+            ],
+            "properties": {
+              "relationship_id": {
+                "$ref": "#/$defs/id"
+              },
+              "subject_id": {
+                "$ref": "#/$defs/id"
+              },
+              "object_id": {
+                "$ref": "#/$defs/id"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "entity_kind": {
+                "const": "company"
+              }
+            },
+            "required": [
+              "entity_kind"
+            ]
+          },
+          "then": {
+            "required": [
+              "company_id"
+            ],
+            "properties": {
+              "company_id": {
+                "$ref": "#/$defs/id"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "entity_kind": {
+                "const": "project"
+              }
+            },
+            "required": [
+              "entity_kind"
+            ]
+          },
+          "then": {
+            "required": [
+              "project_id"
+            ],
+            "properties": {
+              "project_id": {
+                "$ref": "#/$defs/id"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "date_precision": {
+                "const": "unknown"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "known_from": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "predicate": {
+                "const": "project_role"
+              }
+            },
+            "required": [
+              "predicate"
+            ]
+          },
+          "then": {
+            "required": [
+              "entity_kind",
+              "company_id",
+              "project_id",
+              "role"
+            ],
+            "properties": {
+              "entity_kind": {
+                "const": "project"
+              },
+              "company_id": {
+                "$ref": "#/$defs/id"
+              },
+              "project_id": {
+                "$ref": "#/$defs/id"
+              },
+              "role": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "date_precision": {
+                "const": "time"
+              }
+            },
+            "required": [
+              "date_precision"
+            ]
+          },
+          "then": {
+            "properties": {
+              "known_from": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "date_precision": {
+                "const": "day"
+              }
+            },
+            "required": [
+              "date_precision"
+            ]
+          },
+          "then": {
+            "properties": {
+              "known_from": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "date_precision": {
+                "const": "month"
+              }
+            },
+            "required": [
+              "date_precision"
+            ]
+          },
+          "then": {
+            "properties": {
+              "known_from": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "date_precision": {
+                "const": "year"
+              }
+            },
+            "required": [
+              "date_precision"
+            ]
+          },
+          "then": {
+            "properties": {
+              "known_from": {
+                "type": "string",
+                "pattern": "^\\d{4}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "project": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "source_ids"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "location": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "type": "string"
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "terms": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/term"
+          },
+          "default": []
+        },
+        "milestones": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "default": []
+        },
+        "spv_company_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "participation": {
+      "type": "object",
+      "required": [
+        "id",
+        "project_id",
+        "company_id",
+        "role",
+        "source_ids",
+        "claim_ids"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "project_id": {
+          "$ref": "#/$defs/id"
+        },
+        "company_id": {
+          "$ref": "#/$defs/id"
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "claim_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "known_from": {
+          "$ref": "#/$defs/dateOrNull"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true,
+      "description": "Requires an atomic project_role claim identifying the same company_id,project_id and role. Shared project participation creates no company-to-company edge."
+    },
+    "frontier": {
+      "type": "object",
+      "required": [
+        "id",
+        "facet",
+        "status",
+        "reason"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "company_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "project_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "facet": {
+          "enum": [
+            "supply_manufacturing",
+            "customers_distribution",
+            "corporate_ecosystem",
+            "collaboration_dependencies",
+            "strategic_investment",
+            "projects_financing"
+          ]
+        },
+        "status": {
+          "type": "string"
+        },
+        "local_depth": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "root_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "parent_frontier_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "uniqueItems": true,
+          "default": []
+        },
+        "next_action": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "batch_id": {
+          "$ref": "#/$defs/id"
+        },
+        "unresolved_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true,
+      "description": "Company or project plus facet defines an investigation task; unresolved list entries retain their original name.",
+      "oneOf": [
+        {
+          "required": [
+            "company_id"
+          ],
+          "properties": {
+            "company_id": {
+              "$ref": "#/$defs/id"
+            },
+            "project_id": {
+              "type": "null"
+            }
+          }
+        },
+        {
+          "required": [
+            "project_id"
+          ],
+          "properties": {
+            "company_id": {
+              "type": "null"
+            },
+            "project_id": {
+              "$ref": "#/$defs/id"
+            }
+          }
+        }
+      ]
+    },
+    "coverage": {
+      "type": "object",
+      "required": [
+        "id"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "kind": {
+          "type": "string"
+        },
+        "company_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "project_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "facet": {
+          "enum": [
+            "supply_manufacturing",
+            "customers_distribution",
+            "corporate_ecosystem",
+            "collaboration_dependencies",
+            "strategic_investment",
+            "projects_financing"
+          ]
+        },
+        "state": {
+          "type": "string"
+        },
+        "source_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "locator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "period": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewed_sections": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "listed_entries": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "resolved_entries": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "ambiguous_entries": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "entries_extracted": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "entries_pending": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true,
+      "description": "Coverage of declared document slots, lists or branches; not the fraction of a true unknown network."
+    },
+    "researchLog": {
+      "type": "object",
+      "required": [
+        "id",
+        "action"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "action": {
+          "type": "string"
+        },
+        "performed_at": {
+          "$ref": "#/$defs/dateOrNull"
+        },
+        "company_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "project_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "facet": {
+          "type": "string"
+        },
+        "query": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "portal_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "uniqueItems": true,
+          "default": []
+        },
+        "locator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "language": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "outcome": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "next_action": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "recordUpdate": {
+      "type": "object",
+      "required": [
+        "kind",
+        "id",
+        "changes",
+        "claim_ids",
+        "reason"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "companies",
+            "instruments",
+            "relationships",
+            "projects",
+            "participations",
+            "frontier",
+            "coverage"
+          ]
+        },
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "changes": {
+          "type": "object",
+          "minProperties": 1
+        },
+        "claim_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "uniqueItems": true
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": true,
+      "description": "Explicit changes to an existing object, not a duplicate-ID overwrite. Factual changes need supporting entity/relationship claims; frontier and coverage administration need a reason. Previous revisions remain immutable."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "batch_id": null,
+  "entries": [],
+  "entry_fields": {
+    "id": "stable log id",
+    "performed_at": "UTC timestamp or null",
+    "action": "identity_resolution | document_review | list_enumeration | search | claim_review | project_review | blocked_access | exclusion | validation",
+    "company_id": null,
+    "project_id": null,
+    "facet": null,
+    "query": null,
+    "portal_id": null,
+    "source_ids": [],
+    "locator": null,
+    "language": null,
+    "outcome": null,
+    "next_action": null
+  }
+}

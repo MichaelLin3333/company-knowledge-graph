@@ -1,0 +1,8 @@
+fastapi==0.128.0
+uvicorn==0.40.0
+pydantic==2.12.5
+yfinance==0.2.66
+httpx==0.28.1
+pytest==9.0.2
+jsonschema==4.26.0
+numpy>=1.26,<3

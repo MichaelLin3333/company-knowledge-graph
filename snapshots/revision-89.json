@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "revision": 89,
+  "created_at": "2026-11-09T13:15:24.585034+00:00",
+  "description": "Publish research batch: Coca-Cola | Paperboard mill inputs, energy, water and logistics",
+  "batch_id": "coca-cola-mill-inputs-20261109-v1",
+  "snapshot_hash": "e46837f4484f793b17be8d65607892f0720ef9e5939689ff5432eb9f4d5e0d53",
+  "archive_sha256": "026e7d33feb3eb055c3a3e177606842630a52b02f7b43712d12bc137a3ed7d0d",
+  "counts": {
+    "batches": 89,
+    "claims": 4745,
+    "companies": 2822,
+    "coverage": 1463,
+    "frontier": 3786,
+    "instruments": 279,
+    "participations": 95,
+    "projects": 23,
+    "relationships": 3936,
+    "sources": 2920
+  }
+}

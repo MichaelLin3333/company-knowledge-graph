@@ -1,0 +1,3389 @@
+{
+  "captured_at": "2026-10-24T23:03:51.718521+00:00",
+  "files": [
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\ATLAS.html",
+      "sha256": "4baf6f9562ca5b1e8c073b7685df37fc736340a01f4254c9fd09e7c963dc880e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\ATLAS.md",
+      "sha256": "779efdc0e28401404d02938a62cecac14c98e7359dfa1566e49c2dffd52a808b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\AUDIT.html",
+      "sha256": "d840b14919ff7aada002c06a0268f73d75b08cc347613cfa9b909f876fda525b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\AUDIT.md",
+      "sha256": "3a180a319e779593917e51fb51d6d183cf138bb16cf180c76fe4472ba798326f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\DATA_QUALITY.html",
+      "sha256": "6001b343a3b2a822ba37e81e4e93653dd7030f496fd99553f39016f8bfe7ac02"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\economic_link_atlas_reproducibility.zip",
+      "sha256": "110d1764ff21ad359740fce9a19a2f601e408a160c2a670fdcb93f4448be36ff"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\PROTOCOL.html",
+      "sha256": "dc437f7bcdb7d2e58cdc44c844d99eabdecbde0c0c229ac16432b81d34895d36"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\PROTOCOL.md",
+      "sha256": "541daff898dd647d0f0859a0eeaf9ebad80f5d8d37facc857bf9ba9b910d92f9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\QA_REPORT.html",
+      "sha256": "aa88b4d8105334dcb757da2d9815cf9a6efea64ce6ac68a006cd283181aacbb9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\QA_REPORT.md",
+      "sha256": "ed8b7f3bfa5402405511620d6563c25f010652f7a8ba82e857c0a76805753ada"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\README.md",
+      "sha256": "b74c71b9b385bc4579faba9ade7d7f78b7b570baa2ebdc044dcac6c6abfcace7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\reproducibility_manifest.json",
+      "sha256": "9ab5653a5b139a4d941e96a32b3b823862ab61fe7b19a6b9724d037ac8513885"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\requirements.txt",
+      "sha256": "98e2dbe4ec1ed9213da4453b45e20a0743f9b0df43a9cc1cc6fa4f135e97a003"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\SOURCES.html",
+      "sha256": "8612a58c51e198f841ee26730b8079dc127fe33adbda0c50d7310d5aee9eb79d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\SOURCES.md",
+      "sha256": "a4fed84dd44ff7b7e1d09ff4cfecba344646ed7b08b8d6b0f1eb833bb2630270"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\VALIDATION.html",
+      "sha256": "3d5f2ba8d7341034a271000c6b09798206a9ee254015a5de583c871794e68441"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\VALIDATION.md",
+      "sha256": "5ac72a4c23f7160f3d46b9872691e89a51223855ed2ce350674133f66ef4cc5e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\assets\\atlas.css",
+      "sha256": "086111d51a3b5c5ac6c4a7188138bd91efd07e4a6f5de7178ddce3273ffaf23c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\assets\\hourly_coverage.svg",
+      "sha256": "e8cc300cd459b2a0974f524f24a90221d9de3bd43658a44d66f7dc4b6e949fc5"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\assets\\path_AAPL.svg",
+      "sha256": "bec10a646977bfc64ea09b65b606e72cbda5dbd634e988cc4f9cc9d299cb47d2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\assets\\path_AMZN.svg",
+      "sha256": "70dadba6cdde75984d0184afad99a265f57568ea3b8fec5b6059e24e0520ee09"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\assets\\path_CRM.svg",
+      "sha256": "a8809a665ed7cfba088067e0968d397c3459cae2fd826b13635521a115a06eae"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\assets\\path_MSFT.svg",
+      "sha256": "6cb1f36a9ed6da4d21f4875310f251d89c1a55e7b14f31ad16b185444faa9533"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\assets\\path_NVDA.svg",
+      "sha256": "b37e79df7909ee5b2414bb8e4c79a1f88c5c58677d012ba43ff3929fad7c6d01"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\assets\\path_TSMC.svg",
+      "sha256": "be1af07dd398b2b5db231dc628a2afb47587acd4d9da3b934a0d9dee0a8a317b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\assets\\relationship_families.svg",
+      "sha256": "e2a8bae63dfe8fd4203101eece1d5aa94443c60b5f3359500db0244b0581ec87"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\assets\\synthetic_power.svg",
+      "sha256": "a8043c2f42e54776c9ccdaad188b738d6e41057794352ab602da0ca4998ccd9d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\audit\\experiment_inventory.csv",
+      "sha256": "441a5decf5b35be56812f1f78c87a147ad01468a2e5d32a4b3f06233cdf1f028"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\audit\\experiment_inventory.json",
+      "sha256": "3d18da2acf872ca5c4c43970adc146594b4899f7e1ba439cd373b84dd68367ec"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\audit\\findings.csv",
+      "sha256": "e5a2f28d05b2ee1d30dcfa8c13aee7226c3a1bb325588f94076e3b960271b9b9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\audit\\findings.json",
+      "sha256": "d909a7c27aadc67494b072728212700e5164cc9337d6db5367ad880ecd13a9aa"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\audit\\original_study_hashes.json",
+      "sha256": "a2de0f60e33750fd4210b7edaa9f6e48862bf265317d51f99abd8d136e6ad12a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\audit\\package_checks.json",
+      "sha256": "fe1f4d63832ab3e506b4a39a03cbafa3519c0e3bec17f6e60a027c506430c5d8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\audit\\source_spotchecks.json",
+      "sha256": "d8ae3c860f216f256d7648c8bcfbce81d649ba299fbc8e8d09514822dd76e152"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\audit\\visual_qa.json",
+      "sha256": "47697dc9ba63db56edf3dd4777f7708cfaa3bec71719a79a5f197812f5e754e1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_coverage.csv",
+      "sha256": "75109f92162fca16ff13ba8b4eac5d88f3713d9dc598028a62fa878e3c0db40f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\probe_manifest.json",
+      "sha256": "f45c72519f4a6489f8a5efae1f271fa2a6b674873501ad7761befeeffb0a3337"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\quality_inventory.csv",
+      "sha256": "7af2fa58be892b546b171ada3e6fd863c60ce95ca2cb818cbaa877b591b955ac"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\README.md",
+      "sha256": "0d802acb9ac089316c449d0de3c6dd81a077819a5a2634e94e3eddc44419f109"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\dossiers\\AAPL.md",
+      "sha256": "2d7920b9fe07deaffa6427a4c33192e77dab6d9f6ab93d523fdcc09a67276323"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\dossiers\\AMZN.md",
+      "sha256": "9d5fa0e06d3f70fecacf628cf68d1dd98a0e57f0fadb72e1b16364ee4100fb56"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\dossiers\\CRM.md",
+      "sha256": "63884ac5e6c000fc0fa6b836028c10c28e046e57f4b4973ef2d2abed7a2c9678"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\dossiers\\MSFT.md",
+      "sha256": "cf09359bfe2534ab90bfa15d29f961399be48fc0d9386cdd373ed59a6e69a1db"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\dossiers\\NVDA.md",
+      "sha256": "c6185fca4efb88dcae421ee3e07279637f981a075a38762bcd2ba7cd4d753125"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\dossiers\\TSMC.md",
+      "sha256": "5c7c6de37338988e11f801ac252d006d2d2f9c88aa7defe60969bc487f7ce4a6"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrieval_ledger.csv",
+      "sha256": "9b37845c39548be8ebd856ad85a99aaf752cfe1f6e4e45ab1dc45e94c81787c2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\source_cards.json",
+      "sha256": "6856dae7eeb11fc00d9fc37df40e9581d18b2e3af44f7c30d35effc56f67c66d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\registers\\atlas.json",
+      "sha256": "20c2f063f18a5e1268665f2ce57fc73b4d169dc623e05ff8b656ebcfb797dc1a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\registers\\category_coverage.csv",
+      "sha256": "6ae74802022ea5c31a6bda5bb1bfe18074bb75ab99b22f0ffc4de45bec1db959"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\registers\\companies.csv",
+      "sha256": "71f01e0201c9de01fad6c0715bc4226c0adf54225a0085910c90fa430a7c6506"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\registers\\document_review.csv",
+      "sha256": "84c7c1ad1309af8559d8849ad420a0bd246c12202da1e923548718c660ed5cc9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\registers\\entity_aliases.json",
+      "sha256": "0d8c9767dc53becd7c33fa2bb220fc0014041a1f026cdfce00577f9b6b0d6745"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\registers\\frozen_candidate_baskets.csv",
+      "sha256": "0ff2322a59c48dc9ec7ad256f1d769a98225fda0fd3a86c362a1de80df0b74be"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\registers\\gaps.csv",
+      "sha256": "b7b27b73f003f980398c18c398e0d8bd1f8fcb651a30fcbfb4d8f6abf4921d73"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\registers\\instruments.csv",
+      "sha256": "a4f0b80fed1d85ac485b278a3353a48bc5f809c98678e41369d216445911d41c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\registers\\normalization_conflicts.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\registers\\protocol_config.json",
+      "sha256": "f698108f95b0a31e579a1bfc15744adf14fe83afe3a7bb8966778e7676ca871f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\registers\\relationships.csv",
+      "sha256": "f61fad4d101c807978e781c1f7295bffaa885da3ce5f5bcab850368b98fb9a7f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\registers\\runtime.json",
+      "sha256": "0492f140d94d62e39b9aeab13fdd30a5fcb59b428927619af65bf08837224b4a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\registers\\screening.csv",
+      "sha256": "188c59fdc0665c3f636cbea1203731b6dfd09d1b235b415f51500a1ccd0f078f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\registers\\sources.csv",
+      "sha256": "9ef2a790a8f1b21a5c942c238ea41b0ed3b02f850b94302916ba1ca76c92e32e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\research\\AAPL.json",
+      "sha256": "c71d46cf89befd2cecdc27c9dee3e3c1efcda7ac35438e3f3e4364daaaaecd8b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\research\\AMZN.json",
+      "sha256": "2818fc674d8e00ccf9d1f5b61eaaec099a7577db6ec564fcd30c97c3b19b90ee"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\research\\CRM.json",
+      "sha256": "12f8b3e994e4e9fc5064083aa920f75ba6c76a15efc5e5c4ae915d68fa39e5d0"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\research\\institutions.json",
+      "sha256": "9304ed94b094dd56aa141d377e3ab7d8437e49ee251ab38389ddcc7f2d0e6224"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\research\\MSFT.json",
+      "sha256": "8d0a440012b590f573777b44ff471866239507b8a82d0bb4a820e78cdaef32c2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\research\\NVDA.json",
+      "sha256": "3407cc4a0f600430829644158346836deba4d7e13791d49ef40579898f4578e8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\research\\TSMC.json",
+      "sha256": "3a2a1c53efb13c223d3f6cbd742790c0be812e163d373d247fe08e7ee5dc35f1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\src\\assemble.py",
+      "sha256": "665e7fea94121973d597e6cbe1c3f612a88f980fd74b58c43dccf05a866069e2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\src\\audit_existing.py",
+      "sha256": "abf897c17f1a48186c580fc0cdc4090508b1251a1c9e9f8d241974ea2f982dbb"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\src\\build_report.py",
+      "sha256": "018fada1164bd91d524a31361312d8b0ae71abea0683a76c6a09a349cb3e5cea"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\src\\capture_evidence.py",
+      "sha256": "eb5945283ac8a0b5ce7a0b0a172e4aeb4adba696366375374fd0a9d2a1296074"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\src\\package_delivery.py",
+      "sha256": "d98d7c30c01e72fef0b1223a94591451f713ebbbdad7ad8936d4475592933150"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\src\\probe_hourly.py",
+      "sha256": "dc0e52d2817161259e9d97da5df7e992404d9631b8006e56a48dc51b172e1de9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\src\\validate_synthetic.py",
+      "sha256": "a32c39b6105685730afd79094081c2f79f16b6b8807a1a32a32eaa102d5ba35b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\src\\verify_package.py",
+      "sha256": "d88dfbaddde8fd081d33069c5cd89ed840d4b190fc479c27c08d24867271e407"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\src\\visual_qa.cjs",
+      "sha256": "9cb62916877cd4a59aaaa2d349c5da866dfe08a1326e79d3a0f8558eb0376037"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\validation\\power_grid.csv",
+      "sha256": "8f7f7c979c13117619a6082bf7ebd34bdd0e23dc6a485f8249293c03939cb261"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\validation\\scenario_results.csv",
+      "sha256": "6ca4d206f7b77f0035c7ba6ed0d720904df8a0abf1b1741e12cf02d3eec0b9ca"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\validation\\synthetic_results.json",
+      "sha256": "14ba576ec1d1b0fbf979e43d28cd3040a7035edcf5ab80fc69c3633978eaccdc"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s01.json",
+      "sha256": "e18a00c05fc79fef9c02351b3dd8d698c507cf7d30d4f4590f232c7b55d4b9f6"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s02.json",
+      "sha256": "cb1c79dab7ab116d03cc8ccdbd0bbcbb1b4fa0d4bcb5842be2a47dc76a24cd5d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s03.json",
+      "sha256": "de029615a1a6a8571023aac021b1f853ae1908acd27eb0457bab23628f618a98"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s04.json",
+      "sha256": "235f81ef685a6d6d04b2c1b5dcdc19c7d650fc78224f3102d50bc4392617c6b3"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s05.json",
+      "sha256": "4e6d5b115664ae0479fd87735352627c50b5df7350b02d4b4f72d21f114ba2dc"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s06.json",
+      "sha256": "c83f2d8e7d0c6458a061fa4707b5b281e3e57ecb23344d037b6942ea1d6efcd4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s07.json",
+      "sha256": "d11135aafbdb1329e54403299524a227b3fac3483e7198d63412efb3b581b180"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s08.json",
+      "sha256": "97e3d9d20a8e236f327ed7b9bd637e6e39816c1797a8f3766f471524cb622c2f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s09.json",
+      "sha256": "97ef0d9c9c1907e1c4e3c0e4630ce94593859c1cea25da484a2a85db0e6dea4d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s10.json",
+      "sha256": "ec11c57f2bec14fad75bd4489afcbdd3a1c2b3e4469525eda0128eb36b326052"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s11.json",
+      "sha256": "64e0b55b7e2b3ff15df45105932a86be66cc63783aa40d4e640a3b50b6fc5b1c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s12.json",
+      "sha256": "181664e81d0f57788a61a92dd053648cd540850587f1465e7b130d4c22954da9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s13.json",
+      "sha256": "f23bf275fcd41eaee3c8b0e4a9bad573b3b3e38d0c0189fa961d50e33f8428dc"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s14.json",
+      "sha256": "c6ef1ac68334f75bb792f52ee459f9e1d730bb8c3cfd1c05308d0b44f8ef730d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s15.json",
+      "sha256": "b6f02fe522b34b5178e616d982f63188a236823cd1bdeb25f893e4d178bc8dd8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s16.json",
+      "sha256": "07246831f0f06385689087b091530942904be2043d9435c31e323ebd31cc6fa1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s17.json",
+      "sha256": "42e6b86492c9e654bf64d15bc6e66d8aaad24ebdc468b852751a55f522845969"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s18.json",
+      "sha256": "b97309de4c5b9047985ee70bd20042c68ef2a15c5051f0b4beda88a25893fc2a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s19.json",
+      "sha256": "25c29520cd21713324524caa6de19f4804dc2358e084c38973c9b89fbee391d5"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s20.json",
+      "sha256": "86f311595c6470b07196a996dec73a9c08cee4cc580cd71e0de0548e2536dcfa"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AAPL_s21.json",
+      "sha256": "96e23e810a99b7fd860c74efae5ae5bf0ceea2557c0305dc45b664fa11a56458"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s01.json",
+      "sha256": "e34f9f54ddf6eb010da0089e01466e5fbef892e3467167fdb0f41fecbd497559"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s02.json",
+      "sha256": "9f42e3d9a799583a94c09cb39d8b3d75ecc0027f750228a21e85ed78ae4303bb"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s03.json",
+      "sha256": "04a86252c569192bc5847c54d4d8a987f39749363e486044da901b416cadbcf1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s04.json",
+      "sha256": "4f3df3b9e7716c114c1b09ef94704d2af68540436a193568b24e718f9bce2157"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s05.json",
+      "sha256": "1fc398b9f5ce66549846b82f46bb9c78c3d6b089ebb8d9df71f6b42edffef499"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s06.json",
+      "sha256": "87405121c53c76e2378c2ccd34fb53c652fa3d78aa413f931075c34572dae413"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s07.json",
+      "sha256": "87740c3368d52ae778580e8382c11d8c0cfbf764c7f7fbedfed49b6d06252d6d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s08.json",
+      "sha256": "3a79c5ea37e56b7b5a0988d2ac36507ed797a787d6dcd053bc9cc69ef5f7bc73"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s09.json",
+      "sha256": "d3e729d11f58f762a8579b84fa8b874380dd7520e6f931b2c320e5e8ebbb0886"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s10.json",
+      "sha256": "916e356b154b46b0f072dee55ae9444a297212af0c6581f4afd675e78c7f401b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s11.json",
+      "sha256": "815b8ec208e6d6506bae69bf43d94e1c913b583b92fd42414af428788a3cee42"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s12.json",
+      "sha256": "29519cfde2a3559d80a6d02fc5e755ef07bf0c6a3dc6dd0ddecbdf5a64320adc"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s13.json",
+      "sha256": "888c0744875a99ecb3d684b0b53de9ba569111196e2b3c6635fcaf2578a5a535"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s14.json",
+      "sha256": "646bbd85e3bfb407f9e9b06d3c8d67b077c8e4b58501c7b3f426de3fd3d9a0cb"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s15.json",
+      "sha256": "4e1dbdf1cbec56a0749b89bfb6775360f569b296abf85936f2e88ec928e1de3d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s16.json",
+      "sha256": "6898a8c92d9e52688f8b2ccd978151fce64aade480252376dcb234cc19dc2e42"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s17.json",
+      "sha256": "1dc00c6812e8d5f123245270bdef9f592a8dcbc1c0c04c3e3c52635c9126cf29"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s18.json",
+      "sha256": "e4866d4c47fde42a5310c019697b53458de3c12429f8082364b78ab9e46cea90"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s19.json",
+      "sha256": "913ede173b6b7db583502565158d6de15830d907d3908530052224b953e42c3d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s20.json",
+      "sha256": "13659317ca1fd572734f8920fe1c82c6be08688b9a282da6e95d80fc7dcceba1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s21.json",
+      "sha256": "4896375898e8c0a7f8b2491c974c51c3cca5c801e9d3fcf614e9e8bb737544ab"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s22.json",
+      "sha256": "c3a2733fc0f22ce1038c0bc411e8b8f5720f113a0d50cb0cab54c198191a4d33"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s23.json",
+      "sha256": "27eed0d8b0e184ae3a1892b09c6554ac087268ad518cbefdb5b9bc2979e471a6"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s24.json",
+      "sha256": "89d62b4fea234833bc55e31d4c0097b9eb2c07908a6d18aefbf70083b76575ac"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s25.json",
+      "sha256": "c33748a17e6e673a1020ae28beb72184b59582b7a608f6d472db82bec08d8674"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s26.json",
+      "sha256": "63967cc5ebcbf0e1d8f26ca49197d29b2a89e4e3cf896e0f3d0f2b37d036511d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s27.json",
+      "sha256": "5a5d5c94916c7b133a57ded70219ca4bb706b9406e14405eda68fbccd3cb9e9f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s28.json",
+      "sha256": "9c4866ee4d30fa9619eb0eac9d0d2efc9e3e2306e894d0fff003aebac572a95a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s29.json",
+      "sha256": "cb3c226a1e35a0f53e652c26d3e0fec6ab86ce8b9528fe43fbe2cf8e0e2c9928"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s30.json",
+      "sha256": "8181bcaf0e1bdf1a39fd48fb7a24662eab7f0bf424f2a124f9530debfff3acbc"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s31.json",
+      "sha256": "3faeb3465bdc7d39377c1ee66ca4f7598e78433bc90633a6dbda70cdcb0ee1ce"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s32.json",
+      "sha256": "a6cad9c8d91cda02df72179d74b2aad552dd74f55a07a26306630161d20a28c9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s33.json",
+      "sha256": "ab84fdb08e78b1f667e1b0700b7d0d4e91168389cb29ed5e573d2d07e024830c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s34.json",
+      "sha256": "21f7951712546a79824697dce035dca0d558393f096d219f09f694d45fe01474"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\AMZN_s35.json",
+      "sha256": "9009dc0eb1e0c4eebe1ad392bcfcc0282e170d0ce08cb403300e5925829623b8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s01.json",
+      "sha256": "9abec3a93135cc65d8feea15956972649da661a341f5aa0037afd42a42856e1d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s02.json",
+      "sha256": "37eb9a57a6ae1c462a7bba081e88c56f8e949773d825db1a416d0b9d38c50b95"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s03.json",
+      "sha256": "e271ac988614c80811733209430fb5acfc6bc913ffa4f996a096311cf54a9486"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s04.json",
+      "sha256": "a4a3a90ecf2af3c81e18fb65cdc7c94ab720606c7a6643ee14561567c0be0bce"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s05.json",
+      "sha256": "52f2954c18afe004aa5661ff9f5fd3132a4e555f87b11b74997a99bbda8be130"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s06.json",
+      "sha256": "3322ed4dd6c302655a764e8ac2a868f730d3e9be4e28b6de01e8b9aa40c3dca3"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s07.json",
+      "sha256": "adbf73ee24d9be5e14f8d5d78eec6ff9b9a7652b14d7fd0d305d894dab229d2f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s08.json",
+      "sha256": "f422e8852637734bad9afd1922c09255192630809b2414869ca36b7cf349ba11"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s09.json",
+      "sha256": "dd6c3f762a428fbdd0dbcd5af15b7d9dc0c9368d7ec6d380b96b3871123c183d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s10.json",
+      "sha256": "9662adc7a0d4bae49e9ec1cec48fb6e11bd4583be514e566905a7f7847d1c904"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s11.json",
+      "sha256": "c733c437cc6c0cd8d4969cb14977271e4fbac2e0244f90ec52cfada1b4719b47"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s12.json",
+      "sha256": "2894691176e16ce17568e1ddd262f51c9a4099b9e420139b3230584fb80d50bd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s13.json",
+      "sha256": "e0a84065f1145131ef838e00d4ceb3c8fc2ca77ab553e930714176529e3d37a7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s14.json",
+      "sha256": "3634c2490264180238402de7311b787b7a654ce6ac9e53b42cdaa046908f46e8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s15.json",
+      "sha256": "245d754597550e3a652dfb1e6c37b7741d02add0e30dfe9767a5a0771bc0c61a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s16.json",
+      "sha256": "ec4dfdd2dec8e466ff32fc9b729ffd484966d493e97e42a3e0b4c0e005df7824"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s17.json",
+      "sha256": "8c44e373e7054f622d98a16b5b474657080c22872038e5060b199c50b219fef3"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s18.json",
+      "sha256": "14bb57c9398ad9a6db1085a9fcd0d70023d7f98a5d6d679515ef6925bfcd953c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s19.json",
+      "sha256": "20f561a9d8487494645c025c4f8a69e9ce8d15d75755013ce1ee9ed6620bcbd6"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s20.json",
+      "sha256": "ca8123f9b1fc2d7be1d1e9be444b16bebf69f1a4ddd6112daedfec729baf7edc"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s21.json",
+      "sha256": "0da09403b29a16641ffe9c0c36d5dcf7cf4547ce8afa06a9c481f920276c2255"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s22.json",
+      "sha256": "876e3fd5cc06da4763f8e8b6a0cb92b1ea5d6e15d07702ed08f8bbf19cfd9913"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s23.json",
+      "sha256": "47c6602bb08da0edbb63498fcecd12923af35acf4cbcca5e975fad294abb07fe"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s24.json",
+      "sha256": "d3b2698ffcb1e9c5c59c04927c82f806384837d0c6dde15cddbe0c165b9cc782"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s25.json",
+      "sha256": "4db79e9786ac377034bd18b05a4a589ae7dbcc89ed7f84f5644f28d40987f73d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s26.json",
+      "sha256": "c169be35442b5c15d4ef3248217791948992cdbb51c8e643637bcd94eb321d4f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s27.json",
+      "sha256": "dad113cf14ccbf30169104900066e192acae813bc536bb5b4b7d9d80ae4f2fd5"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s28.json",
+      "sha256": "8b4340ded084c7942775a9fc64fda3b2d427e7437b07b332b6f980422f54e7b6"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s29.json",
+      "sha256": "8e5bfdf2c9afa655cdc19baf5615ae6be59393b21fdb23d68dcd7a359ddf8f90"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s30.json",
+      "sha256": "d4ba01b81c25e787a61d7fd3149246654831904577ab1e11990ccd9e104243e0"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s31.json",
+      "sha256": "0ee51ef9ec3041686a486c8dc3d46a9c5f4b564f0f41770776bc3971ff592dbf"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s32.json",
+      "sha256": "23c84fb8ce7009abd0fd7c6d75df1239c51e44b6c8fa0f450645f1c4d1c5a7b1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\CRM_s33.json",
+      "sha256": "0986669e149314d92826041038baa6173aad3259e278cade8e296e9bd7f81f0d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s01.json",
+      "sha256": "76da1c7db02b57d671bd0c30b925cafd22132516682b5a2c1ffe320bd9c0fb70"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s02.json",
+      "sha256": "f23f9ffc90cbd51a47de61555393c4a575dcea524cf95623f046a07068889849"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s03.json",
+      "sha256": "a308396e8824bccba4c12b6ee376ca5d7cddcac6059735cb6b77338ef995502d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s04.json",
+      "sha256": "dea9dc5ad169b686f2512f65afaa81372c6b4978d79a69e8a962fb352388ec96"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s05.json",
+      "sha256": "fdb7c987fcc8099c45ac3453bd22c55247bead160a883f9e342e59aa21004f7a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s06.json",
+      "sha256": "50ca744eb2c335395170ee25f21607bbf9abe61ac76623f429117bcc78dea958"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s07.json",
+      "sha256": "9af96eeca50707389e3b410b0ffb3e45d0b572a9744dc97d32b530d77f21e517"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s08.json",
+      "sha256": "7c3e3f639279b77afd40f83cb0a44be0e1b6960dd049c6cc3d7a8f2d4091fa2c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s09.json",
+      "sha256": "1069e2919deedcdd1e4823a44df71936b5b019296c1a8059f2c279563fbff50e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s10.json",
+      "sha256": "35a80702ea75252ed676d059e41fbfe7b96ca0239205281f35ef954503076554"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s11.json",
+      "sha256": "edadfa1b706b17d0e9f6ae3a0f871d04f6f78de35489cbbed1eff9a8fda34980"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s12.json",
+      "sha256": "ec5cdbba925f40484556dfda46e9bfe68a519d00109131865da0194609b0fb50"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s13.json",
+      "sha256": "724627b5ee32398a0a2f451431baed9ddb99e24baa2cf8c8369990850c0d680c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s14.json",
+      "sha256": "44d84230dc6072ef5087b88018a37c5a739d783e7e20de474b4727ab420b68c5"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s15.json",
+      "sha256": "8e400ec9842ddf4925c5b40e99e417af5b3381f1e40a328e9ad13da527f6e787"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s16.json",
+      "sha256": "721c3ba58879504e9db9fc5928a781ee285a20b011322c3b1245dca2ef28a68a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s17.json",
+      "sha256": "118d0b4a37a3111e690a7e8e0d6717245b978b0059695d856980e9565224d3b3"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s18.json",
+      "sha256": "7a21b66432f2f7370371e3e8a262a5dbc1583784535a63e8e28ee325dc57091f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s19.json",
+      "sha256": "e59b61d3990fc4a4c02f1cc7273ba80889dc7e7bd0c4081c0bb35599d5c21f61"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s20.json",
+      "sha256": "117b2e49b3e26bc64900cbfc5fcf3a649db71473926f8303060b5271515dd0ac"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s21.json",
+      "sha256": "e57ebd998375b9b36fee1659a7916e249e371cd531bd081c1decc1b3a208b919"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s22.json",
+      "sha256": "6e27136a03c1d1a155f5b028482aa021def94a7104a8980876f31e4eedfe65ee"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s23.json",
+      "sha256": "181b373baf34a3da4782331234a50333de3d6b89a3eed01904c05d031bee7bfd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s24.json",
+      "sha256": "e2613430aed21d0a395470219d18275443f7f2b14f5ac20faa15f113c55471d4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s25.json",
+      "sha256": "ed23a0af409997319ada9ee9902a0f9230a945a0ca90be6e5e6261bae694b2ec"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s26.json",
+      "sha256": "80555e8b8e0d2f51760f795b01a9df15965a6e9d305787235903ca5ecd4a269b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s27.json",
+      "sha256": "39b78eda1598054a8fd71b0f187e8cf09884e2388ddbe6f0c888932cefdf2575"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s28.json",
+      "sha256": "4d79dfdf4cbdf5934e3083c5348ec476aba6dce9dba2ef41c142f608190d706c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s29.json",
+      "sha256": "218920e014b3bf3428b800446f5c17921690c4890b277ee950af6106d41f5918"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\MSFT_s30.json",
+      "sha256": "6ebb275c94b5478fb9e381a78232eba21e1a10abf85cbc1aad1eee1dedfcafe6"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s01.json",
+      "sha256": "cc816a3bc1e688a25d7b5cde04a5083916a8dd44aa260e56e3b35855932f42fe"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s02.json",
+      "sha256": "33c4739e8618f00e106171e2096da0904fe88c57ec1ead35f23f94db9bc08d84"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s03.json",
+      "sha256": "14635f24cedfbe067a99ec4bc422d6d03c790e4117a42302b49943bad9d45300"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s04.json",
+      "sha256": "4655529d58da75c899e9c2d7a76cf5a34e44474755e179be93a5f733a4e46633"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s05.json",
+      "sha256": "b1db812e0fd15ad789fa93edfe15eee3120aaa49e00e272b85661a905cfd54e4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s06.json",
+      "sha256": "c32b4aef3f9d2bd7d6152bec85b762ac3ad5ba01a168ba7254dd43a9b2076e91"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s07.json",
+      "sha256": "8b9bdaea48b052708239563ea19778058eb51fe78fe4ac0689df36619004d3aa"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s08.json",
+      "sha256": "33041744c942822dc48fb213086a7899b71be1ebef4109cffaf592844aed6a13"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s09.json",
+      "sha256": "b63336c2a01efa8c38094af6fc3d0296e258bc65baaaf0eb0e6faa213acaebc0"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s10.json",
+      "sha256": "8a0796d784c21d122db9119f7aa045c5ff83b86088ff3bdc2e1a8d41967c638f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s11.json",
+      "sha256": "bcd4a8f39a954cd92f004a870b5e7f9725fb810bf49d0acd7f5ded4fd66948e8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s12.json",
+      "sha256": "d8490fcf5d654de81aee5e3a2d1082016c6242686141dd9f61ee145b118af456"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s13.json",
+      "sha256": "b36e6c8dcb5fefa2890a683340d80456b32d3673891bd39212a802a595d60246"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s14.json",
+      "sha256": "efb90bfeec80bd8ec205cebd7643cb07aec41a9afbd070d7970d59a22c5390c0"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s15.json",
+      "sha256": "cfcdeb132b38d1f4290d635633e9aecc4d0ace93bdc2c6c6691e879f388df207"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s16.json",
+      "sha256": "0a2d3c5a72fb9526161c56171d24825d9a595933dd6ac0a5ff486ddd725bf1c1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s17.json",
+      "sha256": "1c91b2252955c0e7c85b222a0b12f95867f79624d1980c5b898153f6e963563b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s18.json",
+      "sha256": "9397046e58655862b8e76f63f27e5b93e7ab02137e3aa35523a2141c24265bb0"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s19.json",
+      "sha256": "f8a4cb4e38801c4441a116178082651b857ab36d5a77c53d90590b742353caf4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s20.json",
+      "sha256": "4f47e5e0a01238e7213fbbc1bd79ab6665efb99fada21afef59cc7a745226782"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s21.json",
+      "sha256": "f0ac404d37bf80f215e7434d18a79f277d939633a4b98b32a155173a3de562de"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s22.json",
+      "sha256": "1ee148a501a1832697024d6e0711274968975fbc443490117eec317130867b2d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s23.json",
+      "sha256": "348a3e06920ea4ab0cfe50f90236cfb3bfd6d79dc69b4be76576806145eb75ff"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s24.json",
+      "sha256": "552fb9b7f0f91c3fe17a80b635ef8a4fbd7d1295eca2f8ceb95a7f1699508f9d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s25.json",
+      "sha256": "111b74cc282ef4896b9dd11d3a44985c5d6479da97612ac0e084816e64d09723"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s26.json",
+      "sha256": "b9556170dcdd2e78404de244025edef8e4586fd4c0f5a8920d838034c3d67369"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\NVDA_s27.json",
+      "sha256": "3ef1354b8fab1107750e39abdcfe9565c62964fc9ada7cff65fea2a5a41b4641"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\ROOT_s01.json",
+      "sha256": "0a7142cc032cafc5f93b10a34ab6b3f5018ce70e44b072485309a5b54a629360"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\ROOT_s02.json",
+      "sha256": "1f5e66b559217a68539ed833053c57fea9ec401214d2249b3cae31d607fc1d91"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\ROOT_s03.json",
+      "sha256": "a7e40378d20a9330b5266ff48b29a7d2fc4c28dd34de1d994a40e4e0f89d4366"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\ROOT_s04.json",
+      "sha256": "1fcf5a50b178c439289efce50dece85f7bba0061095690f7c247a9ac866b2071"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\ROOT_s05.json",
+      "sha256": "78ffa3f9a2affba8cf984c42d0623ad26758203150ab8b271239fb9f27c402e8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\ROOT_s06.json",
+      "sha256": "6563f461681c12f37c052418f8dee28a62f6b72c5e5d5517fa5c761a56d58ecd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\ROOT_s07.json",
+      "sha256": "b36fc87940c2f9521bed167e42d6bd5403783e069ced71e2c71624ae5abbe38e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s01.json",
+      "sha256": "eb91786bc3b44e576347ccc779be1b9dfc454b8086c45bd629315fd021750bfd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s02.json",
+      "sha256": "aeafd3e1c3f93f09806f9025272e475a28a1175e9c172b76e7dd82d85491fef5"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s03.json",
+      "sha256": "a803a72964345000079e0071cd01ca5d3ab7be732b78f574b5e074c177ab24f3"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s04.json",
+      "sha256": "c60b5270cced98c8bd4db08ed73d14509c4100e40ff1f1aaacb857ed59c50054"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s05.json",
+      "sha256": "9f5d291da893e6eafaa1ff23fcfdfb71d078f41dfef1616b2c3447d4b0ffdf10"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s06.json",
+      "sha256": "64c6405942bd52a9bac6185ee566cc61b47497e65bab0edcf8b8fc3acfeba287"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s07.json",
+      "sha256": "6ac15ad1a606e0f108cccce83e7fcf70340536e392c4178d9b8b53c7b325d080"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s08.json",
+      "sha256": "1fb59b8c4acb16be28d26fff315a42a36b8bacddeb673670c804a5302f74bcc6"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s09.json",
+      "sha256": "f4cde7f5743748a2c4353a56fac9bc920999a646f7363b1b1524c326562a4d12"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s10.json",
+      "sha256": "6a1bacd8aeea1bc00e942f546e0213f5266651da468f67e80ec8fee4ad591323"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s11.json",
+      "sha256": "4e950691d649b9c82b515858694edc35a92940562e91042a1d9bd5cbb66b3f82"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s12.json",
+      "sha256": "248e2d047a59016462578e94885e427a94f8ab8c5ed23f24a1a9a846dba1310b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s13.json",
+      "sha256": "9bc5c2a151feb63ab52a53635ebf8e72064e6572b0fc37fdeed46faae1c37cf4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s14.json",
+      "sha256": "06263de387d1b6f9fefbfdd08b372d9086bced6d76c3927d51edeb3c169a91a0"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s15.json",
+      "sha256": "aa3201fae8449cdeb8b4749b5717c09de73966939e461aa430d5c92d367f098f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s16.json",
+      "sha256": "87d29c3392de33bda5e986c76d4f65c93cafc68b1a7bddebd5e119315c693989"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s17.json",
+      "sha256": "6e9526be01942f916dc4383a63fdc2d885e7e1738c7510ecbe539cff5d83634f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s18.json",
+      "sha256": "8ef2bc1567039190da7821f80e6dfc91d7ced78562d4859f4626a8ef48eee6dd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s19.json",
+      "sha256": "d9fc018001a3f3228c5520d51e6d2b4ed0faf10e0f47dc751bb9f3a0061982d3"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s20.json",
+      "sha256": "a237447976e7b2f7eb2932f7bedc6a2cdc761a6e412e610af212fe712e5ad187"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s21.json",
+      "sha256": "8d4a71e9d2acdc8de4837ddee1309bd1e4b4963113fa8500a9f7be2eee5af60a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s22.json",
+      "sha256": "f940ed3cc95e60af173f031a5494cde11ad7fd60dadefd9511720268c24fe492"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s23.json",
+      "sha256": "046168f4fda0c608cd60e59567f1f8682bceda5417708e8380deff01df4f8590"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s24.json",
+      "sha256": "b5d742255e39fc4dfbf33f0a4593a44eae203d7c81549c23139e3c1c21c2645c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s25.json",
+      "sha256": "1c87f77214df88b714c26dd28e0333cab46b189483438d043555d62c8b29bfff"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s26.json",
+      "sha256": "8dd6b20480f035837e718f112fedc3c1c4e044ffea186ecc286d91bec920b30c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s27.json",
+      "sha256": "39ff4df16bb2c579ae27a742d9c38a36bb3246c1f4a1e80557bba94cdf50fb8e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\cards\\TSMC_s28.json",
+      "sha256": "f3502b2d99567c8b54c52a7abcc5a070ca56ce62284b9c2d2c40cfcfe5c16732"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\0122ec2217c08ff32bc8463d7b6d14601cd13c60211644c041351d756a423e1c.json",
+      "sha256": "5da047f718653540a1281bc41f270c34f965fb5906f0b8f01e481f8fda4c5338"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\0140ac0a1e23b2d5d01461ac995abf0b894d574ffa743c4b2047ecddd70b1367.json",
+      "sha256": "6367f2c988fe69b2dfdf8c17a0b0ffd1f45043575a7973482d7149d5c86a9d00"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\03f27308531926c9c6aaed0185507798f582678fc2ccdfbff7d861b11004be25.json",
+      "sha256": "ca1c6712e1923a2c3ed04021c8f16290b823b7dfde02328d7715a765f75b12ae"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\04c40475170be683a7e6a3f076f71c7df13a11bd58df56897ddc94915703d9d5.json",
+      "sha256": "92e3f07e132b6f66e2a58bf980ad31276579b0f070251599fbe8b3e1c00bcd07"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\04ed7fef58312750cabc60ffe63ddaa38ae257c1d006ada7498a885456d46df6.json",
+      "sha256": "7b8cc48024469e11b0e29f184f77073bc2b52171ef848aa9dad97cdf480e0d27"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\04ef74017fda9e7ee41afa17b74bb6c1363ab0d7202539e003407b519df540ff.json",
+      "sha256": "7ee8b5849db49ece7222142f875389adee34876b7f82c13b81ccc382d4c57459"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\05a8cf43999614ee925f1d4dce24a12267b5f3988bd295009c2c04f0cab86d5b.json",
+      "sha256": "cee04aa508090bd3fb12d3bc225064b9514f74e00278a454f832d2f16eb3e2fa"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\0875b7de5587b0ec73198bfb98fc692d33bc1e12d17f55767c4c9a68a865b8c6.json",
+      "sha256": "4bdd1d22522ebc520fbf8bacd9b44044e5ae46780e0ecc130a008095fdc8c43e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\08db07443de926b028e4ea05adc8ec91935c6036f44d8cd4e8e8b859f5d64883.json",
+      "sha256": "90e640b0cf3424e2741aeacaf129401a442e723de4b324329e3f2e0277a98978"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\0d99057cee886efc3cb4ecb010bfda1a48dc087e8ee9b8749363d247b3cfa652.json",
+      "sha256": "a6931d6b4c7fd231f97a8d63a5408b644b6c760360f01ade6880d264ac63e588"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\0dc1c524b64ac544699e9921f1e19ac6685ad863260a74b2ca13eb84c2362230.json",
+      "sha256": "6c12fe21607ebffd71ef35d88c06ae01ca242e9cb6c853b8051c02f0352ffc17"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\0f9ac35b4c435a150ca603a9f29ff4b03dc46f13e91c20e0791cff8295b3f02e.json",
+      "sha256": "6034b656bc2291b3345a8201a8cc6040b14a8d06fe6e7fd957a08c6a366e18cf"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\115bf5fe9de4a933d8b26c46a724fdfec439487c9cc03b00fd4b0e50db950d96.json",
+      "sha256": "3da52cc961b5eef22444cdb74b375fdf62bce494006d906a9192600590b084e2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\149cd6045cb7f01922b4c07ff8ea631f1166d71bd61cd2c54ae2eea1001259e9.json",
+      "sha256": "e3a26accc5111fae20cad8cc83c799954db3838e47f21911f37fdbd66a44e358"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\14c1c14e7df10efe24eb4f7742b0e15b765dc218fd4410838662f0880c1b7a31.json",
+      "sha256": "271d53278e0f60b03d87b5100fcf30a6d8a794601769f1e5a067d3a62a30ff47"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\14e9d5c7564deb24a012fb82e082cebb28a3c2aec662a7408ea7edc46cd6f725.json",
+      "sha256": "18c4aa79170181cd6c6ba29e8ca9ed08669137c8d26394c9b58018d307ed52ab"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\17e7cd97fe10ab01957f060a96f055b97bdbc5114d9e969f82872f9e553171f7.json",
+      "sha256": "c1a4ad31561b863f68a698ccafa8f07aa8c1781956f1cbc293a6cea4dfe4e785"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\1c418b944c129c8636cc7ebcb30cb765f940a8a34042b0d1cb761a785863a8ea.json",
+      "sha256": "bf6b134409080fa6897d52c77bde4cc2bb541cc49b3b081e3b911be7e05d7382"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\1c541a01f090ada8230a2436cb1c8e71ded8fb48fdae3ed4a162bd8a4942f731.json",
+      "sha256": "5d93af3285e179cc4889013ecab414d7ec911aefd0cf3d115d97bd9fe4fb4b87"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\1c596aeec10bd16b8b8e5648b502f6425ae819b793074c9d435c1ab11d54d96f.json",
+      "sha256": "655b44f635020d6f341c82917f799e719206cfb49283f721331de14ba96c0617"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\1ed9b044db2b667b75edda364b07982fdb2320b413372b84fa4647b4e83b713a.json",
+      "sha256": "a32d2ed4272b5c592fe383e5118dadf60ce11d189e5090e331eed094f86f1e14"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\1ff420f057a2a0bcb0d02bb554c6d93ca1a2a56f6d3a38e820870948b7fa6b48.json",
+      "sha256": "54a09fc409537008b68d217234f7ffe2dbddd04ff9c65e06ebea432c8ce13c92"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\24668ef97812430164ddc915c9ce163a501a1fbf32b581c5d8dfee1c46a583a1.json",
+      "sha256": "08680d6f19c143c995fc709b667adc415c461663007a3226b793b2b813d3ad53"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\252d33ee3c5e186abf315089e0d02dc4e40c9b4637c5658b90d712bb91a14e83.json",
+      "sha256": "2ddd2c0c67a3e7a7fe43a7c54ab3e9ad19a4dc9047a6cf7a5be98e428e15dbd4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\2610802ecf5a4ecbb1a473cdf1bf1958cbd0f86f83e86f2c4682dcb570ea4859.json",
+      "sha256": "5000a27a5c9f4294a7fb8626de37e9ddb617fa6159be61449809231b9655aa84"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\2799d8731e89b90c9bd3f1089cfb1590c28a135b8e5040dbb8d33541d438a968.json",
+      "sha256": "5db5ea967f3f47e871177620edcc70e62a754e9ee77dbd368445a4cc2af47a80"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\27dc7dc0e4372e7f4357da72860bd1b5e2f875a90ffbc919ed131db9df248d0e.json",
+      "sha256": "bf896bba340b3164db6246944f20addf1399416603ebe3897e501f4f99bd6c2d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\2ba64f1f486377aff0e98f3e09e4eb147cd6139a6c7a1b11ed1baeb5b3ce767b.json",
+      "sha256": "8a19af0e87c9c72615f8af25b655080d9ffb771b7b7227f33f49a037dcc81650"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\2db566b1454e3ee36d4463288d47de34d64466989bb555bdb985383b847b1a91.json",
+      "sha256": "863211909bd41f17489fe7af1b77633cf38533fffbcac4756a05529aa61142a4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\324a8c34e7cc5d37abb3c842a5bd313f49418a9198e9eef3e8899b81d6cfc0da.json",
+      "sha256": "88af28b863a8aa999d9d1d3d9771d1a18c0815738f222441a544c31bdb00e26f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\326825e3c5cfbdb135fab2dfa890e17c94716468cca006dd699ae180590a15d0.json",
+      "sha256": "083e953fe6e11ad70b759c7821249b55c25ad7fbbbf8fe7004ab2feb8b5c4cfa"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\3357ec0457405f25f0cdff61badf5743702884fe9a3ec417cae38ff741814544.json",
+      "sha256": "d99e50e4793d8ff8c950b71cb08c0f856cf6258c3b0045bebf403a5305c2abf2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\34c192766447fcf2d54e2f6280407b808613a0e60ccb249f61ae4653914feb2b.json",
+      "sha256": "c670f6d3e30c0e3c7500d1bface31665277e29483890602da4343b8e21e52d3d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\35a81237c94420ccc512f5386b9e9b8d2a15fb73bc10da4bc87cd31153e12b2f.json",
+      "sha256": "73820b0668f9574debd1e9bd5a8db6e21fc624521caaad38de7a9b91a9e7ff28"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\375c632e66b970ad9bab173cf3ef74364045257b7101be68c237e59a92848cb9.json",
+      "sha256": "4863212d6022f2973332ecd63956411ef73aef154012f7d346a4399b52ef1acc"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\39c133a7753c09bb0a1684b13f0a4c6add67db7b5fa6c1b6bf5e9e063476d143.json",
+      "sha256": "bea356dff46320e109ba3b6717961797d326871f75cb0da6266c5fbf034c6055"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\3a0573943336a8ebad709bb427b3bf2700059805d33c77f64d766b21dc414682.json",
+      "sha256": "3d3467c1d6a10fbb93777bfb8fb0d0d3a2a4bcc03bb9bec35f9bf12b8fd1831c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\3bf39fdeefbadbeab825fcbdbe4b8c12a7ddea190e937f2fe42632d1a25c38a9.json",
+      "sha256": "1b2592f19b185c3f4ec5e90d9e41fdabbbf7f829331058c6eda392d31e27b257"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\3fe525c6f35dd049f14ac390dcf22e85887bef64033d6072e0075596b103c53f.json",
+      "sha256": "f1a0c6cf4367bdd9a9d623b281ad737468aca503a97a16d1712b7e52016d7f71"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\4157ee8ff904fa3c02ba2de1799757e7c10bea6f6f3d937b4df69bc7f0065b4d.json",
+      "sha256": "b740ef35852ebb935fa86058426168af68b48baf1b943a15f926247fb688c99f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\45bcc699aec3e199c4c07e82b6a79c84f17b4fbcc6ff59240d0ff636f6952fc5.json",
+      "sha256": "6a24c865196299bcb2b83a471626e92ef40371b7455157cf8d22ff054c5033f2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\48d3ddcf600828cf15c902f83aceba73a33a20a10a2bda5d964dd5be6bb24aa9.json",
+      "sha256": "363a895464134e97788e51dbfe101e2ca962771e07ca1920d854a6f1dc0efcad"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\49d12efdb362acbb79801a46028725effef07cd9063a53d94f1f9c932ddd81c8.json",
+      "sha256": "82cf858bd5650d621b46823b93b87255200e304eb8d0ce5c149f1566252add9b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\49df595d88b952675e31d97d5d00d07e0876eaea7153fc98eaa3389d312745ca.json",
+      "sha256": "90261840c708df01fea116fee7a8157998218fc57d34147b8c01483b96cce916"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\4ac3c75e1fa4733b2c238988e66c0301930c6da9fcf6d89522afe61fcd94930b.json",
+      "sha256": "8fc52adeac4dea6413c0def3ec055535343deddbbbe14c993ba49a7fcac44482"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\4ca49d4d851d4170ba69461dede27a142411ddf30c905a9fa83da0c712c9f257.json",
+      "sha256": "2d7b9006aa1797ba2f286810764b74b8a68131706a1e0ac0ae3a36ab4338ea51"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\4d01875ba6b0d276cf88052793fcda42579bd4b57ef8a7b7eb73c79859f6724e.json",
+      "sha256": "46aed4b8d5bea390b04e1a22dd4e39b7832bc3a4e775cdfd9722b3977907d193"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\4d22da14ff4508d43ac4261f3f8cb2458050b7dbb681b5764a93053b8724033e.json",
+      "sha256": "76e8faed9f8baa1e9d9c4c9363598ff31298b2a01f6cc95962ce0a8fda8da36b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\4fd87ebe22a66695e1ce412572664c8b94b07c1c20ec8dbe3bc24b9c331560f4.json",
+      "sha256": "1e8ad11da3a1e576a75174afd3f2d34b7af6fb4c1b086bc37858dbbc362acab9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\512582279350f329e1a543a195e55e3abf37f8b00944ef48d7df720b841854ff.json",
+      "sha256": "466a1f2b64f07aadaad55ee276d6a315f378f65a4f8ca2d65d8e9d3c2c3509e2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\53ae5204e4458d818c92bd297a41fb58ef1fc3998f490377f13b1b343f3230a6.json",
+      "sha256": "b3c8bf2dda9bbdfbc50b41bf15167072575974b436a92587772bb252dbeca355"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\5585bbb7d821b304aa004fa07dd9dcd55d1abee954f9f7a22dfeaeb0c35da3fe.json",
+      "sha256": "18d4205c5cec04d5f1f332f5e643292cf928705b3786549214dc644474791243"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\5699d607310388c6ddc9efb413b71c04d26eec2460833a70e61f85611d4c4412.json",
+      "sha256": "a7887b4bfb0c6acc7000543c8e1aac3cd1b610ba7009801d40ccb8753d8dee83"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\58e385f89087f1b16b9da68f5fb9850115980b2dae263d348fc0cf13d2b468dc.json",
+      "sha256": "d1b1fc9b8878ed2ec72d73b1a7f876b47a793ce1a395222dcabe3bb2ba59fe53"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\5b835d20c1f6d028952e2b421c3e6b409f8032ed301a07746c14cbf2a096f861.json",
+      "sha256": "0e5e42948b2f867159e825f71050732281fa437bf0f98e42cb10ee1e78c434c0"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\5c93994347d1959e4c956327b03350c790b872b1827968b1e95f23b86434f186.json",
+      "sha256": "fabc40cfef5a98681c4708f8a2e18148dfae32e472724baa95e507bf4ac27596"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\5cbb89ca63676039598a479c6980000d3a29798bd2c1e65f46851936f0a75aee.json",
+      "sha256": "83092ed3bf179d8a5b4dc23787ee33555e696fbb4d3aff2922d8e290a423e104"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\5cc0aa4f5ff0f2c082058feef409dbd8acf7155312f15a2635d4f15702179756.json",
+      "sha256": "b3ab0772e2f6fc97b65e1bd0fdb8fd9745429cdd00ae6385a2994c54fa26dcf9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\5dedc05a46f3590f9ac1f0876cf7f88f84352b27697cb0b5795883b8a2b7d39f.json",
+      "sha256": "0d5e43425548867589f5943fd0f136ca6cf3cdec4ffe9ed017010e7388d2279c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\5e2bdfcf42acc0ecd274e2fdd06fa6e82ad320a1be1daaef22b32c77c1b68da0.json",
+      "sha256": "ed56959ab9f9d1a1a3da8daf8cad51e9a34c6e33911e108fcab2598d08a9ea5a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\605926e8064785c1a887cd2a7cce2c81edc80630e97fe0f11bdd2fe44a32cb52.json",
+      "sha256": "0150386b9067d8c4379a30f76a13adf3b184f1d11115dd4b7ed27ed8f3a4dfd7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\61b0b5406bdd64d710a2c517dc9a7b86338eb08c931111bd48e9a750636c91de.json",
+      "sha256": "e7cde1a8cc58d105f09a50b18d2383298ba1bad275df0d73d3d40ab7e3790297"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\64e0e343a44ab3a249db6fcd90283b1425742b9f604e6669544f85c5b6f1102e.json",
+      "sha256": "d2f10df45be9f6f6f150421cc13571f49f10e3b08fc6e3c5cc1f229e9d1a6fd6"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\65159389fc84c0c99402fc83435390f2e996b9e5675bffd295b09885de20cdf1.json",
+      "sha256": "86e857ce2697df99b7e20ae0b6264d825842642d2f01e369962f44dcaa969fb7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\65394451fa84827d5b002e6733b87657cbc4923e338a7dae1244b8eb85f21a9b.json",
+      "sha256": "038f00b25e9a73c7aaed7b2357cc53c25179d1904032663b59770c347315093c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\660c87135497befbe8cee619f37d1f69028a5e19cd1d002772d205f326c95d15.json",
+      "sha256": "546e031b637500f05faa28f5cb8fe14126ccf9b405bb73a5c03a11909a9a71d2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\66bb50c372c2d1f6be27ae14480b72d8d5116b93a623e1f4bd55f3029b8d0d94.json",
+      "sha256": "2d55f466227174ec367fadd42ef6afc5cfa3bf2d736fba26eb8422ab1e9f7426"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\673f05147fafc579e0dc4f5aadea495bd521a9c9cfd20c1921ed0bf28947b2f3.json",
+      "sha256": "a13b348eacba6cec5918fb4a2c22cac8abd7de5777d10789ebf33d7790b6e59f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\689e8de56d7dbdfd6f0304e67ab7e1df74628c88d62128533d170b2f0c75eb91.json",
+      "sha256": "c1bf8bcd4a3599f4a77d44f46ec769d098914de4a52fa69d0d38f540f7daf935"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\6a11764bcb399756f957e4c02725e3e7a9f08234006833de37f7535da85d4032.json",
+      "sha256": "8835a359f71d3cd51a7b66d280f63c7120e63afacf447c9ebeff7d5db838cd9f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\6f7b80c000dbceb547dc79ac02b181ead81a102ef5928ce1f65f418300f7512d.json",
+      "sha256": "97988df1ab4e081accea5bdb95d87c897defc66f893ddc674b9252d1fdb35611"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\74337619f12bd83f512225a516f84b3b7c8eb436df6f9a32605d20e7795d673c.json",
+      "sha256": "e4447656438525f9d7379c5a36836c0ddbe6d58a86bedba8806febe54b64cd42"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\777ffb75928617cd0faf0f44929080c2953655adef3cd1f88ac0c8a207c8d198.json",
+      "sha256": "8849d630b2ff424cad5b3e848c27c7ed14171e12f268a9d3dd79c61ad2605289"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\794e93f3fb6ea4299537b8b45c28b0c691ec1c95911fc10c08cfb84a9462e977.json",
+      "sha256": "56c50faee880280d9d74e2cb6823ee965dedaacdfad8056f8d9c222b4e44f368"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\79c8ddcc838900d6a752dfcacfbd0ac4bc2f92819af72e17bc579ea71f54ee96.json",
+      "sha256": "6251e9231af62c3d871d5a1b492b69b3a294fe9f3c2f659ffe8b01d2c9a1ca87"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\7a0014fa1b4531fe068fde01fbbc5537beab7e2b7abf5654d36969f7a401d894.json",
+      "sha256": "d9f39ab5fa86fbdd54b422e998933cedd0a5f93aaeaf1299a2a0cd63a4321f8c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\7c45a1cf04955be277a6afd5f6fc681648f1194bb5fad59027137514a8b07eb0.json",
+      "sha256": "def82ace976d1067b896b1887c2ac7fc9f88ddd7aaf11a9f4c1c424261814355"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\7ccd06fe77e521e667fe76ebe53e1138849e5060bd06279c15b282a54afef7e7.json",
+      "sha256": "99c4ce33f55ef19f59546e2d768514384971c9ac26a5a3b6fd60d7cfd6e1a77c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\7d7642ecd2a3172d5c91b6ded57aec7798c3de0dc42bbb834a3af0d4f30c1d5b.json",
+      "sha256": "a886cb5321bdfdaf11d0a461ad78ebde27922160d7b4baca955c98ed5e11a898"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\81ed3d17a5c6263309266fd53469a04798af110b9f7fc879a9f4a7a6cf5c684c.json",
+      "sha256": "08a221c94ee148799be77aca24372f9c154df8448a69ea302080430c0ff93ec8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\81fe2f118ab1af675a4a5f86d4433d1024fa2b202801a1dc22831ebf73f28eef.json",
+      "sha256": "beab5ac706e517f6d1cbe862afb69aa7d676778a92a9e9afd236a0046973edfd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\8387fcd61613e12b4cac3975f4ec50bb60289d57d42aed0ffd3e3b66bdf1d753.json",
+      "sha256": "2ed75e4d8827e80a0c7816b64c8204629f85e92928fda31a63f2afa8a3c91af7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\83a69408fd78152e31d1a81f0199bdd0aed2303b88a6a815b32f337944710fd2.json",
+      "sha256": "cc3865696f3f43f3c3e07db26dd502b7e6cfe87ad15ac76f12d6e064ad9e7e3c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\842b4c7b06350250adea3dc5a82110bfbfe1ade77427da6f57952b2d4c3bf28e.json",
+      "sha256": "a0a11a7d576619d2cc6880305d3ef45fbb645fc07fe069698167c58afb3cb0a5"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\8545051aab3067ab3b1981b3f6c6a63f609d8d61ca29c8f1bb3416ae5e112f25.json",
+      "sha256": "49150c15d6444e6f4f176af10bef730aa27000cefe479fd57f988bac4dc88739"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\86578c59e2a0f7a531a85b976f0f10e13bd2bebf2c517cb45ae3a48e7943cbce.json",
+      "sha256": "cf22381b667aa246cc8b0c685a8797d4d88876c3caf50e7b512bacda70c99f34"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\878956b39e1ea15517359b912f2c73e007e37bb08f43a8951cca9322f0e0136f.json",
+      "sha256": "a0dac5de527d25679ce324356e3a74d3810430894f7e122e064e391133f687fc"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\888de3f1c058b2425579fc077609ebc37dfbe35116359ba3f15b2dc883b01044.json",
+      "sha256": "7389375e7123729c5335e308870851972412b61bec7de8e02fd8c9acc858d135"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\898b9ab4ef5968737ee4b5fe4c454fb40d79a54ec151cb3ab895f45c92f18570.json",
+      "sha256": "a7d55446da12324d7bce90fd3284a7f557f8f33a169cac51881b432d22d4a8b4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\89e863bf7318c203faff0355c3c66460d595054140121ecfa73d66851ffb101d.json",
+      "sha256": "8e87889e194f9b78f3eab5ab06be8b6be10572d030eaf8bbb2a835669eaa0d10"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\8a483e99d32011bacc7d56c8b2d7edaa8136ba253e0e57404ee8bda2cd105bf0.json",
+      "sha256": "abc383c8b73cfea85f33ff11251693856496ee93e0ca7fa25849563445ecfd7f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\8c3b569509d4301e79336f82730cc0d4026a670f9d1cc04a4622799ba912be1d.json",
+      "sha256": "7396a8b35eac412fcc68e76b78f08cb2924e18095c2784b4e31df0130027f941"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\8ef3633cf789b47477cff6dbe4febba432a2cbbe47a9a419713bab23c37020ca.json",
+      "sha256": "69ce53c6096c70c3d232d23da7ac69e3e2b46902be725b1327be0309dde41d78"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\91e908dd94d2d06c4e59383d43c03fc70d1dd38a8c542fdb581b24e5ced75737.json",
+      "sha256": "2263cd7908ae265d6aeb7b22cb420d075eb2a5b6a946d355fd7d6ff0c8261e83"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\93fad36f3aa3e926b76499499ad1ef142649ec16cfed31e7db69f377b8f7f3e1.json",
+      "sha256": "e4fbb9aa1b1bc00903b3306075760d19613994af9ed91f4d9ae859976775ecdd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\95f8dff6b6759075ac644feced10108393f966188a4380d56a2bdc84e25ec3a3.json",
+      "sha256": "8f012b3e49d89ea913fa679765bc223195ffcbf2fa795d2b58a9c7ebedd51ed1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\9932c580117e6b64330f7bd284f107be807ec38f28bf25afcd651381b4184793.json",
+      "sha256": "0af6b5f333e2879362e49779bf6d17de53cd012033b2eda921966010d03c0cbc"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\99561f64d72446d7b717db7308305c90f9bedb82196f721d8255455ba9547d75.json",
+      "sha256": "7b67b59daacf812397d84b10ead66884c5c03423b1a0b12c813da36c5f537c77"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\9a1590d0917107a7b31cc7b82b144987885c7c2fac68bc1d8c58fc81a10e3731.json",
+      "sha256": "65a08387146aeae28aba6767bba71bef9585e58263044fce05a280811c7fb0bf"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\9aba0ab993736d1e53a56368f361f04c694204a74b1b1a06e822cecf98e59492.json",
+      "sha256": "3a760f8f833fa8c0c0a26845132b34233b81aba0758a0556a4cbc6f748bce23a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\9b3a666bd2f92f259e9d70c02127a1af32a7e724e934af3b8403ffabbefa3fc1.json",
+      "sha256": "20fa6d0c273bcf3766b968c59e1cf8aee9ee098ee2cbbb1e931f7a2eb169059c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\9ba8426e373d1daa7f5a226eb7dbe0fd030479bb0a91879028707c69b0895554.json",
+      "sha256": "7d77f30a7974d5ee92899fda81681ffcbb22f464dafeef90498f578904688bd7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\9bf6e872b04983b3c50c0114de7ad0959615ef34283b09379727799d52271e32.json",
+      "sha256": "319bd561ccb75abdc3f2f826214afb13c9a74e8e53eaa586f58c62d6d2d6d91f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\9c59877fd5ff43d56cd5156571b058a1f81efb8b15b149d0e24696cca944d12d.json",
+      "sha256": "9b3d9ec0d064c07e4039e4d10752248ab92c2c45dd56fc75950dc10d30ce7c0a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\9e2c23e92b78e5fddd8e2a818c3f140113a7bc556936ee39b0e7010e57306f9c.json",
+      "sha256": "ccd5e115bf2ddea8bb68408c7d3b332d8f2ed245a5c76497cd4137922935ac43"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\a09ef40c1fa566b57ec21b162a4f6a47f7ab2baf3ec2881a95af1f9bcbb29b13.json",
+      "sha256": "7e658e67297be801a819e19b92de8d7254b6fce11186e0926758913ca45411d4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\a16b7124758048eac9826bec30d2d768c3cc6dbd19e0291cb5be0448a82f52f8.json",
+      "sha256": "0afbca58d09000ab571c66f73bec22467cc7215a355ea7a41d81f97d7785fd21"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\a270e36f331c79a362f629939c5c8dda7c2455e5655b540ef98aafe74d9dc1b7.json",
+      "sha256": "13d3e33548681570e436266ff5166419e26953c1287416c68be05e13aa2f08ef"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\a79282823a8549178ff5c12e4c002062ef779d222555c7498d120e47ebc338f2.json",
+      "sha256": "7915c45849c126fac8da701ab1945890f1a049488630f2835af3a67bb68a1b5b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\aa8f1c517a8fac3a8153ecc93eef5787086ed7eec439182546cefd43ccef32e7.json",
+      "sha256": "b1cf9efc01300cfd2af82398448a488cc0d3995a8ec563b33b033d37c246358f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\aafe91cd05e4795de2cedafad85cbf40b6503889e2f8f2236c6de6245403d9ad.json",
+      "sha256": "752fcd0e813e537bdcb79dfdf9957e115e42ca740dcc6533dd199836f74e1b47"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\afd316723e6805760b477443cf025fae0e659c457bc1b722d5fbc2ed64ece0de.json",
+      "sha256": "fa24425fdff944e0104af5f03d619d3827a0677f8aabab8d6252bb5ba0a71217"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\b05c2d60be32cbbee0da4c690528b2f205f76e6b1efa65e20b7dd988bdad88cb.json",
+      "sha256": "594c9be14f1ba876b038e1e810b8cd5657a4fbe0c62cf19a01d981fc0394dc08"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\b064f269c9bb311d8f7c28108f85c3a49e32d8cf0f5477ffd0dd2ef12c19e44d.json",
+      "sha256": "063bc89289f4ff3aceae127e9920c3e54d88367e0f7fef72c5db08da07a314a1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\b22b7818e8791578190dddf6ca723dd515f00ee5ad3eed01a7527504dcb0517e.json",
+      "sha256": "9b2f8e4b38f9e5d345cefd9d96a718cc227adc5042cd969ace2e0f8d87ce9a3d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\b41250f29b0291d32890c584b2dd2d7e24dfcebcd12ed4a72fcb0fc7ad38f40d.json",
+      "sha256": "e5be5643fbcb0de7f1bf254d06de4d22f57c4302d01b99e9619bec28e32713b1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\b4ea8829627f0697582a0d0e6d407bf5268193358e84a2e9e3275b4323837733.json",
+      "sha256": "b4d4688be69ab4ddc543b9c4aa26e492fbb52decd1dffa4d2afc347d53387e54"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\b51cced1151959f5c2dd1288232cb61af1557a9096fb1981d686c5f5620479c2.json",
+      "sha256": "12c3f146169df2f683def0b36804bb2bc708063b6b59c26cbb4a6200836eac57"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\b74b9d857d18aec62a5e73a03202934dbe494872def749f0292e178d0e8f0951.json",
+      "sha256": "a779fe35ac7cecc7ca99f8caa1e94f691c11bb39b415e97fefbfa0c048fc7304"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\b839ede28a40d17e2be661fc1ad27cc65ff1226c2692af940bca40aa67309a6d.json",
+      "sha256": "b4afa601ba6bdd26a448d9b1d743c372b1a2a26ce31691c73ca2f6b7534abcbe"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\b888df573985bef473d5d13cae1219f7543f56fbe8264c30e55d1fc19889d610.json",
+      "sha256": "0cf866d091aa0a0e970a7e6a01758481f9e9016fea3302a88782c3fda652253f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\b9ca44b4cb0e1b584b5e14886fedfee56a3240b05650fe034fc564a23e586b3c.json",
+      "sha256": "c20eddff326b5652105264139feb1fd226a7ed3d640d3a0b5f6bb7c024d37e59"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\b9e7ce639a8f961d11ab9b567cd704b6a9d468447f797c7fe85384ce913dec19.json",
+      "sha256": "f2fd97b7c24cabd848e5ac6de9e04d3c1ba53e5fb20a05ebb562e0a50c4c3570"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\bd876dc3be710dd64cb8409d927340aeea3dd287d2f61d8816adad8ba8e3bc39.json",
+      "sha256": "b3d7af74be155f142f1d4e76946f68fdaa785390936584441d6a36f9a76947e7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\be59814ab3fb2af38ada3b6b37c092e9649843ad7d975b173116c46a4d741d21.json",
+      "sha256": "43a6614d0c158f1178a33692b39da539a510f75e4bd816bf21cf84a2ff5eb776"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\be5f5bfae6900f7ef535304cfd37aeb8d1e22b5f0af629e9a51283fe57552c09.json",
+      "sha256": "60cd0ce377b137fcf7308eb8654da0f8bb0ff2321a3730a907c00ee691684b68"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\bed5558eb92860750d96a9b5bbe8ee944ba83b6c7130b35bc8a715fd36780e34.json",
+      "sha256": "bc323b458c9f2f2a46820a6094dafdd00de60639227438ac7c42deb9c451f73d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\c048e76667e0799fffbbc3c1306562a832ddb2d15fa345f7716a92d837961a25.json",
+      "sha256": "b8acd50edb78609a2bb942ab32658bc52ebb87c81a1892b41320dba75a6e125d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\c51c139a166765e15399b52e65b9bde17162952a9e00a6505eeff5a30a28d653.json",
+      "sha256": "426f9fa2f88648bacbd36292525f4aa28c03e722eafaeb7aeab9a74ce4a5d635"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\c5578a3e933149293cf63407aaa2bc2efd60646d1f0db9a3466cb60e81d01eb3.json",
+      "sha256": "c510d594d5d413889c71ded72373bbdf125d7a1467a0df04352111d6ad585db3"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\c5c19b33beaba3bf7bd39a3e350afeff7ad13502b2448d6a2f4f5662ca5ef176.json",
+      "sha256": "076fc7d6a7a12db5dae61dd5a34d08d603e88d0ac74e8e03e95f0dc46e3a0802"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\c649ac132fa69d07dfe78b1da6e8ce5b8b5ad6f5e3fce0779ee04ce590bd7cfe.json",
+      "sha256": "f94d566560b0e7f2187f10ee571b8aeb256e8601297712a788c22d11193a1d74"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\c7bbd335e26be3cfab01fbcfc753b46ed823ed2f597eac5335adbae38f84e950.json",
+      "sha256": "3b33f273b7411b03c175e414a148ce902985351cdd396254cb9aad7295815832"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\c883f2fe3265c5cf39e38cca51be629d2984bd99fd76d07d5704b68b99b9d0b3.json",
+      "sha256": "ac8e19371ac4d66a17d51e6eb5471b2eced7b6e954b219d1ff18808173895802"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\c886908ebe65238cd639ac62d2d62b0be1ca22090825ed986ce98efd25ea4b42.json",
+      "sha256": "88d1ed3fb32555f47ad7f1c30b3cc187040148a41c95a1ad108a1856aeefcc1d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\c8e47b9817601da64287ecc0faf1ad09efcff71b6c4eb79ac5ce9a648d433ddf.json",
+      "sha256": "34ff37bfc5d8607a498f69d750a09817ef99a07b3f7f9c2a1c546db4f6b4998f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\cd7cde9f80c066f97cb99d714447f2380d6356dcb86bba9e7536b449ff8536cb.json",
+      "sha256": "35bd21f62fa1d13845df42375c268b34da9848c230c80f1ac52bc7b9f8375998"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\cd8c173d3cb90f31493399bbf960fa2428428abaea03c8164b2baf8ac47f1eca.json",
+      "sha256": "3c340e7aa671ba6fae899bf43c0b6213541b3ea1de6d205417906d77487d7d92"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\cda82946e6d9eb498d70091502f43506c31881871011bf67f856ec86271a8991.json",
+      "sha256": "de0ae2c7feb3566a8c4cf56e2bcd29e0f18b5602d93183b7d834fdecb21ce97f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\ce68cccdc27ca2450ced17486c5248d0e957c554f2da821210b4ea74ad6082a7.json",
+      "sha256": "13360684bb91b12a15ea52250a3a7a671d1bf8bb8979f668051c57f71b9647b3"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\d192fb94b7e23d5b99ac2d8430e9f58b5759ef35cf0fa6c34243001d3fbb9ac0.json",
+      "sha256": "7728ca8998c5162af6846c8e9b2de8dec0b75584297e9edcc150eea77cdf67b3"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\d473d3f58eeefb6df836c9a02225184445f57d2dbfc1cd9e8cb5d5452c8a1a66.json",
+      "sha256": "1c534f944c6b1dae46f42482acfb326c372019359963bd352579e44ada4f5b1a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\d5039fd5ab69a12fdb408b774a45241928b3c0993fc14483a880174ac7230c56.json",
+      "sha256": "b95ded1f5f6484692d2e22cedd739fd79f0a9f356d4285b52de4fbeb589023fb"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\d684f0830d822b0193af1cafa537b802a8ba5cd0f37157b1e84c2712ca4e3ed3.json",
+      "sha256": "74ec588c565ba36c2649f243de9c48d8841c4a026becac5e09dc34db88026c3b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\d76de62fec4bd1861dd9216d3fb254f5188509d935c3adf289c7eb5ea12fe663.json",
+      "sha256": "af00032f0ad2a2d1169b2ee43fc75332cbe79a8e7d23db6fcb3e31f8d8052092"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\d8c742858d679985714b7b57d66133dac678821455bf2508e741e4d617e53ca2.json",
+      "sha256": "5599ead3906d1f875d2e73cef27ad37849a1af347ac56d40d008e65d24cee51c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\d9f8f9357766e7597e67b572b8a835a8c7ea603d90f8064403058ac2d21d768f.json",
+      "sha256": "56ec0a483725e9a350fab470b58a1a8404f5f4784b62af1f03b9831becf44604"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\dc3bf82fb7290003cb24c0588d9de07ec21f99757c5424a3012b6d345cb7be43.json",
+      "sha256": "a21b24bb8793bdd85faa2e760400caaba634e7b278ffd3a7b6c7cac342e58d80"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\dcd096207eef874738fee2090ae715dab868f6d924de7b6b98455e3fc671760a.json",
+      "sha256": "b08de37d37c9460b9c17ac86ac9427bd0a713611969f6e36e2bbce65cdc5a07c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\ded627924eaea3dab6606721bf2661d32d5a3e189318fd00b1bb8f2a3d68436d.json",
+      "sha256": "24edc654cf8b877ebc2a7083d7b77d5e9a45bb0a4aa70aeadb11d17e8f6e870f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\e25d715b98ee6112b0ec2dde7f36a218a7baed4c3f830d15c8c5394a8ddfa221.json",
+      "sha256": "88c10880dca479e7bcb30264a5293a63d7cfd4d827c496760ee5ef8d1a3c744b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\e2e1402900b3b7a65ce4fc974e53920456f94d5e9c3921dec483198fd407d745.json",
+      "sha256": "36cf78ec62e7ea4c7a9418f81cc016a2ef365b85b13b7ed4cdbb7d43c577be96"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\e2ff9e27917c116e848d96c218a2eeb7603be3cb15c52d0e33467e8102ce99ff.json",
+      "sha256": "19a8beca1c6df3a552995501e282a940b7e2b15ade6710420b3c5eb25fe6d4e2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\e3978320a8f0816038f4c22e0e78709e7ac345feb818cdaae5ce43c0ac034516.json",
+      "sha256": "bffa324959e8ed3ad64fdc045934af40a42b87d1c7bf1bd6c019024d084cbbbd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\e68de594171fbd5a886259ebd821e5727b55df53a1789d18d3ca1d6e06e7113e.json",
+      "sha256": "729b180f2e8cb6d6607669c6f8042f39df5dcf389dba59b7c1ea00c6b86395ca"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\e700b4bc9a72f6dc0f59cea9282e18a944b035b1a78ffb96c3d7ff94ecfd4692.json",
+      "sha256": "9b21006c7b70c5007c9c912b3e06fc49d80053f7c0dcb44e8c9bb5c98821c6c1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\e7855c5fb6ff29a0b3f81728e7c00e9a0768a39178139cfb8149a81f472c87b3.json",
+      "sha256": "97f047a64c7452af5f48a0c024773181a36aaf4cc148efd61101e19403f60b55"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\e917e2c4566e893104dd60799f90a4cc993b459df3b83dbe921922e51957f6de.json",
+      "sha256": "cc7ae415a91d51073de9f8de3e20d41a137cbb086cc173d004432c95d0e9f07f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\eb93b2246276463beaea97b6551b0891384bb03e936cde80681c5b1202117f85.json",
+      "sha256": "19b0c4bf7686f689dc7faf86841b9389b74ad0528135d0c06a91bf81642d2a5f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\ed05e6bc0a15819c971c54df58afec7eb4c4b6febcd205747a29ce41c282f227.json",
+      "sha256": "f3b3ad28ccdae1ec602c3408e241a30ed941886c1e54d2703fb0befa56c40178"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\ef52655ce77f478957c084b0dbff0ac7c2cf39a98988758eb8fa95fd4e7d1b2f.json",
+      "sha256": "2652ab812599748297bdc0d47c2c0713344e390fbf87a8a726978aa37dc9cbed"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\f0f9bba5a36344b6519a0e8f0ae053ce59108c22af1618654c8e4925cc231cbe.json",
+      "sha256": "b42a308b2fb0ee856ee993aa109a539e6746402ae221fba555dd9b18b8f3766d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\f1ff06ce16d0ca3dec30abc0b99cca49965abd27fcc4501716928d91da66c14c.json",
+      "sha256": "f4e49fb19cc98d0190135edeb00093db36e206d9555ac7b316b0d5fb6f334340"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\f516b383fa89468111636765bf58b4a46dde9731e54bbaa6b3094713a233f3f0.json",
+      "sha256": "38d672a4511ac76151181d929ef6bf2ce1f4bdc2918e8e03292c0c2d664a48b4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\f525cfd07789b868aaf2f9dedb72166c62c3d8053f65b2e68e9f6c7784350b78.json",
+      "sha256": "212dbf28a5e8021609133ee8b3551ef32bb24e9f6fc0024487ba7e48d7e6edc4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\f5addff0463519e9b1955ec31e70b710d872c827b14a39e3d87006d5ea8f068e.json",
+      "sha256": "6c4e95ed4dc61f63c3bf83aa7fe7fb62ba77faae1d81ed782066334a33b406aa"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\f7464797ea739fa4f4aa4da8a1edfa0d4b51ed559ed094770be1f84bb21f8dd5.json",
+      "sha256": "410b73fc4cb6e93abf9b0ada96352139fb45d287382fa9a4faf48fd7e5be8503"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\evidence\\retrievals\\fda259ae608835c21d3eafa598f147f84c7a52d761c3c65f1e43abc52990020b.json",
+      "sha256": "464a816bb382f6181dd7170635b624332d2cc8ea226fa108ff2f1b9129fb8f06"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\000660.KS.csv",
+      "sha256": "2495bd393c04b951ebb6b058178def135df70a831905dacb2e391b32d8cd5159"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\002475.SZ.csv",
+      "sha256": "62c9714b0ac51362fbf2b05cc0800e74c5d87ca2f2b0909c3e5b4c3bb64c8c5b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\005930.KS.csv",
+      "sha256": "447674b45905cdb0b40d908f9258d1a5d8f5156fb3e49b43ec14550ab7f577d7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\005935.KS.csv",
+      "sha256": "3cac6fd43eaeaae5381cbf9c8acc7719eb65d3fe00f614b50ef9f14614efc79f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\009150.KS.csv",
+      "sha256": "eb748a7cacfcf4b276e8e8892a0de6c25f699744400ac47b3f251001601b1eaa"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\2317.TW.csv",
+      "sha256": "991c7716e54f79d2878037da923f0e4e68f8fc6f9e766b638ea03902bc212f34"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\2330.TW.csv",
+      "sha256": "7d1257f7199424fa60748285f817cdb1bfa973b161594be618c746395ef4a5b9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\2382.TW.csv",
+      "sha256": "4052dc7325fb4b22d832f65155a960ba53ac0c05e68cda7e7068f7578289b481"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\2449.TW.csv",
+      "sha256": "8b9a37f1fa19fe13764c38bb72ebdbf0854e948756ad3a3a087f069cc92d4352"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\3037.TW.csv",
+      "sha256": "3b3f022dcde5fbf453fa364422b34bfcd3af18fb4311a8fa15188cbc49582f32"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\3231.TW.csv",
+      "sha256": "9460a518f231859eab594ff4b643171e695cfc6b84776a949fb25cb1576403c6"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\3436.T.csv",
+      "sha256": "f3021fb82753cf9776b7df8ecdd3e5218ac07ef875b3c29f089d7012026f8957"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\3443.TW.csv",
+      "sha256": "b08fdbb09658b48d5452afa64ab2b698eab2b42257cef5a0aba2aebeeb127924"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\3711.TW.csv",
+      "sha256": "b577049a18f85a9b2e9fa06066e2bd2a54aefc3e6e1d171af7abc3c525cd2162"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\4062.T.csv",
+      "sha256": "b33c01622795c90e7e4d3dd1ec4eb292c543e2303ff4be1df6ec638a8ee903e2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\4063.T.csv",
+      "sha256": "ba59b47e8c8e9ada3ea02ca1c17cda529ea791b44f6827dc8325f74d73df161f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\5347.TWO.csv",
+      "sha256": "c42dc22a306c4270e4eebdb2cca815a25e74e9301c62cf68d7b94f48bdabb86c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\6146.T.csv",
+      "sha256": "61ada1bc18af8ed969e9175783e3bdc8d5fe423ca1d653de1a2f57d773de2103"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\6488.TWO.csv",
+      "sha256": "e76594d70f467f5ce275e3ecabda970e0e158a7132568abd06e805a47aeaec59"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\6758.T.csv",
+      "sha256": "ed1160733302b929e630ef12a04220610a99efbe8a4c1f23b9a4e879d97ec739"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\6902.T.csv",
+      "sha256": "d81d3017899d46d011aa5e9d18816042daf16a4e2844698961d4f821dda67bae"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\7203.T.csv",
+      "sha256": "f58cfe8fe2cfa7c789953af39f513f4632a5540fc89b436821773632498959fc"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\8035.T.csv",
+      "sha256": "54ca4537957937f1a988c127c584f5303ddd2fbb8340e17f057d441826d07968"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\AAPL.csv",
+      "sha256": "ebfea9a4c881eb35c5b5771838534558cb2957da07791e8a2cf8cbd6ca4d8c6b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\ACN.csv",
+      "sha256": "b41f7594a4e7f9cf107a7f5570af6de39f4bb3e557d5eeeb585be619bf2856bc"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\AEIS.csv",
+      "sha256": "79e909fbc2602498a07dc0c7b528df38e3d05ba0c98d8078d6e3be20df7a0aa4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\AEP.csv",
+      "sha256": "098abcbb909f31688ad22b9777b007d9bbda6371bc0db61f943ebab33bbdf946"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\AMAT.csv",
+      "sha256": "f0c727b70e8d4a22e591a3ae5700f7b4a8fad579a34e1881e310951e9b1b8080"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\AMD.csv",
+      "sha256": "77d5479a3a4cdf191fe32f4a69b537348e7910382856427f1ee26f527d9977d2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\AMKR.csv",
+      "sha256": "3b241b362b24a408b330bf5e418252c8f2b24d7baaa98fdf50d7f2a473c7a411"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\AMZN.csv",
+      "sha256": "86af69a471f3696843851018b56c70d490e39ea183a295971e660d1d070e9ec5"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\ANET.csv",
+      "sha256": "ac452626797a71541501d802857bc60f91d3824c570d7dbe2b17ce2bfc114381"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\ASML.AS.csv",
+      "sha256": "d050f977d9e93647dcb96c7f2bf1628f38dc1addf45b871fed524f3c070b771e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\ASML.csv",
+      "sha256": "eb52827063a2ea32237464f81ab6814cfdc42c5100393d74ca081cbc06b70b81"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\ASX.csv",
+      "sha256": "4d4044f68625910d12464d9b12bb20d1807cdb2949fc582828280470960c4d10"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\AVGO.csv",
+      "sha256": "99547c98024ec65865ec2a6327faa3c6ac00f6a26ef0fc62515f313186b16841"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\BAM.csv",
+      "sha256": "d64787d024c413614e1f76e92b91b16c0b9c2c4b266237d79f69840588589011"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\BAM.TO.csv",
+      "sha256": "8c0549846007dc3143cf09bfbd0b29a2a1fcaa3f359068a7408e77bfbff2a684"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\BEP-UN.TO.csv",
+      "sha256": "cac36646c007a8d05716d38c8143f9e638f08f960a1824d455b6d2af21407441"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\BEP.csv",
+      "sha256": "87d718fe2881d3e025ad68c22b11eb97fac9d2d250bb4a3b59d9b18ed4924bab"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\BEPC.csv",
+      "sha256": "df557289db292587207f910ca575bf51e6de4602fa573f74533d6cc9a38e0164"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\BEPC.TO.csv",
+      "sha256": "3308a3180bd71cdb5a121cefd7b820c2fb10368852bd05264df211c55006ebd3"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\BLK.csv",
+      "sha256": "4ca36a18dff55dfc9315bc27b8a63bad9668fb69259761d800fe0f13bb5b145c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\BN.csv",
+      "sha256": "97435955d92d2fba6d26db24dc709249677b3b7175808734e4b064d6c31a9bf7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\BN.TO.csv",
+      "sha256": "d9ba814458770a7413be205f553a5f9aaf477c7b29ee3eb53b7745f4e93d989e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\BOX.csv",
+      "sha256": "2f4424aed75527e53d83e9b60fc5bc56bdbb143c99d41ce2ab07fe5ec20e6e9c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\BRZE.csv",
+      "sha256": "f16963b656d416ba7e9a121785f3dc8e53cc961fefe827eb338c96eb37bb535d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\CAP.PA.csv",
+      "sha256": "1282f819fff5bf77251e2e3a5d2f2d8ef1d81c51ee95261f6f35423464169440"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\CEG.csv",
+      "sha256": "e3a8d724b8fd47dbef03034f7e077b2571ef389e4e60cca93620863ecac5a277"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\COHR.csv",
+      "sha256": "375c712f31ce96f3e313b03b55a212dd62dc5651439e22d13f9b1d20910737ae"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\CRM.csv",
+      "sha256": "c4341211ee98ae106d3381c91d98f2a4361190130553ff9c6006a4c1f7202d59"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\CRUS.csv",
+      "sha256": "f9eb37b8662abf3f66fe7d484277511c917f05e5e4f0ff76b472c3184bdfc52f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\CRWV.csv",
+      "sha256": "a613cb151f079ddbc7e7727b8bb843fc8fc89976bd01aeb53e36e2f55141a8f5"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\CTSH.csv",
+      "sha256": "948f25d4532334ccc0dd27c0bdb7501e438ac39806d2886249bfa140bc0adcb1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\D.csv",
+      "sha256": "899cef04ffe357a9813f3f2135a07b828b61152c3ae164b2204e72c8171c413d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\DDOG.csv",
+      "sha256": "a7027912a448d285488d9ae903ab7363e49385b1b090119b9fb51333ccce8193"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\DELL.csv",
+      "sha256": "9965f889fc393d0c92d2df1cc0b652b874befc22f65aac93f83a0170cdee105f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\DOCU.csv",
+      "sha256": "dab5c8cbf15b7ef61bb34318155987f7fcd5fcffcb521c7d744a64493966064f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\ETN.csv",
+      "sha256": "1a29c9ac3fc54852649bdbb87a40c22f3896eeb4a7cfaa33d4096a2d8ab7dedf"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\FN.csv",
+      "sha256": "465da0ca3d018a3378baa80c2563e679b8774a334f5c805bffa744f5fbe93ab5"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\GEV.csv",
+      "sha256": "7d20889888e11b2c6134425479ea841349cb56eea93e6ddb26c9f4465c798c2a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\GFS.csv",
+      "sha256": "5a124b54b920cd6dc8259b416dbb44d2f3a745941dd3504325a03f9a0e6373ff"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\GLW.csv",
+      "sha256": "2457c30879dba916d07d30221a217fed76503cffb1ebeb69e1bc9f877fb9c3b5"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\GOOG.csv",
+      "sha256": "ed95a9ae8ef01bb4b678c478b951d4ee09b47efa2edac0bb1a3a4b1667e979e9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\GOOGL.csv",
+      "sha256": "dd33e62eb5d9f93318c7e3884856e871679ebca4e5a8ef2429616530e7bbf101"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\GS.csv",
+      "sha256": "957f60d46e80a4f329b0b496f482624a07e14b64026d295fd60557e9adbb2f15"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\GSAT.csv",
+      "sha256": "02206de76346fc36a662c8e69d20ff121d9aa4b91564b96ac51d9da2ca52580a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\HUBS.csv",
+      "sha256": "c731a7a214b9cdd9a024007b8919db1e40a50245a29c3a93aef7fbe9e672bf37"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\IBM.csv",
+      "sha256": "9703292a9ce4d1c0e201d16e52adefc6d6505f51514a165f6ddd9740d03e5348"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\IFX.DE.csv",
+      "sha256": "84c0a608310a0dab64a76bb5822a88f636b7d730f205a1adf72b611fd062b1ae"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\INFY.csv",
+      "sha256": "e68fb148a255e6173d1d65d026c79cabb6108ba79777d27bb37d840817705c91"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\INFY.NS.csv",
+      "sha256": "c1d0dd3910f243d6c83247c21d68ac073d697ff9ca3c73629d53b8dcb1983af7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\INTC.csv",
+      "sha256": "e453d58e3c1599d4b55cb0787e8da50c2b01ab9326fb94928f335e3c202aaed8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\IREN.csv",
+      "sha256": "414a1b3a39f76f2b7cd0625c6c6268372460d8b5fc45d9b350d9a727d23fa0bd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\JPM.csv",
+      "sha256": "a279c6452cec2df077dbeab100a77e9d095f3d810a3b3399187ffd046f18799c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\KLAC.csv",
+      "sha256": "f0cfef0a51e7aaaee643dc3f5b3866f4a3271d71d0b31a4666b38e2a580ef9d0"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\LEU.csv",
+      "sha256": "f8f123209c3699c5ff10f0cf9c8e594d6280b0c827800506a93a936abd9e1a4f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\LRCX.csv",
+      "sha256": "8ecfe14ad1cffe0c7670e150f03626b24b11de0864261514d6ee79c5aee7a8e1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\MA.csv",
+      "sha256": "405b14d38c9c56f45068c8b832833361be224f63edb24dfbd61d5378caccaa15"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\MMM.csv",
+      "sha256": "8f2ca7bb2162d8b9914ef3e101e6f7be0f4a70d7f6c080f8e7da32efe143b654"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\MP.csv",
+      "sha256": "3cf27078102ef77f157f516d1a261235818a38aafc807a30f8e2f7b7a20e63ec"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\MRVL.csv",
+      "sha256": "1d719b9d73a660ff66a1009deed69a2b0f0bfc4753542929e878feaa483e29b9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\MSFT.csv",
+      "sha256": "c3fc6a983adfb15cbb8944199f47c44b7fb791614e8692bb9f330aa48ad5c584"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\MU.csv",
+      "sha256": "2bfec68414c34027d83c33228707879d9b2869ee737001513e63e1a3ce00cfd3"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\NBIS.csv",
+      "sha256": "d6242b61858453e9876b6fe574dd6c6f8568f6cb915efa15bc8d6690c5cb248f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\NOW.csv",
+      "sha256": "038fa6e1e141b5b97c79e6ab491d8ffa8353858b99cbfe595e771a29382877ca"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\NVDA.csv",
+      "sha256": "9cd3ec7615486c7cebc7888801dc32983a65387d0c05d84847413dda94e25e0a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\NXPI.csv",
+      "sha256": "2b85846975f94a654cb32ef2c26160c081d6c9044e4be58e7b98335cd4a111c4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\ORCL.csv",
+      "sha256": "631a8a9935ffaf451350e3fe56e4ed81f157fd5c6bba30025cc2baa5385dfb69"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\PEP.csv",
+      "sha256": "bec6cf6138702016068052b114dfacc594dce66c01f8bce8f4507e388aed72d9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\Q.csv",
+      "sha256": "993a0d94e6aa5f292e8858e43a343c2e1843340681257010d14c0ff88ed27640"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\QCOM.csv",
+      "sha256": "3b24995202da2bbeb01da3dcebd8af01dae3ce0d3c82379942bc55adefce8602"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\RIVN.csv",
+      "sha256": "55022f68de0c719c507d4d449ce1f3eee1e5c2177ff28ae075dfd79cdef4afc9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\SAP.csv",
+      "sha256": "a2f11307137ee5d11668760dc2d13583dfc315035c2aaea396e86b5b6cc195c8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\SAP.DE.csv",
+      "sha256": "7fa6f4cfa433beb8f9001974d06d9a9e2ffa4f04cc508a9f571b746d0bb4df20"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\SIE.DE.csv",
+      "sha256": "158d98c1b52a1beaf71af01d14a1b306b42acf1d8c86b265b64cd284f554911b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\SIEGY.csv",
+      "sha256": "0906c1ef6bf8a63c887035e6a939f3ad7128c1b8fa636fe86bff7384869430c8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\SNOW.csv",
+      "sha256": "8aa592d0f9815a0d14a0617eda45cfdf6042971428fe35d3b2e102ca2bca8b5e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\SONY.csv",
+      "sha256": "b4953d0db7c5099c6043794066a7076f2fe9895a08e0a381b83c35f11897d5f1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\SU.PA.csv",
+      "sha256": "04678b7bf7712cfe134a5c1319f2e14647557a6959bc5b043b59c723fbeb9428"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\SWKS.csv",
+      "sha256": "8c5316533b531fc35efad92669e2f0dfa224b83b54d72e14bbfa7e38d612f2f1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\T.csv",
+      "sha256": "fd1ac6b59a3b7e7d055c955e2237a38ee23b1bfa2e1ad7df91a9be80b8ed5868"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\TLN.csv",
+      "sha256": "8d8f533c7213655f5233b1e647623a1af206a82e9c81419e221406abd0739272"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\TM.csv",
+      "sha256": "2761bce5f12d47542e8d361272a03258c094dcb3376badbe6549ef0f6304e13e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\TMUS.csv",
+      "sha256": "81647881e1b87b63be8e9605032bd15a798de4e8343a5b1a03fd7389e87869be"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\TSM.csv",
+      "sha256": "027902149d066d042959f092f068478beca2e077e5dbb4c6eba9e36ac51c444f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\TXN.csv",
+      "sha256": "a8cb20e57edd046e81b58a1ec61f5fe079cced75a2449de0b3be73b126b4b857"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\VRT.csv",
+      "sha256": "61225e5bfd228eacd0b9c7029f959574ecc19dc4417d2452ad0dc1555416ba49"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\VZ.csv",
+      "sha256": "f72ccea90bffaafa3176aca37d2314e79de526a3bdf4c7b97efae81a463c8ce4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\WAF.DE.csv",
+      "sha256": "3baf2a1b28fa39581676c5692b1d95197ea5ca815b88969cb917a2f6fb27e431"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\WDAY.csv",
+      "sha256": "e38d12dc0136d18d834a336edba5a249bbe5b5eb92534ec8e3c57d1b2f175dab"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\WSM.csv",
+      "sha256": "cea3501dd55d59ab88fa1dd36bdd61e83faf0d3c6f607ce3860627fe4858b5cd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\hourly_ohlcv\\XE.csv",
+      "sha256": "efd3326fd914d9523219af7c9a39036e51ffd5be05c198ca4936dc681e38a8d9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\000660.KS.json",
+      "sha256": "f2fb1dc31310ad8b6e68a7de92c16b0458bb5f443f95f30b8a9b53fbc77cc859"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\002475.SZ.json",
+      "sha256": "7647495ccba7936e5b4a6a0371817a7e15545d13e9482560638cff1690b3ddd9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\005930.KS.json",
+      "sha256": "8345d2506a3c8c772a6dd2926dc5d321a063abc52b73eafdb0a63f3acd8aa9cb"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\005935.KS.json",
+      "sha256": "8b39b11d9ad5675228614acadd74e3fc669d937d7689e78d470b64fe9c95248b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\009150.KS.json",
+      "sha256": "d559aba1c2842ad15566b612102d31c5ca72790dfb53b0516e96c46af8a558de"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\2317.TW.json",
+      "sha256": "8e1b5f5435f6c4caa9895cfd8995ffd5cd98476ca71f2c3255dddc0356ebc404"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\2330.TW.json",
+      "sha256": "cc5c5b86e1db79dae3d449fceb2e3d17b12dd27758ef18c6f7a7d58e1757d30d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\2382.TW.json",
+      "sha256": "1abf913d54e182075001de6cab7b2c0a909c72d581687db2bb626720940b24b4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\2449.TW.json",
+      "sha256": "2b963e114fa40c47a7599d604e8a0806fdbd55af7a638e89224b3604474efe17"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\3037.TW.json",
+      "sha256": "7852200ce2924648d0efc46941f35279148cddcab1b964720881b8396d5b2e3b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\3231.TW.json",
+      "sha256": "efeb08a5d1e66fd5b58f8dfc5cbf5d740a4330b0fe08cf2fa9ed67e052d34783"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\3436.T.json",
+      "sha256": "a06c3c2b054c495219b8c7f404a6d34b0aae64666a2d80b506694715a80c69ae"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\3443.TW.json",
+      "sha256": "168984574cf55b53fe7829c60f534678303133afb66cfb4cf9a50382bccb4e40"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\3711.TW.json",
+      "sha256": "241569ebe60dcfadc6211a36e88482206531b5eae8471ddd61245c259a650492"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\4062.T.json",
+      "sha256": "a052bda1d4884f9c3679f02eb08cbc70f44a7841f0e0ea5b5d2535a52fc19e13"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\4063.T.json",
+      "sha256": "8e29fcb2b60a15acc4625be2072362941a556fde4398f38ef0db8ec0f582f9a7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\5347.TWO.json",
+      "sha256": "dc48dcb798908365a7135d094c794009d55de8d6c04332c6a645950d3c77f375"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\6146.T.json",
+      "sha256": "4a5377d349f390980c09cda638e856b36d951c9aefe0cf805c584a199930bb60"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\6488.TWO.json",
+      "sha256": "4ace87859c56699f629993e4e9ade6c6294f1a3b594fff537e668e88bba73f09"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\6758.T.json",
+      "sha256": "5d29194802adf89f9d1d7c62e7aea761530e99df90ea1c75d7c781d762519ab4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\6902.T.json",
+      "sha256": "b1ea94a1331fb32aeddb0594d98f29f4fb9cbe017462a523ab04a4f608d15be1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\7203.T.json",
+      "sha256": "933d7a17d742fe49e2a1106090f6a487975dc8683b2cf05146fade44b4b20b44"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\8035.T.json",
+      "sha256": "45735104d89ee7d85bd5b98db7727b16d7b29c53b235165e4cbe0c28f175dad5"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\AAPL.json",
+      "sha256": "6715043cabaa74852944fb77da00b8031ea55df8a7d6526d4c196e506509220c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\ACN.json",
+      "sha256": "d9827d7f280d9d19337a0b512ede201200aeaf1b86b947d0dfa54661ec1eab29"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\AEIS.json",
+      "sha256": "96c8757aefa671fbd47e37a22cbb8800c5f04e5b098f5ec07f05af24d6a53e75"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\AEP.json",
+      "sha256": "eb9288f6e65a998e62428e0f6ea1dbc5924ac15d406d3a7eec4639bd8e785fa2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\AMAT.json",
+      "sha256": "0901e3db7661e3944dd66b44a68b7f17696db91b0a5d1ea44072ae6315537be9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\AMD.json",
+      "sha256": "a89a9ce9c239105953ddc84b3c06d5f0b7ece7f73e0aae79c0500261e44ca5c6"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\AMKR.json",
+      "sha256": "7902d01d670175a33eebe4e1a8269d1f7f535d2864e54acc7b6fc944ebc8a99d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\AMZN.json",
+      "sha256": "3122783a53a5f26379e604e3952f6c2855ee59fceee6a3b9733ad01817cc85b0"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\ANET.json",
+      "sha256": "7d5b32cdf38b8fbab6469661088cadfe62b094a14908b7182fbb9c555d481304"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\ASML.AS.json",
+      "sha256": "591e70aa1106a130fc35e1a8769fac314ef31b6082acb1b03eb50698405156c1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\ASML.json",
+      "sha256": "e23c59bc01ae50fa5251089ea4cf19d251f53d234aa6fb1a1ed715944e470e16"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\ASX.json",
+      "sha256": "b2143f6e636ec7ddbfe492ddf4e24b7be3f04a13e74116a3ab09d2b3a2eef56a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\AVGO.json",
+      "sha256": "6c2a20dd57ebb0be55265b46e410fcc1c402e4c386fb4c7e16789d5d97512b53"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\BAM.json",
+      "sha256": "dac5b434edc919cc3fd1f86e24cac673f79f07e369d0668690930ac9f1d563c4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\BAM.TO.json",
+      "sha256": "9327458dd9e96496e05d7efe034a214bc713ec18768f520fdbf6732ee7c2405f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\BEP-UN.TO.json",
+      "sha256": "6178b5ffe24a303e040766e072d74ca0cfe952f056947295999170c13972333c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\BEP.json",
+      "sha256": "49c0d3c6c56fe1a69e05c978400740d24fd5e8cf11a9e097f5645c9ee5121732"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\BEPC.json",
+      "sha256": "c185598507d6f93a20ca0a4f839daff7a6929810975f60971c8e83e45dd975a0"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\BEPC.TO.json",
+      "sha256": "2b3081e7f26fe35375854fdb9634aa6a6554e422b8e20f5d255aab067d2ae1d6"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\BLK.json",
+      "sha256": "a658727d414e9b6752acd4faaa65515f86c64d1c84dc2fbf02eaa0de20003991"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\BN.json",
+      "sha256": "89dca5aa82994f60a75a37eac144979e426f8b7c1733ca53abfafd349f9d3214"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\BN.TO.json",
+      "sha256": "4d161b48dfb7f2cfeed47cc7005d59eb4d1c3fc514472596eb1a229c8ed8ce0a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\BOX.json",
+      "sha256": "1181635c2822f7410d3a88938a1e525383752de2f6c37e48384eabf8fcc51439"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\BRZE.json",
+      "sha256": "f83976f3f160255e719b758a4e1f29c98394bedcba7c075618850c1b70015bbd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\CAP.PA.json",
+      "sha256": "cbd1e422738605d6b1c4453e3cc708e588ce6023f13ccf7bb98da749343a8bc9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\CEG.json",
+      "sha256": "7a1a900d4d16b9e69de6c529091d1eeb8fbdfe9c3e4390e78afd01d3b46ccabc"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\COHR.json",
+      "sha256": "e697c4bf087536bb585b05382152000f7e08689befc5d409982ea0bd6238ac90"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\CRM.json",
+      "sha256": "86ede061e10d46015e541b678cfbabb5a49c133a525c5a23b038769a5ad91f1b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\CRUS.json",
+      "sha256": "41889c4bb9e7bbcb8c7bc9a2c284a7713b4aba52a067d92fa0eb15e5f2d19361"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\CRWV.json",
+      "sha256": "c18178d40fe71790a6c5439d24714b84c952ea2ff9d38cd228f4e30883b36ba1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\CTSH.json",
+      "sha256": "64d0f28faf60bf4a578a05a3592313c13a2f7dc699bb737eea34a55a5e747207"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\D.json",
+      "sha256": "47d67ff21d5c5f00f916d349a7f7a499288eafb269baa95b881d99e21dd61839"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\DDOG.json",
+      "sha256": "d12bdedccbda5beb3c1dcc1c75d237140de40b49e32eb18e0ff6f450ca0f49e7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\DELL.json",
+      "sha256": "a22c5f4055fecacea0629af5d80c01aa640e77f764f91aebf0d28702d5c86a8e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\DOCU.json",
+      "sha256": "6601be307d22406ce2b69dfce4558faf3428e5e2210d099768c10b336cff3ea9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\ETN.json",
+      "sha256": "218d627f6208a89d3894f6fecfec9996996e55332cb0034cbf7af6cc85e12cd3"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\FN.json",
+      "sha256": "a6c02ddad8b1c1d4da78cdabe4adce1d5142f12b20d548eca1d2e3cd0e252347"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\GEV.json",
+      "sha256": "ff6676bb278abba31ba6f16d8beef5fc7c0f4ac5fcf270687f711b97bbaa1719"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\GFS.json",
+      "sha256": "0df9cea9cb563babd8fa95687dd265e8ee5f8116ed417422916ddb7a9ae14b65"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\GLW.json",
+      "sha256": "9080e4594893ceb62af6fe99cc72fd4303d529783573c79f1dfc0b7c496341a3"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\GOOG.json",
+      "sha256": "9325c2efc1596fea6ae8d27f3279f407f79f87d5a4271c4b86886fd0ffd226cd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\GOOGL.json",
+      "sha256": "d803a57eed45d9cc1538c88d71432611bfcbd332d607d504fc952a410fd3ed47"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\GS.json",
+      "sha256": "69e06aaa022bb9ba08ed3b30ff72118056f56a367f9d12fd2edc89ed79da52f7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\GSAT.json",
+      "sha256": "d30ff84de50de8b7f334eb9e3cf6fe79844937f77818d22fb790def6ab76790d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\HUBS.json",
+      "sha256": "e6e9dcf7d54e48c6672c15d78b49e8c4086f5e5c1c5e85f16de7461481b51e4e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\IBM.json",
+      "sha256": "f9a73dc777b601d4311c33309b678ace4f291bb86ec686847ff5c1f536375253"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\IFX.DE.json",
+      "sha256": "957bd7a82a98ae1ee23d3536b88a65961c7ff0eaac0c6297a22af6d4b4d9d936"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\INFY.json",
+      "sha256": "a06961a4368a86cb4ce614df3208909b7f830f9c87750861f4de5e63abd23989"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\INFY.NS.json",
+      "sha256": "069617adcabc0d4b0372a68cb0528dcfe6776d371457b699491e3941cdc67656"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\INTC.json",
+      "sha256": "0580c02ce7898db000c85371d6e2a16527c04f2fdf801be5b3ebfc233045a06c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\IREN.json",
+      "sha256": "f145f774da7dc78551478d41c3a715554e3e113edab44c1b8b66c77998749195"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\JPM.json",
+      "sha256": "8e06e8260a3eee1dd940a284cd732c8dcb9e0ad14fe38b5019227c6b6b474a3b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\KLAC.json",
+      "sha256": "4c273e381aaa02c3be9d45e431d3a163459808d59ecb61b773a01a9b9606c3e0"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\LEU.json",
+      "sha256": "2320cce7d10513f087eb22f3369e9192a08af3d0b1ae11f63d029ea48145141d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\LRCX.json",
+      "sha256": "5cacc8a1babca0505a88f6b12dda86e1e280c97cd2ef1ea0dc5f2bfaea735a44"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\MA.json",
+      "sha256": "28d89a9d494d3fdd6b5a500e79af0b5ea03c08dc16042363ec501bf71a92a322"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\MMM.json",
+      "sha256": "ae2bc0282c686914f700b1d28312e78479683dbd062efbd4d73dfeaf640024c2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\MP.json",
+      "sha256": "fb5ca7f02eebb18f90fa18e13eae8148c747f2572e3691e4ed9ae1b31101ac97"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\MRVL.json",
+      "sha256": "12d8320e5a7abf36d8eeb704ed902c02f766e1d5acb79d2f3e203b3fb4c14303"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\MSFT.json",
+      "sha256": "8fd9e24e92471fc87352783ed3ac2147b60bd82ee71857253224ac19f1fca049"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\MU.json",
+      "sha256": "8cc947ebf806d68911af3a4882ca272be731246e3b1da8f9910572493d492d1e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\NBIS.json",
+      "sha256": "748a3e7f65a27ee37064f3f55bf7db86e87ace725e8f40284a8ca294e4832c38"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\NOW.json",
+      "sha256": "4a32b771467470d39d03bba8eab23635375e0265c4328a4b2e3c5b51829244b8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\NVDA.json",
+      "sha256": "a64f4abda2d518f42315b8ba571cf945906bab737e7eee30a900ca365ae31350"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\NXPI.json",
+      "sha256": "fe70e9531819370ec1ed7c76e06eba30353b1c0873a6ac0fefc870162721d1d1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\ORCL.json",
+      "sha256": "3ac81bbe67b16cd36a85f8a475c7046936943c81d262e9713fadcaefa385fdd7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\PEP.json",
+      "sha256": "5fbb377c66ec94510c65098326f0af4317d7fe9bda4f99a60d45e71cf387123e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\Q.json",
+      "sha256": "6a7b2672ccb37e68ffe3c81d7bf0989d2b90b73d4034bdd47cb404a8b3539e4e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\QCOM.json",
+      "sha256": "0dfff0956551e3a6765e803101554ebca8b3e33fadb02bfd469600dcbdee49e2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\RIVN.json",
+      "sha256": "911280fa0f1985bc0767bb4bcba0e83e763ca1191992df8fdacbc387534af453"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\SAP.DE.json",
+      "sha256": "9b6979a9e0ab4a9e13f8c98c2ec2c1f5dfc8b8ca7df1884c0c9361013530dba5"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\SAP.json",
+      "sha256": "a60209d1768aa7f8072db73869204c3f99f031f7ce196df11f2e54f42a9e25a2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\SIE.DE.json",
+      "sha256": "2205f8bf4176d127daac59ba791848a37d9656a9f966fd9db3d759ddec671196"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\SIEGY.json",
+      "sha256": "30f30cfad35dff2f054728e470f6dd2cd6a662c7e23caff13444530bc1a61485"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\SNOW.json",
+      "sha256": "bc2d7039bac526b1afdb3b6dd6778e892f251d29ed3427e73d997f7572fa45b1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\SONY.json",
+      "sha256": "eb904a878146a76b85df230a583d87719be82f85d09b7731ec4e2703c244b340"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\SU.PA.json",
+      "sha256": "5fa5aefed66328d688809e8672ccf5df344b466aee09b869bf6da9fa9b4520c0"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\SWKS.json",
+      "sha256": "c32febce608e31e230f6e74913728da3b9ca5c6cf702a2ae1f7bc974eef11faf"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\T.json",
+      "sha256": "36b4c9f6b2c6d3d7a6e71695ba41b80bb8d8f71c8b6806540e40f1484cb3d949"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\TLN.json",
+      "sha256": "ac3e0f80d91ad60198a0a42db71910908fafe3b3725763ac7b2e06e3a7acc19a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\TM.json",
+      "sha256": "c4f0f0f442b751e5a2f07b9c9b89e0e15904f23c3a58c9b341da0af032f1b0da"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\TMUS.json",
+      "sha256": "5050c3e88a1eeca61ea76d55ce56cc89825d30bcf9d637ed912a17baf8fd8ddb"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\TSM.json",
+      "sha256": "6d6bf0d1f8b3776a75da0c2dda0ee159a3029192b4bce08600db901d7719f3ec"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\TXN.json",
+      "sha256": "66e2f5e366c83b2e4781dd2edb577c1479e5e9098c6831890ed84d76d86b0fcd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\VRT.json",
+      "sha256": "896a44fb39dbd2e70144f491aaffb267f42598a1986e04e0aa27d9c8a1d984c7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\VZ.json",
+      "sha256": "ee0debc2ba6b0c00fa343e9b313a8b1081aafecb5ff775147280c227c5f89134"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\WAF.DE.json",
+      "sha256": "ad2c3ebf7e7f8a9b35ae1cc0470253b8f3963273e0164208dfe02caf252b8af3"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\WDAY.json",
+      "sha256": "c5d650d5d228627bd3dadb7b880b0a8ddd48d177c724a5ca0c1dfd9778ac7f1a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\WSM.json",
+      "sha256": "d7ddb236a5c2291fe0539e8969b12a8abc022a1cbdba311b6ac1e40bd25715ac"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\economic_link_atlas\\availability\\metadata\\XE.json",
+      "sha256": "63d56fd8ea560c3ed79fd42116befea4d4d4d8eb3567dc598c52b180b33f1f30"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\PLAN.md",
+      "sha256": "9ee3697696dfb93cf3255cb7813c361c2d59fa0c23f9f97490359baebed98274"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\QA.md",
+      "sha256": "1f0b02fa944121b300c7df8b39f8ac43407e37161f7e0628c8fa8eaab7784b66"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\README.md",
+      "sha256": "9d3aa4b9865d75065b2ac25d11a41c7fb321e61fb74bb1ede6ffdb1b23893954"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\REPORT.html",
+      "sha256": "ed815be46cc1246353188a1ad82d83f3afdcbb26ce4c6850a4f871a8b7954d22"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\REPORT.md",
+      "sha256": "36ba105973a978000f2333cd3c611c127471127a18838ce6ff5f871051541ce4"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\REPORT_PACKAGE.zip",
+      "sha256": "89c2587da055df5007c287f56c0fbf0fd42fb1067664121fbe5e77c370592b29"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\requirements.txt",
+      "sha256": "876318173b4016661844759f456137382240c0dfac2170a8eb2754fcf2363758"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\manifest.json",
+      "sha256": "d90e5cc3da65d64604a044903330cd8582c40588beea3bd48dc6395545d0ff43"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\figures\\01_data_windows.png",
+      "sha256": "e8bb95e382a657851f08255654a19e4d01eafeda5c3b22315bb72a199f98f6b7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\figures\\02_simultaneous.png",
+      "sha256": "fe16d77363d7cf597a410e31b84255a0d8f334fcece6ced63f3f1bb0ce62694c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\figures\\03_lag_curves.png",
+      "sha256": "dff9a3dbb057bf84ec6d2f037f416051b87fc1bd5d8304c7d064cdb8592620a6"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\figures\\04_stability.png",
+      "sha256": "c37a82f4bd4dc1da72b415e23b71f0da6e5714a07b9210928410e0bf5f502424"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\figures\\05_peer_increment.png",
+      "sha256": "bfd0c0d10948ecd808c8757013e73ff1cb8996443c9b1ab294d62dee5c897c1b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\figures\\06_magnitude_skill.png",
+      "sha256": "062d16f76b0e51cd91c789afe9422a3d0546b321325e27ad5049bd144702a300"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\figures\\07_clock_followup.png",
+      "sha256": "d272269e3940841f9635a8139113255fde0e24234736c262aa3e91a3dd8e8072"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\figures\\08_cost_sensitivity.png",
+      "sha256": "87d0604a3f2853a70061c163f8d968a9e25863da2353828a827143641a28df29"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\figures\\09_placebo.png",
+      "sha256": "7fb4b23c4aa4b5351d10c49b629ee67380c7c93aec35fd7e416b1561bd52bf4d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\figures\\10_year_company.png",
+      "sha256": "3e30dd0162241f4d3f1f5bfc21ac5b0153aabe4c5d2a57d0ee4a1186bbfc8200"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\logs\\statistics.log",
+      "sha256": "442b97b2ff999727cf7c354220e9af3e58df0467927fe5f898744ff04c3d1507"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\logs\\study.log",
+      "sha256": "08696a207588b47c9a192abaf0b42c75b4738b83c59231f195cd1edcc7951464"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\predictions\\1m_predictions.csv",
+      "sha256": "0f2155a53a6bd146e344df52defffeee7efcf30ab35fd95d198e8bbb7c0405f7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\predictions\\5m_predictions.csv",
+      "sha256": "47fa8599a6271c588dd77d24155edb98c9bb984d1b8377e02fe3d801c5ef97fa"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\predictions\\all_predictions.csv",
+      "sha256": "3227fdd6856b02db5b342167544514eb97a119c3e30d408a70739bf7a53b5b2d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\predictions\\daily_predictions.csv",
+      "sha256": "644e0d04462962a8dfaa61d4d19cb4b554694503955be525ac3592fc023f9e3b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\preview\\desktop.png",
+      "sha256": "90999dd7ad01dafff6e062378a834fcd178ece9621864a2b763f4a97c251e6d7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\preview\\mobile.png",
+      "sha256": "984ba3ea5cdc15df0d2ba5944bd73a70c516651c4ebc69f33369be0f3db935a3"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\preview\\model_table.png",
+      "sha256": "87cd8f775331b461eba8f99c3fa1efa043c7a32ac943a9c94bd9d58fd71674a1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\processed\\1m_residuals.csv",
+      "sha256": "89912ba2d15d76d4d8a2e379e82797a21dc9e86a02fb341c9038975db0ef6c02"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\processed\\1m_returns.csv",
+      "sha256": "2f9fa403eb8c256ab8d3800e2a3124970921de175b8a7b189bdbf8cc473b2f65"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\processed\\5m_residuals.csv",
+      "sha256": "2b5a3db4cee25f14450dbb24ebb3c24380635738444988a27df4f71470939ea8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\processed\\5m_returns.csv",
+      "sha256": "ff7b1c16ed4ad61d27312f243a2f70664cc89aebc7569783c8c32ca485c53452"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\processed\\daily_residuals.csv",
+      "sha256": "1094adab677bfdd4d0540a3805be6819193069e78dc918770bce13dccb47b112"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\processed\\daily_returns.csv",
+      "sha256": "60cc88f9451019ed98e0c909a9615fecbfaf1d66cde6fbe922d89e4cb8dc6033"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\results\\cross_resolution_audit.csv",
+      "sha256": "0058e22fa95ca914db820b60f7c66b5ecc118390914bc53d047d9a8c83b16608"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\results\\data_audit.json",
+      "sha256": "692421f590f130c2a4fb20fc8b00b7b1e1910a825569b0635dc118429be4012e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\results\\equity_curves.csv",
+      "sha256": "13294d36aabdceb731a484eca387669569eeec92178f8e692a690a821ab7ac57"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\results\\frozen_selections.json",
+      "sha256": "c46877d9651866e19b89f334f963a1c46bd96067b997d1654a73cfc366676b60"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\results\\model_metrics.csv",
+      "sha256": "8f946e1547339f23c47c4ee751e455d54aeed82a8d4912a30a628cdd2e31cc93"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\results\\paired_comparisons.csv",
+      "sha256": "8357c59826b073a73e493b7e8cb7356268702fd3885dd4b9628a1eaa9e89a5d7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\results\\per_company_metrics.csv",
+      "sha256": "f0c973ff73ab6127a55294c085ea9297efd66a4e79137f85353c4a3312f9292d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\results\\portfolio_metrics.csv",
+      "sha256": "aca9ad29e4c756db79444f6ec61f5131068a4cf212e153915f9ddd150563b27d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\results\\report_layout_checks.json",
+      "sha256": "86af7d644710b4bb9c2dd532a755e309bd094ac7febe45a147ec5452ae5dcded"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\results\\rolling_correlations.csv",
+      "sha256": "6069cd53225612b494e7c678208f7aacbaa67e1d1e848cfb2d406f73d08efcde"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\results\\run_summary.json",
+      "sha256": "4691a421381ebf276ca83f90fbb02139696a6b7258d94981b4bd5ca28e1cba83"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\results\\statistical_qa_correction.json",
+      "sha256": "0f164f55f1b5d864db3f690d76bfec5e30af04e40ff20b2517b8b96ccfc70444"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\results\\time_stability.csv",
+      "sha256": "7ea34da3ebe994598a582afe36bd23fda747e30fe7ee8121db244bf694ae10f9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\results\\verification.json",
+      "sha256": "d9b769855c4ad85996f752b10bea34f2dd0e4aa86d9f2813642d40903dbad5df"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\src\\build_report.py",
+      "sha256": "2ae78e2e7a28f5a25510259876d0609b1833172777da0d2a90ac93e918520643"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\src\\fetch_data.py",
+      "sha256": "74d2a067ae036847a07b3f179b3b49c1161382bc4d9a845cc1b0f7d69b45446c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\src\\finalize_accounting.py",
+      "sha256": "a159951889dbb2dc04adad2a8f2c6d79061d1d94b4e7f14223b1aff40c05ba8c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\src\\preview_report.cjs",
+      "sha256": "7379ab980d8fbebf77e8f5a27cc588ec1ba2d62d9217ec0ecf402bbb8642ba57"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\src\\refine_statistics.py",
+      "sha256": "d1e754ed1414b1a3b46f68697b03f9c8db6ba8c6c5382adb83290bef9755969e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\src\\study.py",
+      "sha256": "2e8ae9e104cdbffd876b70d1055b9b03e63cec82aaf0152f7fc9803ecddeb95d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\src\\verify.py",
+      "sha256": "d1a6b8160dfe9a43db84c8e199623d5b13179dad9756d9451faad1b991fc4d31"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\clock_adjusted_magnitude\\README.md",
+      "sha256": "d0077bee0005b77c1930152a3bbe6f056b8f338df58d281d1d910314d391b642"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\clock_adjusted_magnitude\\results.csv",
+      "sha256": "f8c58cf2ea75973878adf2a48161927db974dd66e4225ca9f1323316ef282946"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\conditional_linear\\README.md",
+      "sha256": "3eb92350e913530bb99c02d08351f60b0e0e94c0c1fccbdd234deb1df0803b95"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\conditional_linear\\results.csv",
+      "sha256": "950b93631303f099477d2a45e20e5788580876d2a0c0ed2c2cef9c1e50e1b4d2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\cross_correlation\\frozen_confirmation.csv",
+      "sha256": "f46b86b069098315953c99c6ccc5ec4938f807ecedbc7521b9f848d7cad7b7bd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\cross_correlation\\README.md",
+      "sha256": "74ff0a9a6559bed57a07e72f1b975edbe3e3d62f61e96069f049a266d9195946"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\cross_correlation\\training_scan.csv",
+      "sha256": "ffeae1dfe797c9063c8c9402ee4ebfa0fc843535946ba6587febd1f679ed251c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\placebo\\README.md",
+      "sha256": "be1d00037e94a8e1e8168bb42ab082ccd2259c3599f90b374b8f9f70bb57771d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\placebo\\results.csv",
+      "sha256": "e07fb396190271668e0ac0bb279f34a45c83fb16ce3669da09155a7d101b2352"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_magnitude_ridge_own_market_frozen.json",
+      "sha256": "908ea991fc3101a53b084faec1a955c5cdab3d9506898eed25e3ffeb7d2bbe0e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_magnitude_ridge_peers_frozen.json",
+      "sha256": "9926e6fad2398a4933bd73342da52b08ad50798a67c9f5c3faff839c9e2a57fd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_magnitude_xgboost_own_market_AAPL_importance.csv",
+      "sha256": "46b691208552f25fd12756c4ab3a7b8482e7dbf59a8a3b0164461e66ed79f193"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_magnitude_xgboost_own_market_AMD_importance.csv",
+      "sha256": "a01fc80174344b47f5d0c1c0271bd541dc176e9addc5b04d211982f85332600b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_magnitude_xgboost_own_market_frozen.json",
+      "sha256": "ec727790708a159242e66324361a7cdb077aa94579f57f589de3d31e7e983c9c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_magnitude_xgboost_own_market_META_importance.csv",
+      "sha256": "7cb87201323f0dc7a4de615d1d745a3195b11d6a96a07dc39da724b8672801e5"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_magnitude_xgboost_own_market_MSFT_importance.csv",
+      "sha256": "4bc91b5d53b041ad89a9c2331d742b397d4a610d52f1009c51b29324e383f966"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_magnitude_xgboost_own_market_NVDA_importance.csv",
+      "sha256": "b54e7a758518328b830877bc4d2bbd88c739cbe64e8552004749a4fe6c97c8fc"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_magnitude_xgboost_peers_AAPL_importance.csv",
+      "sha256": "42d1a472e83670a8bf45f350050a216ff7884c6e3c6b65048fe0a9b5355904c8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_magnitude_xgboost_peers_AMD_importance.csv",
+      "sha256": "79329f8bbff6a98d2357c4a542cfce67384474dc79df2d294b1ec4842e160995"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_magnitude_xgboost_peers_frozen.json",
+      "sha256": "f95013b2458f55af3e1321d20edbb9e00779355d80e5464024f22826827c965e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_magnitude_xgboost_peers_META_importance.csv",
+      "sha256": "5d25adfe15f6ea856ecf8290b932c187314d3b77c18155bf0b29492edd29dc8b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_magnitude_xgboost_peers_MSFT_importance.csv",
+      "sha256": "f8aa16922a8ef04773abacbc84b5d8fbfac5d5b47797bb54ff22a8017f20510d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_magnitude_xgboost_peers_NVDA_importance.csv",
+      "sha256": "3e05333ff298d7a128788c77ed435d1f5b4a55375544c0e9e3c492745b0ba395"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_return_ridge_own_market_frozen.json",
+      "sha256": "8be1c4e3ee4c02c3532bd66b5d0951f671a54bece561271f41a147b3eb6b6a09"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_return_ridge_peers_frozen.json",
+      "sha256": "ad147ce90e03861b3ceb7ed84876949328e8f55d3e318bb7387c701d2f21dfa1"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_return_xgboost_own_market_AAPL_importance.csv",
+      "sha256": "2c71de2f13715db805a0a69e07b52efa7d99879d95334c33d7ffdd7b99daaee3"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_return_xgboost_own_market_AMD_importance.csv",
+      "sha256": "69aca1cc7afa2bbe5029c00b32595121eeac55a0c9925cbf5eef6d5b04b4afc7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_return_xgboost_own_market_frozen.json",
+      "sha256": "60d836d014539f6b19be5d66512a7374fbc0529bdf796276774a694012768ffc"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_return_xgboost_own_market_META_importance.csv",
+      "sha256": "507c825937e00d407a13943cde01fe1b67e38e85cd7dffbea61a8d216cb676fd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_return_xgboost_own_market_MSFT_importance.csv",
+      "sha256": "11ed1d4750928d0ea7492f0013343a28275a2c18f96846f7b7c6505871bc2305"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_return_xgboost_own_market_NVDA_importance.csv",
+      "sha256": "a16e3572496a644712a791a7eba14c14bbdac02bbd98711a3c4618e8efa7763f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_return_xgboost_peers_AAPL_importance.csv",
+      "sha256": "19edbf09e5f62b23802808d2df34f7319830386de0788159d01db19615a7bef2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_return_xgboost_peers_AMD_importance.csv",
+      "sha256": "729571abc6bde760692124ea441c661494d0dc5cf773c2d1ee09dd065c6d607b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_return_xgboost_peers_frozen.json",
+      "sha256": "8e5b9ba31ba695f2da67a175dcd132268b7be1610b34fa2d223b77fb71d358c8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_return_xgboost_peers_META_importance.csv",
+      "sha256": "e2f6610cc2988a3e20638d5d45577e8549797f07e79994a05dce5abe811c29ab"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_return_xgboost_peers_MSFT_importance.csv",
+      "sha256": "c5137c648845a085f6f785cede0ca69238b35eaad4e510e0acb56336c23a4eaf"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_return_xgboost_peers_NVDA_importance.csv",
+      "sha256": "e96b607e9834be8b0741ca49dbaf23ff7c65d2f7156f8a202ac10b5895a86956"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\1m_trials.csv",
+      "sha256": "7ca034591520231fdb0facbef1830f8ad6af9ebbaa010f8343cdf48cb42c0d1b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_magnitude_ridge_own_market_frozen.json",
+      "sha256": "b94da556b1d7ec46b324390be537c7bc1dbbc2a1b6c55fdf1fed19d8c788d1de"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_magnitude_ridge_peers_frozen.json",
+      "sha256": "660516e8dc67ce330985f89744ac7c7d6449f9afa921dc27f1fedf996118da4b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_magnitude_xgboost_own_market_AAPL_importance.csv",
+      "sha256": "f1594ab0244a12c7bc15b0e7e432361e954622cac094d0ed9c54e3064a8adada"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_magnitude_xgboost_own_market_AMD_importance.csv",
+      "sha256": "f2d7fb38c2541a814b1e0eb50fa4590fd72bce1908ea1ecf1f56e2a201b89af2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_magnitude_xgboost_own_market_frozen.json",
+      "sha256": "ce30f262c78b469c1902b5a0562ff2f6f9aa3d62f450022a4ceabda2e8afa205"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_magnitude_xgboost_own_market_META_importance.csv",
+      "sha256": "19aa05cd5142935acf6e906c1ee59af95636648b3f56236c9ed711db77f8d01c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_magnitude_xgboost_own_market_MSFT_importance.csv",
+      "sha256": "d928ea29ab27669f645f74300fa2435dfc42906c7191490b021fcb680a50ae81"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_magnitude_xgboost_own_market_NVDA_importance.csv",
+      "sha256": "26895cb22d2e29f83a30c4fa1586c716c14f4d42c05a196bddb2b4bbfb7c9e17"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_magnitude_xgboost_peers_AAPL_importance.csv",
+      "sha256": "99b2cc123ec44df386c3c252811f2eddd4f28cfd62f64d30d5560fe9ece4ce76"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_magnitude_xgboost_peers_AMD_importance.csv",
+      "sha256": "bb9349e7b75fe705ca5b93c6ebcf049a8399864dac11e1d41573f849e3686d9f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_magnitude_xgboost_peers_frozen.json",
+      "sha256": "92bb82907932e734832d838ccec951bcb5e949e316889937c4c43a28dc9942c7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_magnitude_xgboost_peers_META_importance.csv",
+      "sha256": "8ea8654ab7fab3dd8f3e8e2bafd39741b5f5c831add452c7e2427d6a8435df96"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_magnitude_xgboost_peers_MSFT_importance.csv",
+      "sha256": "9513a9ff0116584cfc5310b7447ebb55e950c03d9f3f32bbcb099393acbedec9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_magnitude_xgboost_peers_NVDA_importance.csv",
+      "sha256": "fac3fef47da17d5e30a73a7a4b7d3e16c3c0d2be0b4a2220aac6402d245fadd2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_return_ridge_own_market_frozen.json",
+      "sha256": "6427ee0b27616c896cfc4b86bb483fc6e8bc1d7483946d87ce317af25df58439"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_return_ridge_peers_frozen.json",
+      "sha256": "6c17dfed8254208ef00750798557db494cee28477d7e36226fe1c35ea8ed1f52"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_return_xgboost_own_market_AAPL_importance.csv",
+      "sha256": "046b519c8da617a03f6abe1c0724ad24587f80676bd33ccb90db502bfd108dea"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_return_xgboost_own_market_AMD_importance.csv",
+      "sha256": "8410115ee45dc03b7371f24d0bd5bf9433ba244b46207760ce4b5ec8bcfb9e61"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_return_xgboost_own_market_frozen.json",
+      "sha256": "9acbd47dae66105d1dc77c8047a500a01e6b3c621beb3b31a9440b20670ee9fb"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_return_xgboost_own_market_META_importance.csv",
+      "sha256": "b3223b3e8212a1e2e2d23fe2805f97970236a067782cac8da4d8140d2ea4858a"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_return_xgboost_own_market_MSFT_importance.csv",
+      "sha256": "cb1f03bc1e4cf6904e8f41b3b8c64414b172ccae68d5847e7b83bdef55569e4e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_return_xgboost_own_market_NVDA_importance.csv",
+      "sha256": "c46a156d274bb4197d72438d7ce9ff2f128b9251796edc5a72b153b8acba7625"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_return_xgboost_peers_AAPL_importance.csv",
+      "sha256": "2bd9ba55224bfbb86dd3988e5fb0c0952ba5b914489a4bf571084af40d56493c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_return_xgboost_peers_AMD_importance.csv",
+      "sha256": "ae1ddc13af04071eb7027806746e1a7336758674ac16776accbc31518420f55e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_return_xgboost_peers_frozen.json",
+      "sha256": "5c57f8d963ec6b6a2129fed7db212c924bba609fd0805e0883d128c400357bd7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_return_xgboost_peers_META_importance.csv",
+      "sha256": "b71e913e32a691f99532f785b616c635dbc19951f0d1c5ad651c9f23db65f80f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_return_xgboost_peers_MSFT_importance.csv",
+      "sha256": "13e723722a4ca4ffa8188c3f47934f19b882b064cd3954c4c9b991a95c9c8e76"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_return_xgboost_peers_NVDA_importance.csv",
+      "sha256": "9b70d47bce4e4b42ea57ee6e8685969492ed1975c9712d5c298477379f7dcdf7"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\5m_trials.csv",
+      "sha256": "a38a4c32068a66d5b6719978d16a961da239eb3077405d460bf85b96c9779871"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_magnitude_ridge_own_market_frozen.json",
+      "sha256": "b403546508d44b07c2acfb58b11ac2f68bbcab01cc1a92633c18ab6243841e72"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_magnitude_ridge_peers_frozen.json",
+      "sha256": "b6098e429e7ee0296536e76d25e1649c202a46c514f9b9a4f8d53ade6664152e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_magnitude_xgboost_own_market_AAPL_importance.csv",
+      "sha256": "286e5fa587d3c26b412a1c1157648da10af9d2eb8dd7bc694cd8fc62d3e61e3d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_magnitude_xgboost_own_market_AMD_importance.csv",
+      "sha256": "f51e4bcc00fcd766362a64833d75d47401e68a2f5538433a39fe8e33518339ea"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_magnitude_xgboost_own_market_frozen.json",
+      "sha256": "48b9b5433762acd4d49c912725cfb9cc1d564755e28a9b0578575a7a41a00eed"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_magnitude_xgboost_own_market_META_importance.csv",
+      "sha256": "a5bd8c5163eb102684d1d4dd1e334a65ef7c01fdbd27d24107981805f9ae1f50"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_magnitude_xgboost_own_market_MSFT_importance.csv",
+      "sha256": "a466dbdf1bda637203efeb29fa3389c435be621d6112b63b7a748671169e1d06"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_magnitude_xgboost_own_market_NVDA_importance.csv",
+      "sha256": "9ac8d85bc1dae2ed40c65acdd87e7074a4defdce41e1dd810739eb95eebe9057"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_magnitude_xgboost_peers_AAPL_importance.csv",
+      "sha256": "403514e606e840bad4caa4cd6edea1d5f8a0c49f5baecf7cf3cc5100bc2c5bdd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_magnitude_xgboost_peers_AMD_importance.csv",
+      "sha256": "1535bd19d18a5af25825b390b8dd9071a7c86f14d2e2d6095237ba7c47159aab"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_magnitude_xgboost_peers_frozen.json",
+      "sha256": "c766f8f2f58b6d4945c786801f53439aa95ebdfa99db26cba83465c93e0ef8b0"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_magnitude_xgboost_peers_META_importance.csv",
+      "sha256": "65a52bdc6baa2cee9421803cf7f4308c5f22fa85d6563ed5665e7eca7645f2c5"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_magnitude_xgboost_peers_MSFT_importance.csv",
+      "sha256": "c4a8e0e6aa6c2e6fcf94191319d49d0c53aad963e66ecd7eab0b5922fc1067fd"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_magnitude_xgboost_peers_NVDA_importance.csv",
+      "sha256": "4de5a156d87ebde8f6f4d2a3eac9fb1dc93edb53125ef8b0a98a1351cd655fb5"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_return_ridge_own_market_frozen.json",
+      "sha256": "fe26473101e84c694ee713d4729695a4c9fe2fd06422d435bdd4129bc1c6bd27"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_return_ridge_peers_frozen.json",
+      "sha256": "f174d85fc5a3fd5b1b56492fcd393d1b80ed82d5f10d787c7c47f5d8d1dc4cd9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_return_xgboost_own_market_AAPL_importance.csv",
+      "sha256": "38d2bc3773e48c7414c1a4de2b635e49403163c08f2af293deab4791778e698c"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_return_xgboost_own_market_AMD_importance.csv",
+      "sha256": "8f2376428b82352cf1ae4bedeedc0b1a4fd1cdaae289b7423a36e839a2254a79"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_return_xgboost_own_market_frozen.json",
+      "sha256": "4cdba3da6e18cabd9d90ea5433cdc66306195fbe479c8b32e9819543a3a5a717"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_return_xgboost_own_market_META_importance.csv",
+      "sha256": "49bb7a6047d68e1ec72dbc26416507034f5e7b14681e0564a2a97ee26f732c26"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_return_xgboost_own_market_MSFT_importance.csv",
+      "sha256": "11d52590451cb407680a0d3572331569bfd7e680565c7c7672cd092e2f710d53"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_return_xgboost_own_market_NVDA_importance.csv",
+      "sha256": "565e5f5e38fd426cee6328065730771a3d3812daa5619d7bd3a8ea5861e54262"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_return_xgboost_peers_AAPL_importance.csv",
+      "sha256": "e7182b36b29cf2cd6c592bb8b616dca83e4a81596cf66b33846ccf2656d5b5ec"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_return_xgboost_peers_AMD_importance.csv",
+      "sha256": "5f1d05a561a585b0ee011747c90abcb0b6e1022cffa6e3770947caeb26cf1810"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_return_xgboost_peers_frozen.json",
+      "sha256": "9fb3efc74407404945f9bb2c05a4984cf2d157439c967efcd530a56d6343ed68"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_return_xgboost_peers_META_importance.csv",
+      "sha256": "5972dec397b4996d250603a50f2d45b30e47913b85993b0e2dd117294579a09d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_return_xgboost_peers_MSFT_importance.csv",
+      "sha256": "baa7ac6817887422249060a8a081f0d8caf9e24a290d16532475ae4a76d5dfb2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_return_xgboost_peers_NVDA_importance.csv",
+      "sha256": "007dba23ff8a7211413f392dcb8ddff8b8b37277ed7a8cb5097a4f4a80b46b32"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\daily_trials.csv",
+      "sha256": "a958d08c860625614189d5cdfd7b9c83ad0681612b433d614f4aa265e50aeea3"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\predictive_models\\README.md",
+      "sha256": "45c45bb66c23d5f7632ab987e03d22ef362e6c11a7fc0ce3a72bb31fc1939a7b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\qa_initial_asymptotic\\frozen_confirmation.csv",
+      "sha256": "19ef647a6f469d502d8b79c7248b7de5aabf3e19abce394139018a0127c466de"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\qa_initial_asymptotic\\results.csv",
+      "sha256": "4e922b62197421b3b402b9c88538c99745c42abf20521a9eae136ae5b88a0fee"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\qa_initial_asymptotic\\training_scan.csv",
+      "sha256": "9cfc7ddf0b2511727fd9a3f526e206b5dde18305483986108db99d5e021ef8e2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\qa_initial_models\\1m_predictions.csv",
+      "sha256": "d3952eea66b7af37ef67a80a32e3f771cc58e6c6021f7d9628e64a2db5905092"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\qa_initial_models\\5m_predictions.csv",
+      "sha256": "74330022b82144a489bc54bd182c12d548ad04a72e4bafe020ab3053b45148ba"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\qa_initial_models\\daily_predictions.csv",
+      "sha256": "644e0d04462962a8dfaa61d4d19cb4b554694503955be525ac3592fc023f9e3b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\ridge\\final_metrics.csv",
+      "sha256": "281b621a0e9e573f77590d2f9a491018e0c6b70154320daee08037823c8d7ab2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\ridge\\REPORT.md",
+      "sha256": "6fe12d49ea4bddb5f5d53191f3cb9ca7bae966176affcae25cc2eef040004cea"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\ridge\\validation_trials.csv",
+      "sha256": "ac764f9989654724722b30e2c10c8340882f8b40cfce47aec6cbbcc915e265fb"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\robustness\\README.md",
+      "sha256": "fc0d464536c4ceea2c2ee0a1ceba788a997fb43b67363da08b9c6c8a408acd63"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\robustness\\winsorized_pairs.csv",
+      "sha256": "485ec5d0cabd1ecba9a7acb1d42467437ad05972e7a9e9d165fa87af959f44c2"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\shock_events\\README.md",
+      "sha256": "2946b9663c86800789cd91f6bc62fb792fceef293f5b6ff970e62eac8a84d08d"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\shock_events\\results.csv",
+      "sha256": "66e004e456f8091f3b637efdc774a1d00b89ce5448f7f4abbccad6f757bde69e"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\xgboost\\final_metrics.csv",
+      "sha256": "45345bcc9b554f6e31a4d51334a130cd232c495f2ced60ae5b7527fc8c6ffb12"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\xgboost\\REPORT.md",
+      "sha256": "ec775d98999151812a4e4d768a946bddc35822ef809471df9b7ba7d5172b749f"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\methods\\xgboost\\validation_trials.csv",
+      "sha256": "831d33fcf3b9725c19c1d3635519fe3d94078257c22f398963baea37b7db1997"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\1m\\AAPL.csv",
+      "sha256": "86e8a441a47ee3371a228312783326e68bbb82d6ef7df3d32d2b2106d9c6fa30"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\1m\\AMD.csv",
+      "sha256": "f2008f4b6a3ebe5bdfe0691fbbb4099fb6ab068d223e8de2183475d241ab60f6"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\1m\\META.csv",
+      "sha256": "d4a32f131ed2490cebf2a74402004a0603c46cf828f33cbb0f73ff79d30e5266"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\1m\\MSFT.csv",
+      "sha256": "aacac386bcf389515b4e6ac6b6dc5029a651c75d6377596a177f2f194d84a8b8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\1m\\NVDA.csv",
+      "sha256": "3932c9be285dfe64bf2578341934e7f159ab79db40f8c77976facc37a1f39eee"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\1m\\QQQ.csv",
+      "sha256": "134da0c07d62a2035b2694b42df40ce6131ed89c8e9b7ccc71e80ad4aaf0cf27"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\1m\\requests.json",
+      "sha256": "785bd3efe10654fa6890b2c82362783248c8d041bcb896cfd55c2a76876f39db"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\1m\\SPY.csv",
+      "sha256": "bac94715ddf1382fc9020bcc19298aa726f03f4fd44fd973b0c1db8adcc30b21"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\5m\\AAPL.csv",
+      "sha256": "2e8bde560d7a2ccf1d3a6031778db2521649796d83d30b9996e8b71934e874b0"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\5m\\AMD.csv",
+      "sha256": "31d45d9bbc0a9100ce71e6954126398f149b5ca0dcec8c3b9d653aa565439bfa"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\5m\\META.csv",
+      "sha256": "98244cbd64f6cf5b11adbcee7a4ac17aa7099c47acfa84b2a8ba40db0439d8c6"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\5m\\MSFT.csv",
+      "sha256": "cf185a6e638b2e9dcdcf8ffb726fba26761b26c9e7ec7c8728082557b42090b8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\5m\\NVDA.csv",
+      "sha256": "e7ac14e039ccdbf9b0bac0aa5bac695b789790798f4afad9c7a8ddb7618e0db9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\5m\\QQQ.csv",
+      "sha256": "2c264cf18e20d729407cbe72c4d59c7dacea8abd02e9fc7329fe1b14ca4bae6b"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\5m\\requests.json",
+      "sha256": "c505a1f42576a0f032eeb9efafcf5fc8292841f4ad332f92e1fce3c283158045"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\5m\\SPY.csv",
+      "sha256": "b6204f08875ba102656b028a2aaffcc8aab3f83a09e8fdb05bc2fb8ccb68e3fe"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\daily\\AAPL.csv",
+      "sha256": "da82739a328df64ab3cab2b1221328ca526b1f2efea24b8df0f1fc7b4b00eed8"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\daily\\AMD.csv",
+      "sha256": "7a69cb9fc9fa8588a67c6ce776a965c425454bc8d84c762462d30b2c970714c9"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\daily\\META.csv",
+      "sha256": "c204b89c4ef363ca052c8d9a3751e8a3a6146fd259f46a999fa426ceca3280ce"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\daily\\MSFT.csv",
+      "sha256": "a3d21f42ba0c4cdc43fd9244eaf614704e5870c5ed691c2ab579b7dff46b0011"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\daily\\NVDA.csv",
+      "sha256": "91b3c481df8cd374b17816dbc2c3ed652799db39cb793b424f10b128b773a592"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\daily\\QQQ.csv",
+      "sha256": "98822b159c35c8875657f9d50a2d3c28e4b2a908088730fa26755d3ad7f0c1ed"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\daily\\requests.json",
+      "sha256": "d4591d190a5194c61addeb2093b5ce4648ace3d31dc65353c0e25d9a1d3dc666"
+    },
+    {
+      "path": "C:\\Users\\Michael Lin\\projects\\simpli-test\\tech_lead_lag\\data\\daily\\SPY.csv",
+      "sha256": "638bc6ae23b56c98aa64578d9c934fa413d193117c644e7ba5d6ae342539a139"
+    }
+  ]
+}

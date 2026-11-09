@@ -1,0 +1,35 @@
+/* The price workspace shares the explorer's midnight / mint design system. */
+.price-map-page{color:var(--text)}
+.price-page-heading h1,.price-inspector h2{color:#f1f5f9}.price-page-heading h1 span{color:var(--muted);border-color:var(--border)}
+.price-page-heading p,.price-control-caveat{color:var(--muted)}
+.price-panel-tabs{border-color:var(--border)}.price-panel-tabs button{color:var(--muted)}.price-panel-tabs button.active{background:#5eead414;border-color:#5eead440;color:var(--accent)}.price-panel-tabs button span{background:var(--raised);color:var(--muted)}
+.price-mode-switch{background:var(--panel);border-color:var(--border)}.price-mode-switch button{color:var(--muted)}.price-mode-switch button.active{background:var(--accent);color:#062b27;box-shadow:none}
+.price-toolbar label,.price-date-row>label:not(.price-date-input){color:var(--muted)}.price-toolbar select,.price-date-row select,.price-date-input input{background:var(--panel);border-color:var(--border);color:var(--text)}.price-links-toggle input{accent-color:var(--accent)}
+.price-stat-strip,.price-playback,.price-inspector,.price-daily-table{background:var(--panel);border-color:var(--border);box-shadow:0 8px 24px #0002}
+.price-stat-strip>div,.price-stat-strip>div:nth-child(3){border-color:var(--border)}.price-stat-strip span,.price-stat-strip small{color:var(--muted)}.price-stat-strip strong{color:var(--text)}.price-stat-strip strong i{color:#52617a}.price-positive{color:#34d399}.price-negative{color:#fb7185}
+.price-benchmark-strip{background:#142536;border-color:#2a4256;color:var(--muted)}.price-benchmark-strip strong{color:var(--text)}.price-benchmark-strip small{color:var(--muted)}
+.price-workspace{background:var(--bg);border-color:var(--border);box-shadow:0 12px 40px #0003}.price-company-panel{background:#10182a;border-color:var(--border)}.price-directory-heading{color:var(--text)}.price-directory-heading span{background:var(--raised);color:var(--accent)}
+.price-search{background:var(--bg);border-color:var(--border);color:var(--muted)}.price-search input{color:var(--text)}.price-search:focus-within{border-color:var(--accent)}.price-sort{color:var(--muted);border-color:var(--border)}
+.price-company-row{border-color:var(--border);transition:background .2s}.price-company-row strong{color:var(--text)}.price-company-row small{color:var(--muted)}.price-company-row:hover{background:var(--raised)}.price-company-row.selected{background:#5eead414;box-shadow:inset 2px 0 var(--accent)}.price-company-row>b,.price-company-row>i{transition:background-color .35s,border-color .35s,color .35s}
+.price-graph-header{background:var(--panel);border-color:var(--border)}.price-graph-header>span{color:var(--text)}.price-graph-header>span>svg{color:var(--accent)}.price-graph-header>small,.price-inline-date{color:var(--muted)}
+.price-canvas-wrap{background-color:var(--bg);background-image:radial-gradient(#263452 .7px,transparent .7px),radial-gradient(ellipse at center,#17254080,transparent 75%);background-size:24px 24px,100% 100%}
+.price-canvas-controls{background:#121a2ef5;border-color:var(--border);box-shadow:0 4px 18px #0005;z-index:4}.price-canvas-controls button{color:var(--muted);border-color:var(--border)}.price-canvas-controls button:hover,.price-canvas-controls button.active{background:#5eead419;color:var(--accent)}
+.price-motion-status{position:absolute;left:14px;top:14px;display:flex;align-items:center;gap:7px;background:#121a2eeb;border:1px solid var(--border);border-radius:20px;padding:6px 10px;font-size:10px;color:var(--muted);pointer-events:none;z-index:3}.price-motion-status i{width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.price-node-tooltip{background:#18223bf5;border-color:#415775;box-shadow:0 8px 28px #0006}.price-node-tooltip strong{color:var(--text)}.price-node-tooltip span,.price-node-tooltip small{color:var(--muted)}.price-node-tooltip b{color:#d4e5f3}
+.price-color-legend{background:var(--panel);border-color:var(--border);color:var(--muted)}.price-color-legend>small{color:var(--muted)}.price-no-data-key i{background:#28354b;border-color:#64748b}.price-scale i{border-color:#ffffff20}
+.price-updating{background:#0b102090;color:var(--accent);backdrop-filter:blur(1px)}.price-loading{color:var(--muted)}
+.price-date-description,.price-timeline>div{color:var(--muted)}.price-timeline input{background:#2c3a55;accent-color:var(--accent)}.price-timeline input::-webkit-slider-thumb{background:var(--accent);border-color:var(--panel);box-shadow:0 0 0 1px var(--accent)}
+.price-inspector p,.price-inspector-metrics small{color:var(--muted)}.price-inspector-metrics strong{color:var(--text)}.price-inspector>.price-inspector-note{border-color:var(--border);color:#d2ba83}
+.price-bottom-row,.price-method{color:var(--muted);border-color:var(--border)}.price-method summary{color:var(--accent)}.price-daily-table th{background:var(--raised);color:var(--muted);border-color:var(--border)}.price-daily-table td{border-color:var(--border);color:#bfcee2}.price-daily-table td button{color:var(--accent)}
+.price-map-expanded{background:var(--bg)}
+/* Remaining research surfaces use the same tokens. */
+.json-details,.json-details summary,.json-details summary svg,.revision-row small,.revision-row>svg{color:var(--muted)}
+.json-details pre{background:var(--bg);border-color:var(--border);color:#b8d9e9}
+.upload-box{background:var(--bg);color:var(--accent);border-color:#3e6c73}.upload-box:hover{background:var(--raised)}.upload-box span{color:var(--muted)}
+.revision-row:hover,.revision-row.active{background:var(--raised)}.revision-row.active{box-shadow:inset 2px 0 var(--accent)}
+.validation-errors,.restore-confirm{background:#342b25;border-color:#6f583d;color:#f5cf91}.validation-errors p,.restore-confirm p{color:#e1c89e}
+.json-input{background:var(--bg);border-color:var(--border);color:#d2e6f0}.field-label{color:var(--muted)}
+.empty-state>svg{background:var(--raised);color:var(--accent);box-shadow:0 0 0 13px var(--raised)}
+.revision-number{background:var(--raised);border-color:var(--border);color:var(--accent)}
+@media(max-width:760px){.price-mode-switch button{font-size:10px}.price-company-panel{border-color:var(--border)}.price-stat-strip>div:nth-child(3){border-color:var(--border)}.price-motion-status{font-size:9px;left:10px;top:10px}.price-canvas-controls{flex-wrap:wrap;max-width:calc(100% - 20px)}}
+@media(prefers-reduced-motion:reduce){.price-company-row,.price-company-row>b,.price-company-row>i{transition:none}}

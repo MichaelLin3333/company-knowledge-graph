@@ -1,0 +1,188 @@
+{
+  "as_of": "2026-10-27",
+  "selection_policy": "Thirty US-listed companies across ten non-technology business groups, chosen by business category before inspecting their returns. No direct Apple relationship was recorded for these tickers in revision 16 on 27 October 2026. This is not proof of no indirect commercial connection.",
+  "statistical_status": "Not selected for low historical correlation. Shared market, industry, rate and macroeconomic exposures remain. This is a visual reference basket, not a randomized or statistically independent control group.",
+  "companies": [
+    {
+      "ticker": "GIS",
+      "name": "General Mills, Inc.",
+      "industry": "Packaged food",
+      "official_url": "https://www.generalmills.com/"
+    },
+    {
+      "ticker": "HRL",
+      "name": "Hormel Foods Corporation",
+      "industry": "Packaged food",
+      "official_url": "https://www.hormelfoods.com/"
+    },
+    {
+      "ticker": "SJM",
+      "name": "The J. M. Smucker Company",
+      "industry": "Packaged food",
+      "official_url": "https://www.jmsmucker.com/"
+    },
+    {
+      "ticker": "DRI",
+      "name": "Darden Restaurants, Inc.",
+      "industry": "Restaurants",
+      "official_url": "https://www.darden.com/"
+    },
+    {
+      "ticker": "TXRH",
+      "name": "Texas Roadhouse, Inc.",
+      "industry": "Restaurants",
+      "official_url": "https://www.texasroadhouse.com/"
+    },
+    {
+      "ticker": "EAT",
+      "name": "Brinker International, Inc.",
+      "industry": "Restaurants",
+      "official_url": "https://investors.brinker.com/overview/default.aspx"
+    },
+    {
+      "ticker": "AWK",
+      "name": "American Water Works Company, Inc.",
+      "industry": "Water utilities",
+      "official_url": "https://ir.amwater.com/ir-home/default.aspx"
+    },
+    {
+      "ticker": "CWT",
+      "name": "California Water Service Group",
+      "industry": "Water utilities",
+      "official_url": "https://www.calwatergroup.com/"
+    },
+    {
+      "ticker": "AWR",
+      "name": "American States Water Company",
+      "industry": "Water utilities",
+      "official_url": "https://www.aswater.com/"
+    },
+    {
+      "ticker": "DHI",
+      "name": "D.R. Horton, Inc.",
+      "industry": "Homebuilding",
+      "official_url": "https://investor.drhorton.com/"
+    },
+    {
+      "ticker": "LEN",
+      "name": "Lennar Corporation",
+      "industry": "Homebuilding",
+      "official_url": "https://investors.lennar.com/"
+    },
+    {
+      "ticker": "PHM",
+      "name": "PulteGroup, Inc.",
+      "industry": "Homebuilding",
+      "official_url": "https://www.pultegroup.com/about/overview/default.aspx"
+    },
+    {
+      "ticker": "UDR",
+      "name": "UDR, Inc.",
+      "industry": "Residential property",
+      "official_url": "https://www.udr.com/"
+    },
+    {
+      "ticker": "ESS",
+      "name": "Essex Property Trust, Inc.",
+      "industry": "Residential property",
+      "official_url": "https://www.essexapartmenthomes.com/"
+    },
+    {
+      "ticker": "MAA",
+      "name": "Mid-America Apartment Communities, Inc.",
+      "industry": "Residential property",
+      "official_url": "https://www.maac.com/"
+    },
+    {
+      "ticker": "ALL",
+      "name": "The Allstate Corporation",
+      "industry": "Property and casualty insurance",
+      "official_url": "https://www.allstate.com/"
+    },
+    {
+      "ticker": "PGR",
+      "name": "The Progressive Corporation",
+      "industry": "Property and casualty insurance",
+      "official_url": "https://investors.progressive.com/home/default.aspx"
+    },
+    {
+      "ticker": "CINF",
+      "name": "Cincinnati Financial Corporation",
+      "industry": "Property and casualty insurance",
+      "official_url": "https://www.cinfin.com/"
+    },
+    {
+      "ticker": "HCA",
+      "name": "HCA Healthcare, Inc.",
+      "industry": "Hospitals and care",
+      "official_url": "https://investor.hcahealthcare.com/overview/default.aspx"
+    },
+    {
+      "ticker": "UHS",
+      "name": "Universal Health Services, Inc.",
+      "industry": "Hospitals and care",
+      "official_url": "https://uhs.com/"
+    },
+    {
+      "ticker": "THC",
+      "name": "Tenet Healthcare Corporation",
+      "industry": "Hospitals and care",
+      "official_url": "https://www.tenethealth.com/"
+    },
+    {
+      "ticker": "PVH",
+      "name": "PVH Corp.",
+      "industry": "Apparel",
+      "official_url": "https://www.pvh.com/"
+    },
+    {
+      "ticker": "RL",
+      "name": "Ralph Lauren Corporation",
+      "industry": "Apparel",
+      "official_url": "https://corporate.ralphlauren.com/"
+    },
+    {
+      "ticker": "VFC",
+      "name": "V.F. Corporation",
+      "industry": "Apparel",
+      "official_url": "https://www.vfc.com/"
+    },
+    {
+      "ticker": "WM",
+      "name": "Waste Management, Inc.",
+      "industry": "Waste services",
+      "official_url": "https://www.wm.com/"
+    },
+    {
+      "ticker": "RSG",
+      "name": "Republic Services, Inc.",
+      "industry": "Waste services",
+      "official_url": "https://www.republicservices.com/"
+    },
+    {
+      "ticker": "WCN",
+      "name": "Waste Connections, Inc.",
+      "industry": "Waste services",
+      "official_url": "https://www.wasteconnections.com/",
+      "country": "Canada"
+    },
+    {
+      "ticker": "ADM",
+      "name": "Archer-Daniels-Midland Company",
+      "industry": "Agriculture and protein",
+      "official_url": "https://www.adm.com/"
+    },
+    {
+      "ticker": "TSN",
+      "name": "Tyson Foods, Inc.",
+      "industry": "Agriculture and protein",
+      "official_url": "https://www.tysonfoods.com/"
+    },
+    {
+      "ticker": "PPC",
+      "name": "Pilgrim's Pride Corporation",
+      "industry": "Agriculture and protein",
+      "official_url": "https://www.pilgrims.com/"
+    }
+  ]
+}

@@ -1,0 +1,970 @@
+{
+  "revision": 25,
+  "snapshot_hash": "a869e5aeaf3befcd5380ea031ae465f58f6d8810fac6b4d775396c5ee966fd73",
+  "relationships": 249,
+  "as_of": "2026-11-06",
+  "counts": {
+    "retained": 61,
+    "anchor": 1,
+    "unmapped": 35,
+    "excluded": 86,
+    "unlisted": 16,
+    "insufficient": 2
+  },
+  "companies": {
+    "AAC": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "2018.HK"
+    },
+    "AAPL": {
+      "status": "anchor",
+      "reason": "Apple is the graph root and volatility reference.",
+      "ticker": "AAPL"
+    },
+    "ADI": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "ADI"
+    },
+    "AGC": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "5201.T"
+    },
+    "AKMMEADVILLE": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "ALPSALPINE": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "6770.T"
+    },
+    "AMKR": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 81.1%, 3.26× Apple. 63-session moves ranged from -46.4% to +109.3%.",
+      "ticker": "AMKR"
+    },
+    "AMSOSRAM": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 84.8%, 3.41× Apple. 63-session moves ranged from -49.6% to +163.8%.",
+      "ticker": "AMS.SW"
+    },
+    "AMZN": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "AMZN"
+    },
+    "ANJIE": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -4.5%, 2-year change -14.3%.",
+      "ticker": "002635.SZ"
+    },
+    "AOSL": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 94.8%, 3.81× Apple. 63-session moves ranged from -61.5% to +160.2%.",
+      "ticker": "AOSL"
+    },
+    "APH": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "APH"
+    },
+    "ASE": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 63.2%, 2.54× Apple. 63-session moves ranged from -30.3% to +121.3%.",
+      "ticker": "3711.TW"
+    },
+    "ATS": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 90.8%, 3.65× Apple. 63-session moves ranged from -48.1% to +393.8%.",
+      "ticker": "ATS.VI"
+    },
+    "AVGO": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "AVGO"
+    },
+    "BAOJI": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -24.4%, 3-year change -28.1%.",
+      "ticker": "600456.SS"
+    },
+    "BEIJINGZHONGKE": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "000970.SZ"
+    },
+    "BICHAMP": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -34.8%, 3-year change -47.4%.",
+      "ticker": "002843.SZ"
+    },
+    "BIEL": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "BOE": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "000725.SZ"
+    },
+    "BOSCH": {
+      "status": "unlisted",
+      "reason": "No current independent share instrument for this graph entity."
+    },
+    "BOYD": {
+      "status": "unlisted",
+      "reason": "No current independent share instrument for this graph entity."
+    },
+    "BUMCHUN": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "BYD": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "1211.HK"
+    },
+    "CAREER": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -6.4%, 2-year change -27.3%.",
+      "ticker": "6153.TW"
+    },
+    "CATCHER": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -10.0%, 2-year change -18.4%.",
+      "ticker": "2474.TW"
+    },
+    "CATHAY": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "CCTC": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "CNINNOVATIONS": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "COHR": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 91.3%, 3.67× Apple. 63-session moves ranged from -55.2% to +94.1%.",
+      "ticker": "COHR"
+    },
+    "COMPAL": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -3.1%, 2-year change -13.0%.",
+      "ticker": "2324.TW"
+    },
+    "COMPEQ": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 78.0%, 3.14× Apple. 63-session moves ranged from -37.4% to +212.9%.",
+      "ticker": "2313.TW"
+    },
+    "COSMOSUPPLYLAB": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "COSMX": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -37.3%, 3-year change -22.7%.",
+      "ticker": "688772.SS"
+    },
+    "COWELL": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "1415.HK"
+    },
+    "CRUS": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "CRUS"
+    },
+    "CRYSTALOPTECH": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "002273.SZ"
+    },
+    "CYMMETRIK": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "DELTA": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 60.4%, 2.43× Apple. 63-session moves ranged from -36.1% to +123.0%.",
+      "ticker": "2308.TW"
+    },
+    "DERKWOO": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 64.3%, 2.59× Apple. 63-session moves ranged from -53.8% to +67.2%. Share price declined persistently. Latest year -21.8%, 2-year change -46.8%.",
+      "ticker": "263600.KQ"
+    },
+    "DESAYBATTERY": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -25.6%, 3-year change -32.9%.",
+      "ticker": "000049.SZ"
+    },
+    "DEXERIALS": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 69.9%, 2.81× Apple. 63-session moves ranged from -43.0% to +134.3%.",
+      "ticker": "4980.T"
+    },
+    "DIODES": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 70.3%, 2.83× Apple. 63-session moves ranged from -47.6% to +95.8%.",
+      "ticker": "DIOD"
+    },
+    "DONGSHAN": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 77.3%, 3.11× Apple. 63-session moves ranged from -59.4% to +212.8%.",
+      "ticker": "002384.SZ"
+    },
+    "DYNAPACK": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 68.3%, 2.75× Apple. 63-session moves ranged from -40.9% to +123.8%.",
+      "ticker": "3211.TWO"
+    },
+    "ELYSIS": {
+      "status": "unlisted",
+      "reason": "No current independent share instrument for this graph entity."
+    },
+    "ENNOVI": {
+      "status": "unlisted",
+      "reason": "No current independent share instrument for this graph entity."
+    },
+    "EVERWIN": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 62.3%, 2.51× Apple. 63-session moves ranged from -35.6% to +101.5%.",
+      "ticker": "300115.SZ"
+    },
+    "FLEX": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 72.5%, 2.92× Apple. 63-session moves ranged from -45.0% to +167.6%.",
+      "ticker": "FLEX"
+    },
+    "FLEXIUM": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 62.4%, 2.51× Apple. 63-session moves ranged from -32.6% to +63.2%.",
+      "ticker": "6269.TW"
+    },
+    "FORCEBLACK": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "FOXCONN": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "2317.TW"
+    },
+    "FOXLINK": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -29.5%, 2-year change -46.2%.",
+      "ticker": "2392.TW"
+    },
+    "FUJIKURA": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 88.0%, 3.54× Apple. 63-session moves ranged from -45.8% to +164.6%.",
+      "ticker": "5803.T"
+    },
+    "GENIUSOPTICAL": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 63.6%, 2.56× Apple. 63-session moves ranged from -42.4% to +157.3%.",
+      "ticker": "3406.TW"
+    },
+    "GFS": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "GFS"
+    },
+    "GIGADEVICE": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 75.4%, 3.03× Apple. 63-session moves ranged from -56.0% to +211.5%.",
+      "ticker": "603986.SS"
+    },
+    "GIS_OPERATING": {
+      "status": "unlisted",
+      "reason": "No current independent share instrument for this graph entity."
+    },
+    "GLT_ROSTER": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "GLW": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 75.6%, 3.04× Apple. 63-session moves ranged from -40.6% to +105.9%.",
+      "ticker": "GLW"
+    },
+    "GOERTEK": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "002241.SZ"
+    },
+    "GOLDENARROW": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "GOOGL": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "GOOGL"
+    },
+    "GS": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "GS"
+    },
+    "HAMANAKA": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "HENKEL": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "HEN3.DE"
+    },
+    "HIP": {
+      "status": "unlisted",
+      "reason": "No current independent share instrument for this graph entity."
+    },
+    "HIROSE": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "6806.T"
+    },
+    "HODAKA": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "HOMIN": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "IDEMIA": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "IFX": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "IFX.DE"
+    },
+    "INB": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "INST": {
+      "status": "insufficient",
+      "reason": "Fewer than three usable annual comparison periods.",
+      "ticker": "301622.SZ"
+    },
+    "INTC": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 85.1%, 3.43× Apple. 63-session moves ranged from -48.6% to +239.0%.",
+      "ticker": "INTC"
+    },
+    "JABIL": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "JBL"
+    },
+    "JAE": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -7.9%, 2-year change -24.0%.",
+      "ticker": "6807.T"
+    },
+    "JCET": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 66.9%, 2.69× Apple. 63-session moves ranged from -45.1% to +170.1%.",
+      "ticker": "600584.SS"
+    },
+    "JDI": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 138.0%, 5.55× Apple. 63-session moves ranged from -60.8% to +478.3%.",
+      "ticker": "6740.T"
+    },
+    "JIUQUAN": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "JONES": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 87.9%, 3.54× Apple. 63-session moves ranged from -26.5% to +111.6%.",
+      "ticker": "300684.SZ"
+    },
+    "JPM": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "JPM"
+    },
+    "JPOND": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 77.7%, 3.12× Apple. 63-session moves ranged from -58.8% to +204.4%.",
+      "ticker": "301326.SZ"
+    },
+    "JXADVANCED": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 77.7%, 3.13× Apple. 63-session moves ranged from -36.5% to +172.0%.",
+      "ticker": "5016.T"
+    },
+    "KAMKIU": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "KANGRUI": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "KEIWA": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "4251.T"
+    },
+    "KERSEN": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 74.6%, 3.00× Apple. 63-session moves ranged from -49.3% to +140.3%.",
+      "ticker": "603626.SS"
+    },
+    "KIOXIA": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 114.7%, 4.62× Apple. 63-session moves ranged from -49.8% to +473.7%.",
+      "ticker": "285A.T"
+    },
+    "KNOWLES": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "KN"
+    },
+    "KYOCERA": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "6971.T"
+    },
+    "LARGAN": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 65.2%, 2.62× Apple. 63-session moves ranged from -31.1% to +130.6%.",
+      "ticker": "3008.TW"
+    },
+    "LENS": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 65.0%, 2.61× Apple. 63-session moves ranged from -48.4% to +99.9%.",
+      "ticker": "300433.SZ"
+    },
+    "LGDISPLAY": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -49.5%, 3-year change -45.3%.",
+      "ticker": "034220.KS"
+    },
+    "LGES": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -28.2%, 3-year change -31.6%.",
+      "ticker": "373220.KS"
+    },
+    "LGINNOTEK": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 94.8%, 3.81× Apple. 63-session moves ranged from -61.4% to +410.1%.",
+      "ticker": "011070.KS"
+    },
+    "LINGYI": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "002600.SZ"
+    },
+    "LINKCONN": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "LITEON": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "2301.TW"
+    },
+    "LUENFUNG": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "LUMENTUM": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 101.0%, 4.06× Apple. 63-session moves ranged from -47.0% to +195.1%.",
+      "ticker": "LITE"
+    },
+    "LUMILEDS": {
+      "status": "unlisted",
+      "reason": "No current independent share instrument for this graph entity."
+    },
+    "LUXSHARE": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "002475.SZ"
+    },
+    "LXSEMICON": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -56.7%, 2-year change -62.0%.",
+      "ticker": "108320.KS"
+    },
+    "MA": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "MA"
+    },
+    "MARIAN": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "MCHP": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -1.7%, 2-year change -20.9%.",
+      "ticker": "MCHP"
+    },
+    "MINEBEA": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "6479.T"
+    },
+    "MMM": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "MMM"
+    },
+    "MOLEX": {
+      "status": "unlisted",
+      "reason": "No current independent share instrument for this graph entity."
+    },
+    "MP": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 69.8%, 2.81× Apple. 63-session moves ranged from -38.2% to +272.0%.",
+      "ticker": "MP"
+    },
+    "MU": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 83.0%, 3.34× Apple. 63-session moves ranged from -36.8% to +258.7%.",
+      "ticker": "MU"
+    },
+    "MURATA": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 75.5%, 3.04× Apple. 63-session moves ranged from -36.7% to +236.9%.",
+      "ticker": "6981.T"
+    },
+    "NANOFILM": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 63.5%, 2.56× Apple. 63-session moves ranged from -44.5% to +197.2%.",
+      "ticker": "MZH.SI"
+    },
+    "NANPING": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "NANYAPCB": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 82.6%, 3.32× Apple. 63-session moves ranged from -37.0% to +253.7%.",
+      "ticker": "8046.TW"
+    },
+    "NICHIA": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "NIDEC": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -21.4%, 2-year change -46.1%.",
+      "ticker": "6594.T"
+    },
+    "NISSHA": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -22.2%, 2-year change -47.2%.",
+      "ticker": "7915.T"
+    },
+    "NITTO": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "6988.T"
+    },
+    "NOK": {
+      "status": "unlisted",
+      "reason": "No current independent share instrument for this graph entity."
+    },
+    "NORDIC": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "NOD.OL"
+    },
+    "NXPI": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "NXPI"
+    },
+    "ONSEMI": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 64.7%, 2.60× Apple. 63-session moves ranged from -50.5% to +122.0%.",
+      "ticker": "ON"
+    },
+    "PAISHING": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "PARADE": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -42.2%, 2-year change -43.5%.",
+      "ticker": "4966.TWO"
+    },
+    "PEGATRON": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "4938.TW"
+    },
+    "PERRYMAN": {
+      "status": "unlisted",
+      "reason": "No current independent share instrument for this graph entity."
+    },
+    "PHONEIN": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "PIONEER": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "PLATINUM": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "POSCOINTL": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -9.5%, 3-year change -26.3%.",
+      "ticker": "047050.KS"
+    },
+    "POWI": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "POWI"
+    },
+    "PRIMAX": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "4915.TW"
+    },
+    "QCOM": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "QCOM"
+    },
+    "QNITY": {
+      "status": "insufficient",
+      "reason": "Fewer than three usable annual comparison periods.",
+      "ticker": "Q"
+    },
+    "QORVO": {
+      "status": "unlisted",
+      "reason": "Independent QRVO trading ended with the Skyworks merger on October 5, 2026."
+    },
+    "QUADRANT": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "QUANTA": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "2382.TW"
+    },
+    "RADIANT": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -55.7%, 2-year change -70.5%.",
+      "ticker": "6176.TW"
+    },
+    "RENESAS": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 66.4%, 2.67× Apple. 63-session moves ranged from -36.7% to +128.2%.",
+      "ticker": "6723.T"
+    },
+    "ROHM": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 65.9%, 2.65× Apple. 63-session moves ranged from -35.9% to +103.5%.",
+      "ticker": "6963.T"
+    },
+    "RRD": {
+      "status": "unlisted",
+      "reason": "No current independent share instrument for this graph entity."
+    },
+    "SABIC": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -17.1%, 2-year change -33.7%.",
+      "ticker": "2010.SR"
+    },
+    "SAMSUNG": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 77.6%, 3.12× Apple. 63-session moves ranged from -31.9% to +131.1%.",
+      "ticker": "005930.KS"
+    },
+    "SAMSUNGEM": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 97.1%, 3.91× Apple. 63-session moves ranged from -39.5% to +414.0%.",
+      "ticker": "009150.KS"
+    },
+    "SAMSUNGSDI": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 77.1%, 3.10× Apple. 63-session moves ranged from -45.3% to +123.2%.",
+      "ticker": "006400.KS"
+    },
+    "SANAN": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 63.6%, 2.56× Apple. 63-session moves ranged from -45.4% to +64.4%. Share price declined persistently. Latest year -32.9%, 2-year change -34.0%.",
+      "ticker": "600703.SS"
+    },
+    "SHANDONGINNOVATION": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "SHARP": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -36.8%, 2-year change -41.3%.",
+      "ticker": "6753.T"
+    },
+    "SHENZHENBSC": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 66.9%, 2.69× Apple. 63-session moves ranged from -28.0% to +110.5%.",
+      "ticker": "300951.SZ"
+    },
+    "SHINZUSHING": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "3376.TW"
+    },
+    "SIHL": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "0363.HK"
+    },
+    "SIMPLO": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "6121.TWO"
+    },
+    "SKHYNIX": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 92.8%, 3.74× Apple. 63-session moves ranged from -42.1% to +195.9%.",
+      "ticker": "000660.KS"
+    },
+    "SOLVAY": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -4.9%, 2-year change -30.2%.",
+      "ticker": "SOLB.BR"
+    },
+    "SONY": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "6758.T"
+    },
+    "STM": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 62.0%, 2.50× Apple. 63-session moves ranged from -39.2% to +159.7%.",
+      "ticker": "STM"
+    },
+    "STORAENSO": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "STERV.HE"
+    },
+    "SUMICHEM": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "4005.T"
+    },
+    "SUMIDA": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "6817.T"
+    },
+    "SUMIELECTRIC": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 71.7%, 2.89× Apple. 63-session moves ranged from -38.3% to +86.6%.",
+      "ticker": "5802.T"
+    },
+    "SUNNY_ROSTER": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "SUNREX": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -24.9%, 2-year change -44.3%.",
+      "ticker": "2387.TW"
+    },
+    "SUNWAY": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 84.6%, 3.40× Apple. 63-session moves ranged from -56.5% to +216.7%.",
+      "ticker": "300136.SZ"
+    },
+    "SUNWODA": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "300207.SZ"
+    },
+    "SWKS": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "SWKS"
+    },
+    "SYNA": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "SYNA"
+    },
+    "T": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "T"
+    },
+    "TAIYOYUDEN": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 93.4%, 3.76× Apple. 63-session moves ranged from -55.1% to +492.3%.",
+      "ticker": "6976.T"
+    },
+    "TATA_ELECTRONICS": {
+      "status": "unlisted",
+      "reason": "No current independent share instrument for this graph entity."
+    },
+    "TDK": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "6762.T"
+    },
+    "TMUS": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -19.4%, 2-year change -30.2%.",
+      "ticker": "TMUS"
+    },
+    "TONGDA": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -59.5%, 2-year change -59.6%.",
+      "ticker": "0698.HK"
+    },
+    "TONY": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "603595.SS"
+    },
+    "TOYODAGOSEI": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "7282.T"
+    },
+    "TPK": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "3673.TW"
+    },
+    "TRINSEO_SA": {
+      "status": "unlisted",
+      "reason": "No current independent share instrument for this graph entity."
+    },
+    "TRIPOD": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "3044.TW"
+    },
+    "TSMC": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "2330.TW"
+    },
+    "TSMT": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 64.7%, 2.61× Apple. 63-session moves ranged from -25.9% to +153.1%.",
+      "ticker": "6278.TW"
+    },
+    "TSUJIDEN": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "TXC": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 66.5%, 2.67× Apple. 63-session moves ranged from -30.5% to +170.5%.",
+      "ticker": "3042.TW"
+    },
+    "TXN": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "TXN"
+    },
+    "UNIMICRON": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 80.5%, 3.24× Apple. 63-session moves ranged from -51.6% to +235.6%.",
+      "ticker": "3037.TW"
+    },
+    "UNISTEEL": {
+      "status": "unlisted",
+      "reason": "No current independent share instrument for this graph entity."
+    },
+    "UNITECH": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 66.3%, 2.67× Apple. 63-session moves ranged from -41.9% to +217.4%.",
+      "ticker": "2367.TW"
+    },
+    "UTAC": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "VARTA_MICRO": {
+      "status": "unlisted",
+      "reason": "No current independent share instrument for this graph entity."
+    },
+    "VIAVI": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 79.0%, 3.18× Apple. 63-session moves ranged from -37.5% to +154.1%.",
+      "ticker": "VIAV"
+    },
+    "VZ": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "VZ"
+    },
+    "WDC": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 82.7%, 3.33× Apple. 63-session moves ranged from -40.8% to +153.9%.",
+      "ticker": "WDC"
+    },
+    "WINBOND": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 85.0%, 3.42× Apple. 63-session moves ranged from -33.6% to +287.3%.",
+      "ticker": "2344.TW"
+    },
+    "WINGTECH": {
+      "status": "excluded",
+      "reason": "Share price declined persistently. Latest year -72.0%, 2-year change -74.0%.",
+      "ticker": "600745.SS"
+    },
+    "WISTRON": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "3231.TW"
+    },
+    "YAGEO": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 75.9%, 3.06× Apple. 63-session moves ranged from -51.9% to +352.3%.",
+      "ticker": "2327.TW"
+    },
+    "YOUNGPOONG": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 64.7%, 2.60× Apple. 63-session moves ranged from -52.9% to +85.3%. Share price declined persistently. Latest year -38.8%, 3-year change -35.1%.",
+      "ticker": "000670.KS"
+    },
+    "YUTO": {
+      "status": "retained",
+      "reason": "Passed the volatility and sustained-decline rules.",
+      "ticker": "002831.SZ"
+    },
+    "ZHENDING": {
+      "status": "excluded",
+      "reason": "Large swings. Annualized volatility 74.4%, 3.00× Apple. 63-session moves ranged from -30.8% to +237.7%.",
+      "ticker": "4958.TW"
+    },
+    "ZHENGHE": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    },
+    "ZHONGJIEMAI": {
+      "status": "unmapped",
+      "reason": "The exact graph entity has no verified public-share mapping. Related issuers were kept separate."
+    }
+  }
+}

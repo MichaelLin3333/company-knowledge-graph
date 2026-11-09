@@ -1,0 +1,9 @@
+data/
+.venv/
+frontend/node_modules/
+frontend/.vite/
+__pycache__/
+.pytest_cache/
+.test_runs/
+*.pyc
+previews/

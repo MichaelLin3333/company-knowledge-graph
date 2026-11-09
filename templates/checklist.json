@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "before": [
+    "Record base revision, cutoff, batch mode, frontier roots and facets.",
+    "Resolve identities and local-language aliases; identify issuer versus instrument.",
+    "Declare document review slots and query list.",
+    "Choose company mode (25 investigations) or project mode (5 projects)."
+  ],
+  "during": [
+    "Enumerate all entries in relevant dated lists, with original entry text and locator.",
+    "Resolve each entry or leave a named unresolved frontier lead.",
+    "Record every search and source section reviewed, blocked or pending.",
+    "Admit only explicit primary or attributed claims.",
+    "Preserve term units, fiscal period, scope and own evidence date.",
+    "Search both parties and relationship renewals/terminations.",
+    "Stop deeper investigation at two additional company hops; queue the rest.",
+    "Keep project participants separate from evidenced bilateral contracts."
+  ],
+  "before_validation": [
+    "Resolve source/claim/company references and duplicated issuers.",
+    "Use null for unknown dates, exposure and quantities.",
+    "Check original publication/availability versus effective date.",
+    "Ensure direction is explicitly evidenced and reviewed.",
+    "Reject product attribution inferred from catalogue plus supplier membership.",
+    "Keep conflicts and supersession references; do not overwrite record IDs.",
+    "Record exclusions, gaps and next frontier; report process coverage."
+  ],
+  "publication": [
+    "Validate the versioned batch.",
+    "Inspect diff, warnings and coverage; fix errors.",
+    "Publish only against the validated base revision.",
+    "Verify revision, counts and export.",
+    "Preserve old revision and research log."
+  ]
+}

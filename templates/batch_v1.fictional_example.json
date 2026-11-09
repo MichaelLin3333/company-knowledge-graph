@@ -1,0 +1,375 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "FICTIONAL_fixture_company_v1",
+  "name": "FICTIONAL TEST FIXTURE - never production research",
+  "base_revision": 0,
+  "cutoff": "2026-10-24",
+  "mode": "company",
+  "root_company_ids": [
+    "FICTIONAL_A"
+  ],
+  "root_project_ids": [],
+  "max_additional_hops": 2,
+  "investigated_company_ids": [
+    "FICTIONAL_A",
+    "FICTIONAL_B",
+    "FICTIONAL_C"
+  ],
+  "investigated_project_ids": [],
+  "companies": [
+    {
+      "id": "FICTIONAL_A",
+      "name": "Fictional Aurora Devices",
+      "country": "Fictional jurisdiction",
+      "status": "private",
+      "parent_id": null,
+      "aliases": [],
+      "notes": "Fictional test fixture; not a real company."
+    },
+    {
+      "id": "FICTIONAL_B",
+      "name": "Fictional Lumen Modules",
+      "country": "Fictional jurisdiction",
+      "status": "private",
+      "parent_id": null,
+      "aliases": [],
+      "notes": "Fictional test fixture; not a real company."
+    },
+    {
+      "id": "FICTIONAL_C",
+      "name": "Fictional Quartz Materials",
+      "country": "Fictional jurisdiction",
+      "status": "private",
+      "parent_id": null,
+      "aliases": [],
+      "notes": "Fictional test fixture; not a real company."
+    }
+  ],
+  "instruments": [],
+  "sources": [
+    {
+      "id": "FICTIONAL_SRC1",
+      "title": "FICTIONAL camera-module supply disclosure",
+      "publisher": "Fictional test publisher - not evidence",
+      "url": "https://example.invalid/fixtures/FICTIONAL_SRC1.html",
+      "published_date": "2026-10-01",
+      "date_precision": "day",
+      "retrieved_at": "2026-10-24T12:00:00Z",
+      "locator": "Paragraph 1",
+      "access_status": "synthetic_fixture"
+    },
+    {
+      "id": "FICTIONAL_SRC2",
+      "title": "FICTIONAL optical-glass supply disclosure",
+      "publisher": "Fictional test publisher - not evidence",
+      "url": "https://example.invalid/fixtures/FICTIONAL_SRC2.html",
+      "published_date": "2026-10-01",
+      "date_precision": "day",
+      "retrieved_at": "2026-10-24T12:00:00Z",
+      "locator": "Paragraph 2",
+      "access_status": "synthetic_fixture"
+    },
+    {
+      "id": "FICTIONAL_SRC3",
+      "title": "FICTIONAL project plan",
+      "publisher": "Fictional test publisher - not evidence",
+      "url": "https://example.invalid/fixtures/FICTIONAL_SRC3.html",
+      "published_date": "2026-10-01",
+      "date_precision": "day",
+      "retrieved_at": "2026-10-24T12:00:00Z",
+      "locator": "Paragraphs 1-2",
+      "access_status": "synthetic_fixture"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "FICTIONAL_REL1",
+      "source_id": "FICTIONAL_B",
+      "target_id": "FICTIONAL_A",
+      "type": "supplies",
+      "description": "FICTIONAL: Lumen supplies camera modules to Aurora.",
+      "status": "operating",
+      "evidence_grade": "primary_explicit",
+      "direction": "directed",
+      "direction_review_status": "reviewed",
+      "scope": "Fictional documented product scope only",
+      "product": "Fictional camera module",
+      "project_id": null,
+      "known_from": "2026-10-01",
+      "valid_from": null,
+      "valid_to": null,
+      "batch_id": "FICTIONAL_fixture_company_v1",
+      "claim_ids": [
+        "FICTIONAL_CLAIM1"
+      ]
+    },
+    {
+      "id": "FICTIONAL_REL2",
+      "source_id": "FICTIONAL_C",
+      "target_id": "FICTIONAL_B",
+      "type": "supplies",
+      "description": "FICTIONAL: Quartz supplies optical glass to Lumen; no assertion of delivery into Aurora products.",
+      "status": "operating",
+      "evidence_grade": "primary_explicit",
+      "direction": "directed",
+      "direction_review_status": "reviewed",
+      "scope": "Fictional documented product scope only",
+      "product": "Fictional optical glass",
+      "project_id": null,
+      "known_from": "2026-10-01",
+      "valid_from": null,
+      "valid_to": null,
+      "batch_id": "FICTIONAL_fixture_company_v1",
+      "claim_ids": [
+        "FICTIONAL_CLAIM2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "FICTIONAL_CLAIM1",
+      "entity_kind": "relationship",
+      "relationship_id": "FICTIONAL_REL1",
+      "subject_id": "FICTIONAL_B",
+      "object_id": "FICTIONAL_A",
+      "predicate": "supplies",
+      "text": "FICTIONAL passage: Lumen Modules supplies the named camera module to Aurora Devices.",
+      "evidence_grade": "primary_explicit",
+      "source_ids": [
+        "FICTIONAL_SRC1"
+      ],
+      "locator": "Paragraph 1",
+      "supporting_text": "FICTIONAL passage: Lumen Modules supplies the named camera module to Aurora Devices.",
+      "passage_type": "paraphrase",
+      "known_from": "2026-10-01",
+      "date_precision": "day",
+      "valid_from": null,
+      "valid_to": null,
+      "product": "Fictional camera module",
+      "terms": [],
+      "supersedes_id": null,
+      "conflict_with_ids": [],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "FICTIONAL_CLAIM2",
+      "entity_kind": "relationship",
+      "relationship_id": "FICTIONAL_REL2",
+      "subject_id": "FICTIONAL_C",
+      "object_id": "FICTIONAL_B",
+      "predicate": "supplies",
+      "text": "FICTIONAL passage: Quartz Materials supplies optical glass to Lumen Modules. The ultimate end customer is not stated.",
+      "evidence_grade": "primary_explicit",
+      "source_ids": [
+        "FICTIONAL_SRC2"
+      ],
+      "locator": "Paragraph 2",
+      "supporting_text": "FICTIONAL passage: Quartz Materials supplies optical glass to Lumen Modules. The ultimate end customer is not stated.",
+      "passage_type": "paraphrase",
+      "known_from": "2026-10-01",
+      "date_precision": "day",
+      "valid_from": null,
+      "valid_to": null,
+      "product": "Fictional optical glass",
+      "terms": [],
+      "supersedes_id": null,
+      "conflict_with_ids": [],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "FICTIONAL_CLAIM3",
+      "entity_kind": "project",
+      "relationship_id": null,
+      "project_id": "FICTIONAL_PROJECT1",
+      "subject_id": "FICTIONAL_A",
+      "object_id": null,
+      "predicate": "announced_project_plan",
+      "text": "FICTIONAL: Aurora announced a USD75 million assembly-facility plan.",
+      "evidence_grade": "primary_explicit",
+      "source_ids": [
+        "FICTIONAL_SRC3"
+      ],
+      "locator": "Paragraphs 1-2",
+      "supporting_text": "FICTIONAL passage: Aurora Devices plans an assembly facility, with USD75 million planned investment and expected opening in 2029. The announcement also names Lumen Modules as a proposed equipment participant.",
+      "known_from": "2026-10-01",
+      "date_precision": "day",
+      "terms": [
+        {
+          "value": 75,
+          "unit": "USD million",
+          "period": "Announced 2026-10-01; planned project 2027-2029",
+          "scope": "Fictional total investment plan; not deployed capital or realized company revenue",
+          "known_from": "2026-10-01",
+          "source_ids": [
+            "FICTIONAL_SRC3"
+          ]
+        }
+      ],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "FICTIONAL_ROLE1",
+      "entity_kind": "project",
+      "relationship_id": null,
+      "company_id": "FICTIONAL_A",
+      "project_id": "FICTIONAL_PROJECT1",
+      "subject_id": "FICTIONAL_A",
+      "object_id": null,
+      "predicate": "project_role",
+      "role": "developer",
+      "text": "FICTIONAL passage: Aurora Devices is the developer of the proposed assembly facility.",
+      "evidence_grade": "primary_explicit",
+      "source_ids": [
+        "FICTIONAL_SRC3"
+      ],
+      "locator": "Paragraphs 1-2",
+      "supporting_text": "FICTIONAL passage: Aurora Devices is the developer of the proposed assembly facility.",
+      "known_from": "2026-10-01",
+      "date_precision": "day",
+      "terms": [],
+      "review_status": "reviewed"
+    },
+    {
+      "id": "FICTIONAL_ROLE2",
+      "entity_kind": "project",
+      "relationship_id": null,
+      "company_id": "FICTIONAL_B",
+      "project_id": "FICTIONAL_PROJECT1",
+      "subject_id": "FICTIONAL_B",
+      "object_id": null,
+      "predicate": "project_role",
+      "role": "equipment_supplier",
+      "text": "FICTIONAL passage: Lumen Modules is a proposed equipment supplier for the assembly-facility project. This is a planned role, not a lending arrangement.",
+      "evidence_grade": "primary_explicit",
+      "source_ids": [
+        "FICTIONAL_SRC3"
+      ],
+      "locator": "Paragraphs 1-2",
+      "supporting_text": "FICTIONAL passage: Lumen Modules is a proposed equipment supplier for the assembly-facility project. This is a planned role, not a lending arrangement.",
+      "known_from": "2026-10-01",
+      "date_precision": "day",
+      "terms": [],
+      "review_status": "reviewed"
+    }
+  ],
+  "projects": [
+    {
+      "id": "FICTIONAL_PROJECT1",
+      "name": "FICTIONAL Aurora assembly-facility plan",
+      "location": "Fictional location",
+      "status": "announced",
+      "description": "Fictional fixture: a planned assembly facility.",
+      "source_ids": [
+        "FICTIONAL_SRC3"
+      ],
+      "terms": [
+        {
+          "value": 75,
+          "unit": "USD million",
+          "period": "Announced 2026-10-01; planned project 2027-2029",
+          "scope": "Fictional total investment plan; not deployed capital or realized company revenue",
+          "known_from": "2026-10-01",
+          "source_ids": [
+            "FICTIONAL_SRC3"
+          ]
+        }
+      ],
+      "milestones": [
+        {
+          "name": "Planned opening",
+          "date": "2029",
+          "date_precision": "year",
+          "status": "forecast",
+          "source_ids": [
+            "FICTIONAL_SRC3"
+          ]
+        }
+      ],
+      "spv_company_id": null
+    }
+  ],
+  "participations": [
+    {
+      "id": "FICTIONAL_PART1",
+      "project_id": "FICTIONAL_PROJECT1",
+      "company_id": "FICTIONAL_A",
+      "role": "developer",
+      "source_ids": [
+        "FICTIONAL_SRC3"
+      ],
+      "claim_ids": [
+        "FICTIONAL_ROLE1"
+      ],
+      "known_from": "2026-10-01"
+    },
+    {
+      "id": "FICTIONAL_PART2",
+      "project_id": "FICTIONAL_PROJECT1",
+      "company_id": "FICTIONAL_B",
+      "role": "equipment_supplier",
+      "source_ids": [
+        "FICTIONAL_SRC3"
+      ],
+      "claim_ids": [
+        "FICTIONAL_ROLE2"
+      ],
+      "known_from": "2026-10-01",
+      "notes": "Planned participation only; this does not create another bilateral edge."
+    }
+  ],
+  "frontier": [
+    {
+      "id": "FICTIONAL_FRONTIER1",
+      "company_id": "FICTIONAL_A",
+      "project_id": null,
+      "facet": "corporate_ecosystem",
+      "status": "pending",
+      "local_depth": 0,
+      "root_id": "FICTIONAL_A",
+      "parent_frontier_id": null,
+      "reason": "Fictional example of a separate unresearched branch.",
+      "source_ids": [],
+      "next_action": "Review legal subsidiaries in a later synthetic batch.",
+      "batch_id": "FICTIONAL_fixture_company_v1"
+    }
+  ],
+  "coverage": [
+    {
+      "id": "FICTIONAL_COVERAGE1",
+      "kind": "branch",
+      "company_id": "FICTIONAL_A",
+      "facet": "supply_manufacturing",
+      "state": "reviewed_with_findings",
+      "source_id": "FICTIONAL_SRC1",
+      "locator": "Paragraph 1",
+      "notes": "Synthetic fixture only. This is not a completed three-annual/two-update review."
+    },
+    {
+      "id": "FICTIONAL_COVERAGE2",
+      "kind": "branch",
+      "company_id": "FICTIONAL_A",
+      "facet": "corporate_ecosystem",
+      "state": "not_researched",
+      "notes": "Synthetic remaining frontier."
+    }
+  ],
+  "supersedes_claim_ids": [],
+  "research_log": [
+    {
+      "id": "FICTIONAL_LOG1",
+      "performed_at": "2026-10-24T12:00:00Z",
+      "action": "fixture_creation",
+      "company_id": "FICTIONAL_A",
+      "facet": "supply_manufacturing",
+      "query": null,
+      "source_ids": [
+        "FICTIONAL_SRC1",
+        "FICTIONAL_SRC2",
+        "FICTIONAL_SRC3"
+      ],
+      "outcome": "Handwritten fictional examples only; no external company research performed.",
+      "next_action": "Use only in an isolated temporary test database."
+    }
+  ],
+  "record_updates": []
+}

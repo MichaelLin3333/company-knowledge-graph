@@ -1,0 +1,26 @@
+{
+  "batch_id": null,
+  "declared_cutoff": null,
+  "root_company_ids": [],
+  "root_project_ids": [],
+  "document_slots": [],
+  "lists": [],
+  "branches": [],
+  "known_leads": {
+    "investigated": 0,
+    "pending": 0,
+    "blocked": 0,
+    "excluded": 0
+  },
+  "traceability": {
+    "accepted_claims": 0,
+    "with_source_locator_and_passage": 0
+  },
+  "limits": {
+    "max_investigated_companies": 25,
+    "max_investigated_projects": 5,
+    "max_additional_hops": 2,
+    "enumeration_limit": null
+  },
+  "interpretation": "Coverage of a declared search process; not a measured percentage of the true economic network."
+}
